@@ -16,7 +16,7 @@ For Mod Launcher installation, simply follow the usual method of installing thro
 =======================================
 The 10K Australia Outback Roadies World by FluffyPanda is a big 10K one, and can be found on Nexus.
 https://www.nexusmods.com/7daystodie/mods/8024
-It is a stand alone mod. Unzip and place in the Mods folder along with other mods.
+It is a stand alone mod. Unzip and place in the Mods folder along with other mods, or Modlets folder for the Mod Launcher to stop it deleting during updates.
 When setting up a new game, you will find 'Fluffy Panda Outback Australia 10k 2.0' in the world list.
 It follows the V2 trader progression flow with the 'correct' trader in the 'correct' biome so it doesn't break stuff.
 If you plan to update Outback Roadies, place the Fluffy Panda Outback Australia 10k 2.0 folder inside your Data/Worlds folder so you don't need to repeat the unzip process.
@@ -28,10 +28,9 @@ To provide a few additional options, the Outback Roadies Optional Mods folder pr
 Current additions, and their function are as follows:
 - V2-OutbackRoadies-FireOnOption folder is to be placed in the main Mods folder to activate it. It will allow wooden and other burnable world assets to burn.
 - V2-OutbackRoadies-KHV2-96BBM folder is to be placed in the main Mods folder to activate it. It will increase the backpack to 96 slots, and is courtesy of Khaine (from DF).
-- V2-OutbackRoadies-KHV2-CustomMenuMusic is to be placed in the main Mods folder to activate it. It will play Waltzing Matilda in the game menu.
 - V2-OutbackRoadies-IzyAIOGunPackV5Patch is to be placed in the main Mods folder to activate it. It will allow the Izy AIO Gun Pack to be compatible with the Ammo Press and Fire Rocket.
 Take what you need out of the Optional Mods folder and place it in main Mods folder.
-It will be removed if you update the game in Mod Launcher and will need to be done again, unless added as a Mod Launcher stand alone mod.
+It will be removed if you update the game in Mod Launcher and will need to be done again, unless added as a Mod Launcher stand alone mod in the Modlets area.
 
 ================
 = TERMS OF USE =
