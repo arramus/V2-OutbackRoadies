@@ -91,7 +91,7 @@ modMeleeStunBatonRepulsorDesc,item_modifiers,Mod,,,"Install this mod into a stun
 modArmorRunningShoesHP,item_modifiers,mod,,,Speedy Running Shoes Mod,,,,,,,,,,,,,
 modArmorRunningShoesHPDesc,item_modifiers,mod,,,"Wearing this mod in your armor footwear provides environmental protection and increases running speed by 10%.",,,,,,,,,,,,,
 modArmorStormBreaker,item_modifiers,mod,,,Storm Breaker Mod,,,,,,,,,,,,,
-modArmorStormBreakerDesc,item_modifiers,mod,,,"Add the Storm Breaker Mod to a mod slot in your armor as a storm begins to trigger. Remove and readd as needed.\n\nProvides storm protection.\nDoes not provide biome damage protection.",,,,,,,,,,,,,
+modArmorStormBreakerDesc,item_modifiers,mod,,,"Add the Storm Breaker Mod to a mod slot in your armor.\n\nProvides storm protection.\nDoes not provide biome damage protection.",,,,,,,,,,,,,
 modArmorRunningShoesHPSchematic,item_modifiers,Mod,,,Speedy Running Shoes Mod Schematic,,,,,,,,,,,,,
 modGunBowArrowGrip,item_modifiers,mod,,,Bow Grip Mod,,,,,,,,,,,,,
 modGunBowArrowGripDesc,item_modifiers,mod,,,"Attaching this mod to a bow gives it greater force. Increases zombie damage by 10%.",,,,,,,,,,,,,
