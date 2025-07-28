@@ -2127,7 +2127,9 @@
 		<entity_class name="animalSpider01" extends="animalTemplateHostileWalking">
 			<property name="UserSpawnType" value="Menu"/>
 			<property name="Mesh" value="#@modfolder:Resources/XythSpiders.unity3d?Spider01_X"/>
-			<property name="Tags" value="entity,animal,hostile,perkAT02,perkAT03,animalSpider01"/>
+			<property name="Tags" value="entity,animal,hostile,perkAT02,perkAT03,perkAT04,perkAT05,animalSpider01"/>
+			<property name="MapIcon" value="ui_game_symbol_xythspider"/>
+			<property name="TrackerIcon" value="ui_game_symbol_xythspider"/>
 			<property name="Faction" value="aggressiveanimals"/>
 			<property name="Prefab" value="NPC"/>
 			<property name="Parent" value="Animals"/>
@@ -2168,7 +2170,7 @@
 		</entity_class>		
 		<entity_class name="animalSpider02" extends="animalSpider01">
 			<property name="UserSpawnType" value="Menu"/>
-			<property name="Tags" value="entity,animal,hostile,animalSpider02,perkAT02,perkAT03"/>
+			<property name="Tags" value="entity,animal,hostile,animalSpider02,perkAT02,perkAT03,perkAT04,perkAT05"/>
 			<property name="Faction" value="aggressiveanimals"/>
 			<property name="Mesh" value="#@modfolder:Resources/XythSpiders.unity3d?Spider02_X"/>
 			<drop event="Harvest" name="foodRawMeat" count="0" tool_category="Butcher"/>
@@ -2183,7 +2185,7 @@
 		</entity_class>	
 		<entity_class name="animalSpider03" extends="animalSpider01">
 			<property name="UserSpawnType" value="Menu"/>
-			<property name="Tags" value="entity,animal,hostile,animalSpider03,perkAT02,perkAT03"/>
+			<property name="Tags" value="entity,animal,hostile,animalSpider03,perkAT02,perkAT03,perkAT04,perkAT05"/>
 			<property name="Faction" value="aggressiveanimals"/>
 			<property name="Mesh" value="#@modfolder:Resources/XythSpiders.unity3d?Spider03_X"/>
 			<drop event="Harvest" name="foodRawMeat" count="0" tool_category="Butcher"/>
@@ -2200,7 +2202,7 @@
 <!-- Spider01 Grunt Feral Settings based on 1.2 SizeScale except indicated default values -->
 		<entity_class name="animalSpider01Feral" extends="animalSpider01">
 			<property name="SizeScale" value="1.2"/>		
-			<property name="Tags" value="entity,animal,hostile,perkAT02,perkAT03,animalSpider01,feral"/>		
+			<property name="Tags" value="entity,animal,hostile,perkAT02,perkAT03,perkAT04,perkAT05,animalSpider01,feral"/>		
 			<property name="ExperienceGain" value="245"/> <!-- XP spider grunt feral approx x 1.9 based on default -->
 			<property name="LootDropProb" value=".03"/> <!-- Feral -->
 			<property name="LootDropEntityClass" value="EntityLootContainerRegular"/>			
@@ -2223,7 +2225,7 @@
 <!-- Spider01 Grunt Radiated Settings based on approximately 1.3 SizeScale except indicated default values -->
 		<entity_class name="animalSpider01Radiated" extends="animalSpider01Feral">
 			<property name="SizeScale" value="1.3"/>		
-			<property name="Tags" value="entity,animal,hostile,perkAT02,perkAT03,animalSpider01,radiated"/>			
+			<property name="Tags" value="entity,animal,hostile,perkAT02,perkAT03,perkAT04,perkAT05,animalSpider01,radiated"/>			
 			<property name="ExperienceGain" value="395"/><!-- XP spider grunt radiated x 1.6 based on default -->
 			<property name="LootDropProb" value=".03"/> <!-- Whether it drops a loot bag on death or not. -->
 			<property name="LootDropEntityClass" value="EntityLootContainerStrong"/>			
@@ -2248,7 +2250,7 @@
 <!-- Spider01 Grunt Mini Settings based on approximately 0.3 SizeScale where appropriate except indicated default values -->
 		<entity_class name="animalSpider01Mini" extends="animalSpider01">
 			<property name="SizeScale" value="0.3"/>		
-			<property name="Tags" value="entity,animal,hostile,perkAT02,perkAT03,animalSpider01,mini"/>		
+			<property name="Tags" value="entity,animal,hostile,perkAT02,perkAT03,perkAT04,perkAT05,animalSpider01,mini"/>	
 			<property name="ExperienceGain" value="40"/> <!-- XP spider grunt mini approx - 0.7 based on default -->
 			<property name="LootDropProb" value=".01"/> <!-- Whether it drops a loot bag on death or not. -->
 			<property name="LootDropEntityClass" value="EntityLootContainerRegular"/>			
@@ -2270,7 +2272,7 @@
 <!-- Spider01 Boss Settings based on 2.0 SizeScale except indicated default values -->
 		<entity_class name="animalSpider01Queen" extends="animalSpider01">
 			<property name="SizeScale" value="2.0"/>		
-			<property name="Tags" value="entity,animal,hostile,perkAT02,perkAT03,animalSpider01,queen,radiated"/>
+			<property name="Tags" value="entity,animal,hostile,perkAT02,perkAT03,perkAT04,perkAT05,animalSpider01,queen,radiated"/>
 			<property name="WalkType" value="2"/>			
 			<property name="ExperienceGain" value="750"/> <!-- XP based on Demolisher -->
 			<property name="LootDropProb" value=".33"/>				
@@ -2311,7 +2313,7 @@
 		</entity_class>
 		
 		<entity_class name="animalSpider02Feral" extends="animalSpider01Feral">
-			<property name="Tags" value="entity,animal,hostile,animalSpider02,perkAT02,perkAT03,feral"/>
+			<property name="Tags" value="entity,animal,hostile,animalSpider02,perkAT02,perkAT03,perkAT04,perkAT05,feral"/>
 			<property name="Mesh" value="#@modfolder:Resources/XythSpiders.unity3d?Spider02_X"/>
 			<drop event="Harvest" name="foodRawMeat" count="0" tool_category="Butcher"/>
 			<drop event="Harvest" name="foodRawMeat" tag="butcherHarvest" count="6"/>
@@ -2325,7 +2327,7 @@
 		</entity_class>		
 
 		<entity_class name="animalSpider02Radiated" extends="animalSpider01Radiated">
-			<property name="Tags" value="entity,animal,hostile,animalSpider02,perkAT02,perkAT03,radiated"/>
+			<property name="Tags" value="entity,animal,hostile,animalSpider02,perkAT02,perkAT03,perkAT04,perkAT05,radiated"/>
 			<property name="Mesh" value="#@modfolder:Resources/XythSpiders.unity3d?Spider02_X"/>
 			<drop event="Harvest" name="foodRawMeat" count="0" tool_category="Butcher"/>
 			<drop event="Harvest" name="foodRawMeat" tag="butcherHarvest" count="7"/>
@@ -2341,7 +2343,7 @@
 		</entity_class>
 
 		<entity_class name="animalSpider02Mini" extends="animalSpider01Mini">
-			<property name="Tags" value="entity,animal,hostile,perkAT02,perkAT03,animalSpider02,mini"/>			
+			<property name="Tags" value="entity,animal,hostile,perkAT02,perkAT03,perkAT04,perkAT05,animalSpider02,mini"/>			
 			<property name="Mesh" value="#@modfolder:Resources/XythSpiders.unity3d?Spider02_X"/>
 			<drop event="Harvest" name="foodRawMeat" count="0" tool_category="Butcher"/>
 			<drop event="Harvest" name="foodRawMeat" tag="butcherHarvest" count="1"/>
@@ -2356,7 +2358,7 @@
 		
 		<entity_class name="animalSpider02Queen" extends="animalSpider01Queen">
 			<property name="SizeScale" value="2.0"/>		
-			<property name="Tags" value="entity,animal,hostile,perkAT02,perkAT03,animalSpider02,queen,radiated"/>
+			<property name="Tags" value="entity,animal,hostile,perkAT02,perkAT03,perkAT04,perkAT05,animalSpider02,queen,radiated"/>
 			<property name="Mesh" value="#@modfolder:Resources/XythSpiders.unity3d?Spider02_X"/>			
 			<drop event="Harvest" name="foodRawMeat" count="0" tool_category="Butcher"/>
 			<drop event="Harvest" name="foodRawMeat" tag="butcherHarvest" count="12"/>
@@ -2373,7 +2375,7 @@
 		</entity_class>		
 		
 		<entity_class name="animalSpider03Feral" extends="animalSpider01Feral">
-			<property name="Tags" value="entity,animal,hostile,animalSpider03,perkAT02,perkAT03,feral"/>
+			<property name="Tags" value="entity,animal,hostile,animalSpider03,perkAT02,perkAT03,perkAT04,perkAT05,feral"/>
 			<property name="Mesh" value="#@modfolder:Resources/XythSpiders.unity3d?Spider03_X"/>
 			<drop event="Harvest" name="foodRawMeat" count="0" tool_category="Butcher"/>
 			<drop event="Harvest" name="foodRawMeat" tag="butcherHarvest" count="6"/>
@@ -2387,7 +2389,7 @@
 		</entity_class>
 		
 		<entity_class name="animalSpider03Radiated" extends="animalSpider01Radiated">
-			<property name="Tags" value="entity,animal,hostile,animalSpider03,perkAT02,perkAT03,radiated"/>
+			<property name="Tags" value="entity,animal,hostile,animalSpider03,perkAT02,perkAT03,perkAT04,perkAT05,radiated"/>
 			<property name="Mesh" value="#@modfolder:Resources/XythSpiders.unity3d?Spider03_X"/>
 			<drop event="Harvest" name="foodRawMeat" count="0" tool_category="Butcher"/>
 			<drop event="Harvest" name="foodRawMeat" tag="butcherHarvest" count="7"/>
@@ -2403,7 +2405,7 @@
 		</entity_class>
 
 		<entity_class name="animalSpider03Mini" extends="animalSpider01Mini">	
-			<property name="Tags" value="entity,animal,hostile,perkAT02,perkAT03,animalSpider03,mini"/>			
+			<property name="Tags" value="entity,animal,hostile,perkAT02,perkAT03,perkAT04,perkAT05,animalSpider03,mini"/>			
 			<property name="Mesh" value="#@modfolder:Resources/XythSpiders.unity3d?Spider03_X"/>
 			<drop event="Harvest" name="foodRawMeat" count="0" tool_category="Butcher"/>
 			<drop event="Harvest" name="foodRawMeat" tag="butcherHarvest" count="1"/>
@@ -2418,7 +2420,7 @@
 
 		<entity_class name="animalSpider03Queen" extends="animalSpider01Queen">
 			<property name="SizeScale" value="2.0"/>		
-			<property name="Tags" value="entity,animal,hostile,perkAT02,perkAT03,animalSpider03,queen,radiated"/>
+			<property name="Tags" value="entity,animal,hostile,perkAT02,perkAT03,perkAT04,perkAT05,animalSpider03,queen,radiated"/>
 			<property name="Mesh" value="#@modfolder:Resources/XythSpiders.unity3d?Spider03_X"/>			
 			<drop event="Harvest" name="foodRawMeat" count="0" tool_category="Butcher"/>
 			<drop event="Harvest" name="foodRawMeat" tag="butcherHarvest" count="12"/>
@@ -2443,13 +2445,15 @@
 			<property name="Class" value="EntityVulture"/>
 			<property name="EntityFlags" value="animal,zombie"/>
 			<property name="EntityType" value="Zombie"/>
-			<property name="Tags" value="entity,animal,zombie,hostile,vulture"/>
+			<property name="Tags" value="entity,animal,hostile,perkAT02,perkAT03,perkAT04,perkAT05,animalSpider01"/>
 			<property name="AvatarController" value="AvatarAnimalController"/>
 			<property name="ModelType" value="Standard"/>
 			<property name="HasRagdoll" value="true"/>
 			<property name="PhysicsBody" value="vulture"/>
 			<property name="Mass" value="50"/>
 			<property name="Mesh" value="#@modfolder:Resources/XythSpiders.unity3d?Spider01_X"/>
+			<property name="MapIcon" value="ui_game_symbol_xythspider"/>
+			<property name="TrackerIcon" value="ui_game_symbol_xythspider"/>
 			<property name="HasDeathAnim" value="true"/>
 			<property name="RootMotion" value="false"/>
 			<property name="RagdollOnDeathChance" value="0"/>			
@@ -2492,12 +2496,15 @@
 			<property name="DeadBodyHitPoints" value="100"/>
 			<effect_group name="Base Effects">
 				<passive_effect name="HealthMax" operation="base_set" value="200"/>				
-			</effect_group>	
+			</effect_group>			
+			
+			<property name="NavObject" value="twitch_spawn,twitch_spawn_other,animaltracking_xythspider,clear_sleeper"/>
+			
 		</entity_class>
 	
 		<entity_class name="animalFlyingSpider02" extends="animalFlyingSpider01">
 			<property name="UserSpawnType" value="Menu"/>
-			<property name="Tags" value="entity,animal,zombie,hostile,vulture"/>
+			<property name="Tags" value="entity,animal,hostile,animalSpider02,perkAT02,perkAT03,perkAT04,perkAT05"/>
 			<property name="Mesh" value="#@modfolder:Resources/XythSpiders.unity3d?Spider02_X"/>
 			<drop event="Harvest" name="foodRawMeat" count="0" tool_category="Butcher"/>
 			<drop event="Harvest" name="foodRawMeat" tag="butcherHarvest" count="5"/>
@@ -2512,7 +2519,7 @@
 		
 		<entity_class name="animalFlyingSpider03" extends="animalFlyingSpider01">
 			<property name="UserSpawnType" value="Menu"/>
-			<property name="Tags" value="entity,animal,zombie,hostile,vulture"/>
+			<property name="Tags" value="entity,animal,hostile,animalSpider03,perkAT02,perkAT03,perkAT04,perkAT05"/>
 			<property name="Mesh" value="#@modfolder:Resources/XythSpiders.unity3d?Spider03_X"/>
 			<drop event="Harvest" name="foodRawMeat" count="0" tool_category="Butcher"/>
 			<drop event="Harvest" name="foodRawMeat" tag="butcherHarvest" count="5"/>
