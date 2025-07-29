@@ -145,6 +145,10 @@
 		<ingredient name="resourceCement" count="800"/>
 	</recipe>
 	
+	<recipe name="resourceClayLumpBundle" count="1" craft_time="10" craft_exp_gain="0" tags="learnable,workbenchCrafting,packMuleCrafting">
+		<ingredient name="resourceClayLump" count="6000"/>
+	</recipe>
+	
 	<recipe name="resourceSeasonedWoodLogs" count="1" tags="workbenchCrafting,packMuleCrafting">
 		<ingredient name="resourceWood" count="30"/>
 	</recipe>

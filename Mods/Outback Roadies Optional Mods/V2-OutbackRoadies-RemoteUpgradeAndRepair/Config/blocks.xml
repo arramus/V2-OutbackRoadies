@@ -1,0 +1,6 @@
+<configs>
+
+	<!--0-Score Tweaks-->
+	<set xpath="/blocks/block[@name='ConfigFeatureBlock']/property[@class='BlockUpgradeRepair']/property[@name='ReadFromContainers']/@value">true</set>
+
+</configs>

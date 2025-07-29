@@ -289,6 +289,8 @@ BarricadeFarmTruckClosed,blocks,Block,,,Roadies Farm Truck Barricade,,Roadies Fa
 decoCarTireSmallFlatVariantHelper,blocks,Block,,,Roadies Tires,,Roadies Reifen,,,,,,,,,,,
 resourceCementMixerConcreteBundle,items,Item,,,Stack of Concrete Mix (1000),,,,,,,,,,,,,
 resourceCementMixerConcreteBundleDesc,items,Item,,,"This is a compact stack of concrete mix. 'Open' this item to open and unpack it. This stack of concrete uses 20% less resources than the same amount in single units.",,,,,,,,,,,,,
+resourceClayLumpBundle,items,Item,,,Stack of Clay Soil (6000),,,,,,,,,,,,,
+resourceClayLumpBundleDesc,items,Item,,,This is a compact stack of clay soil. Use this item to open and unpack it.,,,,,,,,,,,,,
 LogWallsVariantHelper,blocks,block,,,Large Wood Walls,,,,,,,,,,,,,
 banditWallCorrugatedVariantHelper,blocks,Block,,,Bandit - Corrugated Wall,,,,,,,,,,,
 banditPlatformVariantHelper,blocks,Block,,,Bandit - Ramps and Platforms,,,,,,,,,,,

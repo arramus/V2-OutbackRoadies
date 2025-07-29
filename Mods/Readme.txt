@@ -29,6 +29,7 @@ Current additions, and their function are as follows:
 - V2-OutbackRoadies-FireOnOption folder is to be placed in the main Mods folder to activate it. It will allow wooden and other burnable world assets to burn.
 - V2-OutbackRoadies-KHV2-96BBM folder is to be placed in the main Mods folder to activate it. It will increase the backpack to 96 slots, and is courtesy of Khaine (from DF).
 - V2-OutbackRoadies-IzyAIOGunPackV5Patch is to be placed in the main Mods folder to activate it. It will allow the Izy AIO Gun Pack to be compatible with the Ammo Press and Fire Rocket.
+- V2-OutbackRoadies-RemoteUpgradeAndRepair is to be placed in the main Mods folder to activate it. It will allow the remote upgrade and repair feature to pull repair materials from containers.
 Take what you need out of the Optional Mods folder and place it in main Mods folder.
 It will be removed if you update the game in Mod Launcher and will need to be done again, unless added as a Mod Launcher stand alone mod in the Modlets area.
 
