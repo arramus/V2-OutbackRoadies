@@ -3,7 +3,11 @@
 	<!-- Roadies Ammo Press Hookups for UI Tabs for Izy's -->
 
 	<conditional>
-		<if cond="mod_loaded('IZY_RMP_45ACP')">		
+		<if cond="mod_loaded('IZY_RMP_45ACP')">	
+	<set xpath="/items/item[@name='ammo45ACPBulletBall']/property[@name='Stacknumber']/@value">3000</set><!-- 300 default -->
+	<set xpath="/items/item[@name='ammo45ACPHighpower']/property[@name='Stacknumber']/@value">3000</set><!-- 300 default -->
+	<set xpath="/items/item[@name='ammo45ACPArmorpiecing']/property[@name='Stacknumber']/@value">3000</set><!-- 300 default -->
+	<set xpath="/items/item[@name='ammo45ACPEnhanced']/property[@name='Stacknumber']/@value">3000</set><!-- 300 default -->		
 	<append xpath="/items/item[@name='ammo45ACPBulletBall']/property[@name='Group']/@value">,RegularAmmo</append>
 	<append xpath="/items/item[@name='ammo45ACPHighpower']/property[@name='Group']/@value">,HPAmmo</append>
 	<append xpath="/items/item[@name='ammo45ACPArmorpiecing']/property[@name='Group']/@value">,APAmmo</append>
@@ -13,6 +17,9 @@
 	
 	<conditional>
 		<if cond="mod_loaded('IZY_RMP_556pack')">
+	<set xpath="/items/item[@name='ammo556mmBulletBall']/property[@name='Stacknumber']/@value">3000</set><!-- 200 default -->
+	<set xpath="/items/item[@name='ammo556mmHIpower']/property[@name='Stacknumber']/@value">3000</set><!-- 200 default -->
+	<set xpath="/items/item[@name='ammo556mmArmorPiercing']/property[@name='Stacknumber']/@value">3000</set><!-- 200 default -->
 	<append xpath="/items/item[@name='ammo556mmBulletBall']">		
 		<property name="Group" value="Ammo/Weapons,Ammo,Ranged Weapons,RegularAmmo"/>
 	</append>

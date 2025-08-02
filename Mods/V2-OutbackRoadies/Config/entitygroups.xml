@@ -102,6 +102,7 @@
 	<csv xpath="/entitygroups/entitygroup[@name='ZombiesSnow']/text()" delim="\n" op="add" >
 		zombieBurntRadiatedMini, .75
 		zombieBurnt
+		zombieLumberjackFeral, .1
 		zombieBurntFeral, .1
 		zombieBurntRadiated, .1
 		zombieOakNurse, .15
