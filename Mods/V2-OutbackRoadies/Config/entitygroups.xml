@@ -10,11 +10,15 @@
 		zombieOakNurse, .05
 		zombieOakFireNurse, .05
 		zombieOakRadNurse, .05
+		zombieOakChargedNurse, .05
+		zombieOakInfernalNurse, .05
 		zombieOakHeadHunter1, .05
 		zombieOakHeadHunter2, .05
 		zombieOakHeadHunter3, .05
 		zombieOakHeadHunter4, .05
 		zombieOakHeadHunter5, .05
+		zombieOakHeadHunterCharged, .05
+		zombieOakHeadHunterInfernal, .05
 		zombieBurntRadiatedMini, .025
 		zombieOakSirenHead, .025
 	</csv>
@@ -27,11 +31,15 @@
 		zombieOakNurse, .1
 		zombieOakFireNurse, .1
 		zombieOakRadNurse, .1
+		zombieOakChargedNurse, .1
+		zombieOakInfernalNurse, .1
 		zombieOakHeadHunter1, .1
 		zombieOakHeadHunter2, .1
 		zombieOakHeadHunter3, .1
 		zombieOakHeadHunter4, .1
 		zombieOakHeadHunter5, .1
+		zombieOakHeadHunterCharged, .1
+		zombieOakHeadHunterInfernal, .1
 		zombieBurntRadiatedMini, .05
 		zombieOakSirenHead, .05
 	</csv>
@@ -43,11 +51,15 @@
 		zombieOakNurse, .15
 		zombieOakFireNurse, .15
 		zombieOakRadNurse, .15
+		zombieOakChargedNurse, .15
+		zombieOakInfernalNurse, .15
 		zombieOakHeadHunter1, .15
 		zombieOakHeadHunter2, .15
 		zombieOakHeadHunter3, .15
 		zombieOakHeadHunter4, .15
 		zombieOakHeadHunter5, .15
+		zombieOakHeadHunterCharged, .15
+		zombieOakHeadHunterInfernal, .15
 		zombieOakSirenHead, .15
 	</csv>
 	
@@ -57,11 +69,15 @@
 		zombieOakNurse, .15
 		zombieOakFireNurse, .15
 		zombieOakRadNurse, .15
+		zombieOakChargedNurse, .15
+		zombieOakInfernalNurse, .15
 		zombieOakHeadHunter1, .15
 		zombieOakHeadHunter2, .15
 		zombieOakHeadHunter3, .15
 		zombieOakHeadHunter4, .15
 		zombieOakHeadHunter5, .15
+		zombieOakHeadHunterCharged, .15
+		zombieOakHeadHunterInfernal, .15
 		zombieOakSirenHead, .15
 	</csv>
 	
@@ -74,11 +90,15 @@
 		zombieOakNurse, .15
 		zombieOakFireNurse, .15
 		zombieOakRadNurse, .15
+		zombieOakChargedNurse, .15
+		zombieOakInfernalNurse, .15
 		zombieOakHeadHunter1, .15
 		zombieOakHeadHunter2, .15
 		zombieOakHeadHunter3, .15
 		zombieOakHeadHunter4, .15
 		zombieOakHeadHunter5, .15
+		zombieOakHeadHunterCharged, .15
+		zombieOakHeadHunterInfernal, .15
 		zombieOakSirenHead, .15
 	</csv>
 	
@@ -90,11 +110,15 @@
 		zombieOakNurse, .15
 		zombieOakFireNurse, .15
 		zombieOakRadNurse, .15
+		zombieOakChargedNurse, .15
+		zombieOakInfernalNurse, .15
 		zombieOakHeadHunter1, .15
 		zombieOakHeadHunter2, .15
 		zombieOakHeadHunter3, .15
 		zombieOakHeadHunter4, .15
 		zombieOakHeadHunter5, .15
+		zombieOakHeadHunterCharged, .15
+		zombieOakHeadHunterInfernal, .15
 		zombieOakSirenHead, .15
 	</csv>
 	
@@ -108,11 +132,15 @@
 		zombieOakNurse, .15
 		zombieOakFireNurse, .15
 		zombieOakRadNurse, .15
+		zombieOakChargedNurse, .15
+		zombieOakInfernalNurse, .15
 		zombieOakHeadHunter1, .15
 		zombieOakHeadHunter2, .15
 		zombieOakHeadHunter3, .15
 		zombieOakHeadHunter4, .15
 		zombieOakHeadHunter5, .15
+		zombieOakHeadHunterCharged, .15
+		zombieOakHeadHunterInfernal, .15
 		zombieOakSirenHead, .15
 	</csv>
 	
@@ -125,11 +153,15 @@
 		zombieOakNurse, .15
 		zombieOakFireNurse, .15
 		zombieOakRadNurse, .15
+		zombieOakChargedNurse, .15
+		zombieOakInfernalNurse, .15
 		zombieOakHeadHunter1, .15
 		zombieOakHeadHunter2, .15
 		zombieOakHeadHunter3, .15
 		zombieOakHeadHunter4, .15
 		zombieOakHeadHunter5, .15
+		zombieOakHeadHunterCharged, .15
+		zombieOakHeadHunterInfernal, .15
 		zombieOakSirenHead, .15
 	</csv>
 	
@@ -141,19 +173,27 @@
 		zombieOakNurse, .35
 		zombieOakFireNurse, .35
 		zombieOakRadNurse, .35
+		zombieOakChargedNurse, .35
+		zombieOakInfernalNurse, .35
 		zombieOakHeadHunter1, .35
 		zombieOakHeadHunter2, .35
 		zombieOakHeadHunter3, .35
 		zombieOakHeadHunter4, .35
 		zombieOakHeadHunter5, .35
+		zombieOakHeadHunterCharged, .35
+		zombieOakHeadHunterInfernal, .35
 		zombieOakBossNurse, .35
 		zombieOakBossFireNurse, .35
 		zombieOakBossRadNurse, .35
+		zombieOakBossChargedNurse, .35
+		zombieOakBossInfernalNurse, .35
 		zombieOakBossHeadHunter1, .35
 		zombieOakBossHeadHunter2, .35
 		zombieOakBossHeadHunter3, .35
 		zombieOakBossHeadHunter4, .35
 		zombieOakBossHeadHunter5, .35
+		zombieOakBossHeadHunterCharged, .35
+		zombieOakBossHeadHunterInfernal, .35
 		zombieOakSirenHead, .35
 	</csv>
 	
@@ -165,19 +205,27 @@
 		zombieOakNurse, .5
 		zombieOakFireNurse, .5
 		zombieOakRadNurse, .5
+		zombieOakChargedNurse, .5
+		zombieOakInfernalNurse, .5
 		zombieOakHeadHunter1, .5
 		zombieOakHeadHunter2, .5
 		zombieOakHeadHunter3, .5
 		zombieOakHeadHunter4, .5
 		zombieOakHeadHunter5, .5
+		zombieOakHeadHunterCharged, .5
+		zombieOakHeadHunterInfernal, .5
 		zombieOakBossNurse, .5
 		zombieOakBossFireNurse, .5
 		zombieOakBossRadNurse, .5
+		zombieOakBossChargedNurse, .5
+		zombieOakBossInfernalNurse, .5
 		zombieOakBossHeadHunter1, .5
 		zombieOakBossHeadHunter2, .5
 		zombieOakBossHeadHunter3, .5
 		zombieOakBossHeadHunter4, .5
 		zombieOakBossHeadHunter5, .5
+		zombieOakBossHeadHunterCharged, .5
+		zombieOakBossHeadHunterInfernal, .5
 		zombieOakSirenHead, .5
 	</csv>
 	
@@ -193,19 +241,27 @@
 		zombieOakNurse, .35
 		zombieOakFireNurse, .35
 		zombieOakRadNurse, .35
+		zombieOakChargedNurse, .35
+		zombieOakInfernalNurse, .35
 		zombieOakHeadHunter1, .35
 		zombieOakHeadHunter2, .35
 		zombieOakHeadHunter3, .35
 		zombieOakHeadHunter4, .35
 		zombieOakHeadHunter5, .35
+		zombieOakHeadHunterCharged, .35
+		zombieOakHeadHunterInfernal, .35
 		zombieOakBossNurse, .1
 		zombieOakBossFireNurse, .1
 		zombieOakBossRadNurse, .1
+		zombieOakBossChargedNurse, .1
+		zombieOakBossInfernalNurse, .1
 		zombieOakBossHeadHunter1, .1
 		zombieOakBossHeadHunter2, .1
 		zombieOakBossHeadHunter3, .1
 		zombieOakBossHeadHunter4, .1
 		zombieOakBossHeadHunter5, .1
+		zombieOakBossHeadHunterCharged, .1
+		zombieOakBossHeadHunterInfernal, .1
 		zombieOakSirenHead, .05
 	</entitygroup>
 	<entitygroup name="RoadiesHeadHuntersGroupGS50">
@@ -216,19 +272,27 @@
 		zombieOakNurse, .5
 		zombieOakFireNurse, .5
 		zombieOakRadNurse, .5
+		zombieOakChargedNurse, .5
+		zombieOakInfernalNurse, .5
 		zombieOakHeadHunter1, .5
 		zombieOakHeadHunter2, .5
 		zombieOakHeadHunter3, .5
 		zombieOakHeadHunter4, .5
 		zombieOakHeadHunter5, .5
+		zombieOakHeadHunterCharged, .5
+		zombieOakHeadHunterInfernal, .5
 		zombieOakBossNurse, .25
 		zombieOakBossFireNurse, .25
 		zombieOakBossRadNurse, .25
+		zombieOakBossChargedNurse, .25
+		zombieOakBossInfernalNurse, .25
 		zombieOakBossHeadHunter1, .25
 		zombieOakBossHeadHunter2, .25
 		zombieOakBossHeadHunter3, .25
 		zombieOakBossHeadHunter4, .25
 		zombieOakBossHeadHunter5, .25
+		zombieOakBossHeadHunterCharged, .25
+		zombieOakBossHeadHunterInfernal, .25
 		zombieOakSirenHead, .125
 	</entitygroup>
 	<entitygroup name="RoadiesHeadHuntersGroupGS100">
@@ -239,19 +303,27 @@
 		zombieOakNurse, .75
 		zombieOakFireNurse, .75
 		zombieOakRadNurse, .75
+		zombieOakChargedNurse, .75
+		zombieOakInfernalNurse, .75
 		zombieOakHeadHunter1, .75
 		zombieOakHeadHunter2, .75
 		zombieOakHeadHunter3, .75
 		zombieOakHeadHunter4, .75
 		zombieOakHeadHunter5, .75
+		zombieOakHeadHunterCharged, .75
+		zombieOakHeadHunterInfernal, .75
 		zombieOakBossNurse, .5
 		zombieOakBossFireNurse, .5
 		zombieOakBossRadNurse, .5
+		zombieOakBossChargedNurse, .5
+		zombieOakBossInfernalNurse, .5
 		zombieOakBossHeadHunter1, .5
 		zombieOakBossHeadHunter2, .5
 		zombieOakBossHeadHunter3, .5
 		zombieOakBossHeadHunter4, .5
 		zombieOakBossHeadHunter5, .5
+		zombieOakBossHeadHunterCharged, .5
+		zombieOakBossHeadHunterInfernal, .5
 		zombieOakSirenHead, .25
 	</entitygroup>
 	<entitygroup name="RoadiesHeadHuntersGroupGS200">
@@ -262,19 +334,27 @@
 		zombieOakNurse
 		zombieOakFireNurse
 		zombieOakRadNurse
+		zombieOakChargedNurse
+		zombieOakInfernalNurse
 		zombieOakHeadHunter1
 		zombieOakHeadHunter2
 		zombieOakHeadHunter3
 		zombieOakHeadHunter4
 		zombieOakHeadHunter5
+		zombieOakHeadHunterCharged
+		zombieOakHeadHunterInfernal
 		zombieOakBossNurse, .75
 		zombieOakBossFireNurse, .75
 		zombieOakBossRadNurse, .75
+		zombieOakBossChargedNurse, .75
+		zombieOakBossInfernalNurse, .75
 		zombieOakBossHeadHunter1, .75
 		zombieOakBossHeadHunter2, .75
 		zombieOakBossHeadHunter3, .75
 		zombieOakBossHeadHunter4, .75
 		zombieOakBossHeadHunter5, .75
+		zombieOakBossHeadHunterCharged, .75
+		zombieOakBossHeadHunterInfernal, .75
 		zombieOakSirenHead, .375
 	</entitygroup>
 	<entitygroup name="RoadiesHeadHuntersGroupGS400">
@@ -285,19 +365,27 @@
 		zombieOakNurse
 		zombieOakFireNurse
 		zombieOakRadNurse
+		zombieOakChargedNurse
+		zombieOakInfernalNurse
 		zombieOakHeadHunter1
 		zombieOakHeadHunter2
 		zombieOakHeadHunter3
 		zombieOakHeadHunter4
 		zombieOakHeadHunter5
+		zombieOakHeadHunterCharged
+		zombieOakHeadHunterInfernal
 		zombieOakBossNurse, .85
 		zombieOakBossFireNurse, .85
 		zombieOakBossRadNurse, .85
+		zombieOakBossChargedNurse, .85
+		zombieOakBossInfernalNurse, .85
 		zombieOakBossHeadHunter1, .85
 		zombieOakBossHeadHunter2, .85
 		zombieOakBossHeadHunter3, .85
 		zombieOakBossHeadHunter4, .85
 		zombieOakBossHeadHunter5, .85
+		zombieOakBossHeadHunterCharged, .85
+		zombieOakBossHeadHunterInfernal, .85
 		zombieOakSirenHead, .425
 	</entitygroup>
 	<entitygroup name="RoadiesHeadHuntersGroupGS800">
@@ -308,19 +396,27 @@
 		zombieOakNurse
 		zombieOakFireNurse
 		zombieOakRadNurse
+		zombieOakChargedNurse
+		zombieOakInfernalNurse
 		zombieOakHeadHunter1
 		zombieOakHeadHunter2
 		zombieOakHeadHunter3
 		zombieOakHeadHunter4
 		zombieOakHeadHunter5
+		zombieOakHeadHunterCharged
+		zombieOakHeadHunterInfernal
 		zombieOakBossNurse
 		zombieOakBossFireNurse
 		zombieOakBossRadNurse
+		zombieOakBossChargedNurse
+		zombieOakBossInfernalNurse
 		zombieOakBossHeadHunter1
 		zombieOakBossHeadHunter2
 		zombieOakBossHeadHunter3
 		zombieOakBossHeadHunter4
 		zombieOakBossHeadHunter5
+		zombieOakBossHeadHunterCharged
+		zombieOakBossHeadHunterInfernal
 		zombieOakSirenHead, .5
 	</entitygroup>
 	
@@ -617,6 +713,10 @@
 		zombieOakNurse, .7
 		zombieOakFireNurse, .7
 		zombieOakRadNurse, .7
+	</csv>
+	<csv xpath="/entitygroups/entitygroup[starts-with(@name, 'feralHordeStageGS') and contains (text(), 'zombieNurseCharged')]/text()" delim="\n" op="add">
+		zombieOakChargedNurse, .7
+		zombieOakInfernalNurse, .7
 	</csv>	
 	<csv xpath="/entitygroups/entitygroup[starts-with(@name, 'feralHordeStageGS') and contains (text(), 'zombieWightRadiated')]/text()" delim="\n" op="add">
 		zombieOakHeadHunter1, .7
@@ -624,6 +724,12 @@
 		zombieOakHeadHunter3, .7
 		zombieOakHeadHunter4, .7
 		zombieOakHeadHunter5, .7
+	</csv>
+	<csv xpath="/entitygroups/entitygroup[starts-with(@name, 'feralHordeStageGS') and contains (text(), 'zombieWightCharged')]/text()" delim="\n" op="add">
+		zombieOakHeadHunterCharged, .7
+	</csv>
+	<csv xpath="/entitygroups/entitygroup[starts-with(@name, 'feralHordeStageGS') and contains (text(), 'zombieWightInfernal')]/text()" delim="\n" op="add">
+		zombieOakHeadHunterInfernal, .7
 	</csv>
 
 	<!-- GRUNT SPIDER HORDE NIGHT -->
@@ -679,11 +785,15 @@
 		zombieOakBossNurse, .1
 		zombieOakBossFireNurse, .1
 		zombieOakBossRadNurse, .1
+		zombieOakBossChargedNurse, .1
+		zombieOakBossInfernalNurse, .1
 		zombieOakBossHeadHunter1, .1
 		zombieOakBossHeadHunter2, .1
 		zombieOakBossHeadHunter3, .1
 		zombieOakBossHeadHunter4, .1
 		zombieOakBossHeadHunter5, .1
+		zombieOakBossHeadHunterCharged, .1
+		zombieOakBossHeadHunterInfernal, .1
 		zombieOakSirenHead, .1
 	</csv>
 

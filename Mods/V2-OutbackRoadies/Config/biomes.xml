@@ -1,0 +1,7 @@
+<configs>
+
+		<set xpath="/worldgeneration/biomes/biome[@name='wasteland']/spectrum/@name">desert</set> <!-- Default is wasteland -->
+		<set xpath="/worldgeneration/biomes/biome[@name='wasteland']/weather[@name='default']/CloudThickness[@range='10,70']">70,90</set>
+		<set xpath="/worldgeneration/biomes/biome[@name='wasteland']/weather[@name='default']/Fog[@range='0,5']">2,4</set>
+	
+</configs>

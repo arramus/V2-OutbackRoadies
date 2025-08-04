@@ -25,6 +25,7 @@
 	<append xpath="/traders/trader_item_groups/trader_item_group[@name='cannedfood']">
 			<item name="foodFairyBread" count="1,2"/>
 			<item name="foodLamington" count="1,2"/>
+			<item name="foodStimStam" count="1,2"/>
 	</append>
 	
 		<!-- *** Prepared_Drinks -->

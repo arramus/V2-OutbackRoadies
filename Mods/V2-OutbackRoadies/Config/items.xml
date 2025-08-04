@@ -1090,6 +1090,34 @@
 	</effect_group>
 </item>
 
+<item name="foodStimStam">
+	<property name="Tags" value="food,foodSkill,fitness,farmerFoodBonus"/>
+	<property name="HoldType" value="31"/>
+	<property name="DisplayType" value="foodWater"/>
+	<property name="Meshfile" value="@:Other/Items/Food/parcelGenericPrefab.prefab"/>
+	<property name="DropMeshfile" value="@:Other/Items/Misc/sack_droppedPrefab.prefab"/>
+	<property name="Material" value="Morganic"/>
+	<property name="Stacknumber" value="250"/> <!-- STK food -->
+	<property name="EconomicValue" value="75"/>
+	<property class="Action0">
+		<property name="Class" value="Eat"/>
+		<property name="Delay" value="1.0"/>
+		<property name="Sound_start" value="player_drinking"/>
+		<!-- jar from cooking food <property name="Create_item" value="drinkJarEmpty"/> -->
+	</property>
+	<property name="Group" value="Food/Cooking,CFFood/Cooking"/>
+
+	<effect_group tiered="false" name="Food Tier 0">
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="$foodAmountAdd" operation="add" value="25"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="foodHealthAmount" operation="add" value="15"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="foodHealthFarmer" operation="set" value="15">
+			<requirement name="HasBuff" buff="buffFarmerSetBonus"/></triggered_effect>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="$waterAmountAdd" operation="add" value="5"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar=".foodStaminaBonusAdd" operation="add" value="30"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="buffProcessConsumables"/>
+	</effect_group>
+</item>
+
 <item name="foodBarramundi">
 	<property name="Tags" value="food,foodSkill,fitness,farmerFoodBonus"/>
 	<property name="HoldType" value="31"/>
@@ -3336,7 +3364,7 @@
 			</effect_group>
 		</item>
 		<item name="ammoProjectilezombieStrongShockBall">
-			<property name="Meshfile" value="particleeffects/p_electric_shock_small"/>
+			<property name="Meshfile" value="@:Other/Items/Weapons/Ranged/Vomit/vomitRadPrefab.prefab"/>
 			<property name="Material" value="Morganic"/>
 			<property name="CreativeMode" value="None"/>
 			<property class="Action1">
@@ -3581,6 +3609,164 @@
 			</effect_group>
 		</item>
 		
+<!-- Charged Shock -->
+		
+<item name="meleeHandzombieMutatedRadiatedShock">
+	<property name="Extends" value="meleeHandzombieMutated"/>
+	<property name="CreativeMode" value="None"/>
+	<property class="Action0">
+		<property name="Range" value="1.7"/>
+		<property name="DamageEntity" value="30"/>
+		<property name="DamageBlock" value="180"/>
+		<property name="Buff" value="buffShocked"/>
+	</property>
+	<property class="Action1"> <!-- UseAction -->
+		<property name="Class" value="Vomit"/>
+		<property name="Hitmask_override" value="Arrow"/>
+		<property name="AnimType" value="1"/>
+		<property name="Delay" value=".1"/> <!-- obsolete if rounds per minute exists -->
+		<property name="Range" value="200"/>
+		<property name="SpreadVerticalOffset" value="-50"/>
+		<property name="WarningDelay" value=".6"/>
+		<property name="WarningMax" value="1"/>
+		<property name="Infinite_ammo" value="true"/>
+		<property name="Magazine_items" value="ammoProjectileZombieMutatedShock"/>
+		<property name="Sound_warning" value="zombie_mutated_attack_ranged"/>
+		<property name="Sound_start" value=""/>
+		<property name="Sound_repeat" value=""/>
+		<property name="Sound_end" value=""/>
+		<property name="Sound_empty" value=""/>
+		<property name="Sound_reload" value=""/>
+	</property>
+	<effect_group name="melee" tiered="false">
+		<passive_effect name="ModSlots" operation="base_set" value="0"/>
+		<passive_effect name="DamageFalloffRange" operation="base_set" value="50"/>
+		<passive_effect name="MaxRange" operation="base_set" value="10"/>
+		<passive_effect name="MagazineSize" operation="base_set" value="1"/>
+		<passive_effect name="BurstRoundCount" operation="base_set" value="5"/>
+		<passive_effect name="SpreadDegreesHorizontal" operation="base_set" value="90"/>
+		<passive_effect name="SpreadDegreesVertical" operation="base_set" value="30"/>
+		<passive_effect name="SpreadMultiplierIdle" operation="base_set" value="1"/>
+		<triggered_effect trigger="onSelfAttackedOther" action="AddBuff" target="other" fireOneBuff="true"
+			buff="buffFatiguedTrigger,buffArmSprainedCHTrigger,buffLegSprainedCHTrigger,buffLaceration,buffAbrasionCatch,buffInjuryStunned01CHTrigger,buffInjuryBleedingTwo"
+			weights=".11,.07,.07,.05,.29,.36,.11"/>
+		<triggered_effect trigger="onSelfAttackedOther" action="ModifyCVar" target="other" cvar="infectionCounter" operation="add" value="10"><!--InfectionRegular-->
+			<requirement name="CVarCompare" target="other" cvar="infectionCounter" operation="GT" value="0"/></triggered_effect>
+		<triggered_effect trigger="onSelfAttackedOther" action="ModifyCVar" target="other" cvar="abrasionZombieHit" operation="set" value="1800"/><!--AbrasionRegular-->
+		<passive_effect name="BuffProcChance" operation="base_set" value="0.5" tags="buffShocked"/>
+	</effect_group>
+</item>
+
+<item name="ammoProjectileZombieMutatedShock">
+	<property name="Meshfile" value="@:Other/Items/Weapons/Ranged/Vomit/vomitRadPrefab.prefab"/>
+	<property name="Material" value="Morganic"/>
+	<property name="CreativeMode" value="None"/>
+	<property name="CustomIcon" value="missingIcon"/>
+	<property class="Action1">
+		<property name="Class" value="Projectile"/>
+		<property name="DamageEntity" value="30"/>
+		<property name="DamageBlock" value="150"/>
+		<property name="Explosion.ParticleIndex" value="7"/>
+		<property name="Explosion.Buff" value="buffRadiationPool"/> <!-- index 7 has ExplosionDamageArea script -->
+		<property name="Gravity" value="-7.5"/>
+		<property name="Velocity" value="4.5"/>
+		<property name="FlyTime" value="0"/>
+		<property name="LifeTime" value="4"/>
+		<property name="CollisionRadius" value=".2"/>
+		<property name="DamageBonus.earth" value="0"/>
+		<property name="Buff" value="buffShocked"/>
+	</property>
+	<effect_group name="ammo" tiered="false">
+		<passive_effect name="ModSlots" operation="base_set" value="0"/>
+		<passive_effect name="DamageModifier" operation="perc_set" value="0" tags="earth"/>
+		<passive_effect name="DamageModifier" operation="perc_set" value="0.5" tags="stone"/>
+		<passive_effect name="DamageModifier" operation="perc_add" value="1.2" tags="metal"/>
+		<passive_effect name="BuffProcChance" operation="base_set" value=".5" tags="buffShocked"/>
+		<triggered_effect trigger="onSelfAttackedOther" action="ModifyCVar" target="other" cvar="infectionCounter" operation="add" value="10"><!--InfectionRegular-->
+			<requirement name="CVarCompare" target="other" cvar="infectionCounter" operation="GT" value="0"/></triggered_effect>
+		<triggered_effect trigger="onSelfAttackedOther" action="ModifyCVar" target="other" cvar="abrasionZombieHit" operation="set" value="1800"/><!--AbrasionRegular-->
+	</effect_group>
+</item>
+
+<!-- Infernal Fire -->
+		
+<item name="meleeHandzombieMutatedRadiatedFire">
+	<property name="Extends" value="meleeHandzombieMutated"/>
+	<property name="CreativeMode" value="None"/>
+	<property class="Action0">
+		<property name="Range" value="1.7"/>
+		<property name="DamageEntity" value="30"/>
+		<property name="DamageBlock" value="180"/>
+		<property name="Buff" value="buffBurningZombie"/>
+	</property>
+	<property class="Action1"> <!-- UseAction -->
+		<property name="Class" value="Vomit"/>
+		<property name="Hitmask_override" value="Arrow"/>
+		<property name="AnimType" value="1"/>
+		<property name="Delay" value=".1"/> <!-- obsolete if rounds per minute exists -->
+		<property name="Range" value="200"/>
+		<property name="SpreadVerticalOffset" value="-50"/>
+		<property name="WarningDelay" value=".6"/>
+		<property name="WarningMax" value="1"/>
+		<property name="Infinite_ammo" value="true"/>
+		<property name="Magazine_items" value="ammoProjectileZombieMutatedFire"/>
+		<property name="Sound_warning" value="zombie_mutated_attack_ranged"/>
+		<property name="Sound_start" value=""/>
+		<property name="Sound_repeat" value=""/>
+		<property name="Sound_end" value=""/>
+		<property name="Sound_empty" value=""/>
+		<property name="Sound_reload" value=""/>
+	</property>
+	<effect_group name="melee" tiered="false">
+		<passive_effect name="ModSlots" operation="base_set" value="0"/>
+		<passive_effect name="DamageFalloffRange" operation="base_set" value="50"/>
+		<passive_effect name="MaxRange" operation="base_set" value="10"/>
+		<passive_effect name="MagazineSize" operation="base_set" value="1"/>
+		<passive_effect name="BurstRoundCount" operation="base_set" value="5"/>
+		<passive_effect name="SpreadDegreesHorizontal" operation="base_set" value="90"/>
+		<passive_effect name="SpreadDegreesVertical" operation="base_set" value="30"/>
+		<passive_effect name="SpreadMultiplierIdle" operation="base_set" value="1"/>
+		<triggered_effect trigger="onSelfAttackedOther" action="AddBuff" target="other" fireOneBuff="true"
+			buff="buffFatiguedTrigger,buffArmSprainedCHTrigger,buffLegSprainedCHTrigger,buffLaceration,buffAbrasionCatch,buffInjuryStunned01CHTrigger,buffInjuryBleedingTwo"
+			weights=".11,.07,.07,.05,.29,.36,.11"/>
+		<triggered_effect trigger="onSelfAttackedOther" action="ModifyCVar" target="other" cvar="infectionCounter" operation="add" value="10"><!--InfectionRegular-->
+			<requirement name="CVarCompare" target="other" cvar="infectionCounter" operation="GT" value="0"/></triggered_effect>
+		<triggered_effect trigger="onSelfAttackedOther" action="ModifyCVar" target="other" cvar="abrasionZombieHit" operation="set" value="1800"/><!--AbrasionRegular-->
+		<passive_effect name="BuffProcChance" operation="base_set" value="0.5" tags="buffBurningZombie"/>
+	</effect_group>
+</item>
+
+<item name="ammoProjectileZombieMutatedFire">
+	<property name="Meshfile" value="@:Other/Items/Weapons/Ranged/Vomit/vomitRadPrefab.prefab"/>
+	<property name="Material" value="Morganic"/>
+	<property name="CreativeMode" value="None"/>
+	<property name="CustomIcon" value="missingIcon"/>
+	<property class="Action1">
+		<property name="Class" value="Projectile"/>
+		<property name="DamageEntity" value="30"/>
+		<property name="DamageBlock" value="150"/>
+		<property name="Explosion.ParticleIndex" value="7"/>
+		<property name="Explosion.Buff" value="buffRadiationPool"/> <!-- index 7 has ExplosionDamageArea script -->
+		<property name="Gravity" value="-7.5"/>
+		<property name="Velocity" value="4.5"/>
+		<property name="FlyTime" value="0"/>
+		<property name="LifeTime" value="4"/>
+		<property name="CollisionRadius" value=".2"/>
+		<property name="DamageBonus.earth" value="0"/>
+		<property name="Buff" value="buffBurningZombie"/>
+	</property>
+	<effect_group name="ammo" tiered="false">
+		<passive_effect name="ModSlots" operation="base_set" value="0"/>
+		<passive_effect name="DamageModifier" operation="perc_set" value="0" tags="earth"/>
+		<passive_effect name="DamageModifier" operation="perc_set" value="0.5" tags="stone"/>
+		<passive_effect name="DamageModifier" operation="perc_add" value="1.2" tags="metal"/>
+		<passive_effect name="BuffProcChance" operation="base_set" value=".5" tags="buffBurningZombie"/>
+		<triggered_effect trigger="onSelfAttackedOther" action="ModifyCVar" target="other" cvar="infectionCounter" operation="add" value="10"><!--InfectionRegular-->
+			<requirement name="CVarCompare" target="other" cvar="infectionCounter" operation="GT" value="0"/></triggered_effect>
+		<triggered_effect trigger="onSelfAttackedOther" action="ModifyCVar" target="other" cvar="abrasionZombieHit" operation="set" value="1800"/><!--AbrasionRegular-->
+	</effect_group>
+</item>
+		
 <!-- For good measure -->
 
 		<item name="NurseLoadingHack01"> <!-- Wendigo Wasteland and Snow -->
@@ -3588,8 +3774,8 @@
 			<property name="CustomIcon" value="missingIcon"/><property name="CustomIconTint" value="90ff90"/>
 			<property name="HoldType" value="45"/>
 			<property name="HoldingItemHidden" value="true"/>
-			<property name="Meshfile" value="#@modfolder:Resources/NightNurse.unity3d?oaknurse1"/>
-			<property name="DropMeshfile"  value="#@modfolder:Resources/NightNurse.unity3d?oaknurse1"/>
+			<property name="Meshfile" value="#@modfolder:Resources/HeadHunter.unity3d?oaknurse1"/>
+			<property name="DropMeshfile"  value="#@modfolder:Resources/HeadHunter.unity3d?oaknurse1"/>
 			<property name="Material" value="MresourceScrapIron"/>
 			<property name="Weight" value="1"/>
 			<property name="Stacknumber" value="1"/> 
