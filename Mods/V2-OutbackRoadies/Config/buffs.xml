@@ -123,7 +123,7 @@
 
 		<buff name="animalBloodMoonSpider01QueenFredDeco" hidden="true">
 			<effect_group>
-				<triggered_effect trigger="onSelfBuffStart" action="AttachPrefabToEntity" prefab="@:Entities/Zombies/Prefabs/ZCrawlerFeral.prefab" local_offset="1.1,0,-0.75" local_rotation="0,90,80" parent_transform="Bone35"/>	
+				<triggered_effect trigger="onSelfBuffStart" action="AttachPrefabToEntity" prefab="@:Entities/Zombies/Crawler/ZCrawlerFeral.prefab" local_offset="1,0,-0.65" local_rotation="0,90,95" local_scale=".5,.5,.5" parent_transform="Bone35"/>	
 			</effect_group>
 		</buff>
 		

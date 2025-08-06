@@ -420,6 +420,11 @@
 		<ingredient name="drinkJarBoiledWater" count="1"/>
 	</recipe>
 	
+	<recipe name="foodStimStamStem" count="1" craft_time="3" tags="packMuleCrafting">
+		<ingredient name="drinkJarBillyTea" count="1"/>		
+		<ingredient name="foodStimStam" count="1"/>
+	</recipe>
+	
 <!-- Oakraven Chicken Coops -->
 	
 	<recipe name="ChickenCoopVariantHelper" count="1" craft_time="180" craft_area="workbench" tags="workbenchCrafting">
