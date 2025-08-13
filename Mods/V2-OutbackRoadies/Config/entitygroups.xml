@@ -42,6 +42,7 @@
 		zombieOakHeadHunterInfernal, .1
 		zombieBurntRadiatedMini, .05
 		zombieOakSirenHead, .05
+		zombieOakBigFoot, .05
 	</csv>
 
 <!-- *** BIOME_ZOMBIES_BURNT_FOREST_GROUP -->
@@ -61,6 +62,8 @@
 		zombieOakHeadHunterCharged, .15
 		zombieOakHeadHunterInfernal, .15
 		zombieOakSirenHead, .15
+		zombieOakBigFoot, .15
+		zombieOakBigFootInfernal, .15
 	</csv>
 	
 	<csv xpath="/entitygroups/entitygroup[@name='ZombiesBurntForestNight']/text()" delim="\n" op="add" >
@@ -79,6 +82,8 @@
 		zombieOakHeadHunterCharged, .15
 		zombieOakHeadHunterInfernal, .15
 		zombieOakSirenHead, .15
+		zombieOakBigFoot, .15
+		zombieOakBigFootInfernal, .15
 	</csv>
 	
 <!-- *** BIOME_ZOMBIES_DESERT_GROUP -->
@@ -100,6 +105,7 @@
 		zombieOakHeadHunterCharged, .15
 		zombieOakHeadHunterInfernal, .15
 		zombieOakSirenHead, .15
+		zombieOakBigFootInfernal, .15
 	</csv>
 	
 	<csv xpath="/entitygroups/entitygroup[@name='ZombiesDesertNight']/text()" delim="\n" op="add" >
@@ -120,6 +126,7 @@
 		zombieOakHeadHunterCharged, .15
 		zombieOakHeadHunterInfernal, .15
 		zombieOakSirenHead, .15
+		zombieOakBigFootInfernal, .15
 	</csv>
 	
 <!-- *** BIOME_ZOMBIES_SNOW_GROUP -->
@@ -142,6 +149,7 @@
 		zombieOakHeadHunterCharged, .15
 		zombieOakHeadHunterInfernal, .15
 		zombieOakSirenHead, .15
+		zombieOakBigFootSnow, .15
 	</csv>
 	
 <!-- *** BIOME_ZOMBIES_SNOW_GROUP_NIGHT -->
@@ -163,6 +171,7 @@
 		zombieOakHeadHunterCharged, .15
 		zombieOakHeadHunterInfernal, .15
 		zombieOakSirenHead, .15
+		zombieOakBigFootSnow, .15
 	</csv>
 	
 <!-- *** BIOME_ZOMBIES_WASTELAND_GROUP -->
@@ -195,6 +204,10 @@
 		zombieOakBossHeadHunterCharged, .35
 		zombieOakBossHeadHunterInfernal, .35
 		zombieOakSirenHead, .35
+		zombieOakBigFoot, .35
+		zombieOakBigFootSnow, .35
+		zombieOakBigFootInfernal, .35
+		zombieOakBigFootCharged, .35
 	</csv>
 	
 <!-- *** BIOME_ZOMBIES_WASTELAND_NIGHT_GROUP -->
@@ -227,6 +240,10 @@
 		zombieOakBossHeadHunterCharged, .5
 		zombieOakBossHeadHunterInfernal, .5
 		zombieOakSirenHead, .5
+		zombieOakBigFoot, .5
+		zombieOakBigFootSnow, .5
+		zombieOakBigFootInfernal, .5
+		zombieOakBigFootCharged, .5
 	</csv>
 	
 	<append xpath="/entitygroups">
@@ -795,6 +812,10 @@
 		zombieOakBossHeadHunterCharged, .1
 		zombieOakBossHeadHunterInfernal, .1
 		zombieOakSirenHead, .1
+		zombieOakBigFoot, .1
+		zombieOakBigFootSnow, .1
+		zombieOakBigFootInfernal, .1
+		zombieOakBigFootCharged, .1
 	</csv>
 
 	<!-- SPIDER ONLY HORDE NIGHT -->

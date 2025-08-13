@@ -177,7 +177,8 @@
 		<item name="quest_chickens"/>
 		<item name="quest_oaksirenheads"/>
 		<item name="quest_magpies"/>
-		<item name="foodWitchettyGrub" count="1,2"/>
+		<item name="quest_yowies"/>
+		<item name="foodWitchettyGrub" count="4,5"/>
 		<item name="foodWheatFlour" count="1,2"/>
 		<item name="ammoGasCan" count="50,150"/>
 		<item name="ammoRocketFire" count="3,5"/>
@@ -194,6 +195,7 @@
 		<item name="medicalFirstAidBandage" count="1,2"/>
 		<item name="foodBillyTea" count="1,3"/>
 		<item name="drinkWombatChocoPoco" count="1,2"/>
+		<item name="foodStimStam" count="1,2"/>
 		<item group="vehicleModSchematics" count="1"/>
 	</lootgroup>
 	</insertBefore>
@@ -230,6 +232,7 @@
 		<item name="quest_chickens"/>
 		<item name="quest_oaksirenheads"/>
 		<item name="quest_magpies"/>
+		<item name="quest_yowies"/>
 	</append>
 	
 	<!-- Gun Safe drops three possible passes for books/quests notes to offset potential loot percentage bug for custom content and decline in regular books -->	

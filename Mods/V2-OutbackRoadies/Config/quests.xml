@@ -176,6 +176,25 @@
 		
 		<reward type="Exp" value="10000"/>
 		<reward type="SkillPoints" value="1" chainreward="false"/>
+	</quest>
+
+	<!-- Yowies -->
+	<quest id="quest_yowies">
+		<property name="offer_key" value="quest_yowies_offer"/>
+		<property name="name_key" value="quest_yowies_name"/>
+		<property name="subtitle_key" value="quest_yowies_subtitle"/>
+		<property name="description_key" value="quest_yowies_description"/>
+		<property name="icon" value="ui_game_symbol_yowie"/>
+		<property name="repeatable" value="true"/>
+		<property name="category_key" value="Quest"/>
+		<property name="add_to_tier_complete" value="false"/>
+		<property name="difficulty" value="hard"/>
+		<property name="shareable" value="false"/>
+		
+		<objective type="EntityKill" id="zombieOakBigFoot,zombieOakBigFootSnow,zombieOakBigFootInfernal,zombieOakBigFootCharged" value="50"/>
+		
+		<reward type="Exp" value="20000"/>
+		<reward type="SkillPoints" value="2" chainreward="false"/>
 	</quest>	
 	
 	<!-- NPC HELPERS -->	
