@@ -5,6 +5,10 @@
 			<requirement name="NotHasBuff" buff="VehicleChecker"/>
 		</triggered_effect>
 	</append>
+	
+    <!-- Change icons for Sprained Leg and Arm to look like sprains and not breaks with a match for healing icons -->
+	<set xpath="/buffs/buff[@name='buffLegSprained']/@icon">ui_game_symbol_sprained_ankle</set>
+	<set xpath="/buffs/buff[@name='buffArmSprained']/@icon">ui_game_symbol_sprained_wrist</set>
 
     <!-- Make Encumberence Debuff percentage lower to accomodate more locked inventory slots - KhaineGB -->
 	<set xpath="/buffs/buff[@name='buffEncumberedInv']/effect_group/triggered_effect[@cvar='$encumbranceEffect'][@value='0.026']/@value">0.013</set>
