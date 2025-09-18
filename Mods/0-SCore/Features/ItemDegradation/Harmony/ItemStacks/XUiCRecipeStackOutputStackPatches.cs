@@ -1,9 +1,7 @@
-using System.Collections.Generic;
 using HarmonyLib;
 using SCore.Features.ItemDegradation.Utils;
-using UnityEngine;
 
-namespace SCore.Features.ItemDegradation.Harmony
+namespace SCore.Features.ItemDegradation.Harmony.ItemStacks
 {
     public class XUiCRecipeStackOutputStackPatches
     {
@@ -24,7 +22,7 @@ namespace SCore.Features.ItemDegradation.Harmony
                 {
                     if (slot.itemStack.IsEmpty() || slot.itemStack.itemValue == null) continue;
                     var itemValue = slot.itemStack.itemValue;
-                    if (itemValue.type != recipe.craftingToolType) continue;
+                   // if (itemValue.type != recipe.craftingToolType) continue;
                     if (!ItemDegradationHelpers.CanDegrade(itemValue)) continue;
                     if (ItemDegradationHelpers.IsDegraded(itemValue))
                     {
