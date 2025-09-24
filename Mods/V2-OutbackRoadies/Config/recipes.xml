@@ -108,7 +108,7 @@
 	</recipe>
 	
 	<recipe name="woodenBear" count="1" craft_time="30" craft_area="workbench" tags="workbenchCrafting">
-		<ingredient name="woodLogPillar100" count="10"/>
+		<ingredient name="woodLogPillar100" count="4"/>
 	</recipe>
 	
 	<recipe name="rugBear" count="1" craft_time="30" craft_area="workbench" tags="workbenchCrafting">
@@ -155,6 +155,14 @@
 	
 	<recipe name="decoClassicDogHouse" count="1" craft_time="30" craft_area="workbench" tags="workbenchCrafting">
 		<ingredient name="resourceWood" count="30"/>
+	</recipe>
+	
+	<recipe name="plantHangingIvy01" count="1" craft_time="5" craft_area="workbench" tags="workbenchCrafting">
+		<ingredient name="resourceYuccaFibers" count="10"/>
+	</recipe>
+	
+	<recipe name="plantHangingIvy02" count="1" craft_time="5" craft_area="workbench" tags="workbenchCrafting">
+		<ingredient name="resourceYuccaFibers" count="10"/>
 	</recipe>
 	
 	<!-- High Performance Running Shoes Mod -->
