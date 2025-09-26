@@ -4527,7 +4527,7 @@
 			<property name="Extends" value="challengeQuestMaster"/>
 			<property name="DescriptionKey" value="noteqc_1-SummonFriendZDesc"/>
 			<property name="CustomIcon" value="FriendZ"/>
-			<property name="EconomicValue" value="800"/>
+			<property name="EconomicValue" value="500"/>
 			<property name="Group" value="Books,SchematicsOnly,TCReading"/>
 			<property class="Action0">
 				<property name="UseAnimation" value="false"/>
