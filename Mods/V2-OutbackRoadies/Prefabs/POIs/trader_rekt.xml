@@ -34,27 +34,28 @@
   <property name="WallVolumeSize" value="5, 4, 3#5, 4, 3#1, 2, 3" />
   <property name="WallVolumeStart" value="23, 2, 47#29, 2, 47#28, 4, 47" />
   <property class="Stats">
-    <property name="TotalVertices" value="1463401" />
-    <property name="TotalTriangles" value="598077" />
+    <property name="LightsVolume" value="19560.15" />
+    <property name="TotalVertices" value="1626193" />
+    <property name="TotalTriangles" value="662562" />
     <property class="BlockEntities">
-      <property name="Vertices" value="1375076" />
-      <property name="Triangles" value="539443" />
+      <property name="Vertices" value="1524679" />
+      <property name="Triangles" value="597376" />
     </property>
     <property class="ChunkMeshes0">
-      <property name="Vertices" value="78147" />
-      <property name="Triangles" value="42952" />
+      <property name="Vertices" value="78226" />
+      <property name="Triangles" value="42956" />
     </property>
     <property class="ChunkMeshes1">
       <property name="Vertices" value="0" />
       <property name="Triangles" value="0" />
     </property>
     <property class="ChunkMeshes2">
-      <property name="Vertices" value="1328" />
+      <property name="Vertices" value="1342" />
       <property name="Triangles" value="870" />
     </property>
     <property class="ChunkMeshes3">
-      <property name="Vertices" value="0" />
-      <property name="Triangles" value="0" />
+      <property name="Vertices" value="13096" />
+      <property name="Triangles" value="6548" />
     </property>
     <property class="ChunkMeshes4">
       <property name="Vertices" value="0" />
@@ -86,7 +87,7 @@
       <property name="1" value="5, 2, 53" />
     </property>
     <property class="challenge_cars">
-      <property name="0" value="35, 1, 32" />
+      <property name="0" value="46, 1, 12" />
     </property>
     <property class="challenge_steel">
       <property name="0" value="23, 2, 38" />
@@ -99,8 +100,9 @@
       <property name="0" value="40, 1, 51" />
     </property>
     <property class="challenge_sinks">
-      <property name="0" value="35, 1, 56" />
-      <property name="1" value="36, 1, 57" />
+      <property name="0" value="37, 2, 49" />
+      <property name="1" value="35, 1, 56" />
+      <property name="2" value="36, 1, 57" />
     </property>
   </property>
 </prefab>
