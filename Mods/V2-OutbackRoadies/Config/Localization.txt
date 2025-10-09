@@ -216,6 +216,8 @@ cntFishTrapWaterCollector,blocks,block,,,Fish Trap Water Collector,,,,,,,,,,,,,
 cntFishTrapWaterCollectorDesc,blocks,Block,,,"Collects Fish Trap Water at an accelerated rate to fill your Fish Trap farm pool.\n\nRepair with Scrap Polymers.",,,,,,,,,,,,,
 resourceWaterFilterDesc,items,item,,,"A component used in the crafting of a Dew Collector or Fish Trap Water Collector.",,,,,,,,,,,,,
 xuiDewCollector,UI,XUI,,,Water Collector,,,,,,,,,,,,,
+workstationsT1-3,progression,Attribute,,,Tier 3: Gatherer,,,,,,,,,,,,,
+workstationsT2-5,progression,Attribute,,,Tier 5: Tarp,,,,,,,,,,,,,
 
 CaughtChick,items,Item,,,Caught Chick,,Gefangenes Küken,,,,,,,,,,,
 CaughtChickDesc,items,Item,,,"Use 2 Caught Chicks, with right mouse click, on an Empty Chicken Coop to populate and activate the next stage.",,"Benutze 2 gefangene Küken mit der rechten Maustaste auf einem leeren Hühnerstall, um ihn zu bevölkern und die nächste Stufe zu aktivieren.",,,,,,,,,,,
@@ -315,7 +317,8 @@ ammoRocketFireDesc,items,Ammo,,,"A rocket fire used as rocket launcher ammunitio
 
 ammopress,blocks,Workstation,,,Roadies Ammo Press,,,,,,,,,,,,,
 ammopressDesc,blocks,Block,,,"The Roadies Ammo Press allows players to craft ammunition in a compact standalone device. Bulk ammo crafts in half the time of the Workbench.",,,,,,,,,,,,,
-workstationsT3-2AP,progression,Attribute,,,Tier 2: Roadies Ammo Press,,,,,,,,,,,,,
+workstationsT3-2WF,progression,Attribute,,,Tier 2: Water Filter,,,,,,,,,,,,,
+workstationsT3-3AP,progression,Attribute,,,Tier 3: Roadies Ammo Press,,,,,,,,,,,,,
 lblCategoryAmmoPress,UI,Tooltip,,,Ammo,,Munition,Munición,Munitions,Munizioni,弾薬,탄약,Amunicja,Munição,Боеприпасы,Mühimmat,弹药
 lblCategoryAmmoPressRegularAmmo,UI,Tooltip,,,Regular Ammo,,,,,,,,,,,,,
 lblCategoryAmmoPressHPAmmo,UI,Tooltip,,,HP Ammo,,,,,,,,,,,,,
