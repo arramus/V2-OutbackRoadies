@@ -1,0 +1,15 @@
+<configs>
+
+	<!-- Diversifying townships to allow greater variety of tiling systems to reduce scripted repetition -->
+	<!-- Country town expansion to Pine Forest, Burnt Forest, and Wasteland -->
+	<append xpath="/rwgmixer/township[@name='countrytown']/property[@name='biomes']/@value">,forest,burntforest,wasteland</append>
+	<!-- Town expansion to Pine Forest, Burnt Forest, and Wasteland -->
+	<append xpath="/rwgmixer/township[@name='town']/property[@name='biomes']/@value">,forest,burntforest,wasteland</append>
+	<!-- City expansion to Pine Forest, Burnt Forest, and Wasteland -->
+	<append xpath="/rwgmixer/township[@name='city']/property[@name='biomes']/@value">,forest,burntforest,wasteland</append>
+	<!-- Wasteland City expansion to Desert and Snow -->
+	<append xpath="/rwgmixer/township[@name='wasteland_city']/property[@name='biomes']/@value">,desert,snow</append>
+	<!-- Big City expansion to Desert and Snow -->
+	<append xpath="/rwgmixer/township[@name='citybig']/property[@name='biomes']/@value">,desert,snow</append>
+
+</configs>
