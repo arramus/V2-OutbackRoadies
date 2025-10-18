@@ -23,13 +23,6 @@
 		<ingredient name="resourceForgedIron" count="5"/>
 		<ingredient name="resourceCloth" count="10"/>			
 	</recipe>
-
-	<!-- Location appropriacy -->
-	<!--recipe name="flagPoleAmerican" count="1" craft_area="workbench">
-		<ingredient name="resourceSewingKit" count="1"/>
-		<ingredient name="resourceForgedIron" count="5"/>
-		<ingredient name="resourceCloth" count="10"/>			
-	</recipe-->
 	
 	<recipe name="modularFireWoodStackA" count="1" craft_area="workbench" tags="workbenchCrafting">
 		<ingredient name="resourceWood" count="100"/>
@@ -163,6 +156,10 @@
 	
 	<recipe name="plantHangingIvy02" count="1" craft_time="5" craft_area="workbench" tags="workbenchCrafting">
 		<ingredient name="resourceYuccaFibers" count="10"/>
+	</recipe>
+	
+	<recipe name="ammoGasCan" count="1" craft_time="1" craft_area="campfire" craft_tool="toolCookingPot" tags="learnable,perkMasterChef">
+		<ingredient name="resourceOilShale" count="1"/>
 	</recipe>
 	
 	<!-- High Performance Running Shoes Mod -->
