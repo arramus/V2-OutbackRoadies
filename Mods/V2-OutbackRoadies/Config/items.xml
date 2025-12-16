@@ -81,11 +81,13 @@
 	<set xpath="/items/item[@name='meleeHandzombieMutatedRadiated']/property[@class='Action0']/property[@name='Range']/@value">1.5</set>
 	<set xpath="/items/item[@name='meleeHandzombieMutatedCharged']/property[@class='Action0']/property[@name='Range']/@value">1.5</set>
 	<set xpath="/items/item[@name='meleeHandzombieMutatedInfernal']/property[@class='Action0']/property[@name='Range']/@value">1.5</set>    
-	<set xpath="/items/item[@name='meleeHandZombiePlagueSpitter']/property[@class='Action0']/property[@name='Range']/@value">1.5</set>
-	<set xpath="/items/item[@name='meleeHandZombieFrostclaw']/property[@class='Action0']/property[@name='Range']/@value">1.5</set>
+	<set xpath="/items/item[@name='meleeHandZombieRancher']/property[@class='Action0']/property[@name='Range']/@value">1.5</set>
+	<set xpath="/items/item[@name='meleeHandZombieChuck']/property[@class='Action0']/property[@name='Range']/@value">1.5</set>
 	<!-- Lotions and Potions -->
 	<set xpath="/items/item[@name='medicalFirstAidBandage']/effect_group/triggered_effect[@cvar='medicalRegHealthAmount']/@value">35</set> <!-- 30 Default -->
 	<set xpath="/items/item[@name='medicalFirstAidBandage']/effect_group/display_value[@name='foodHealthAmount']/@value">35</set> <!-- 30 Default -->
+	<set xpath="/items/item[@name='drinkJarPureMineralWater']/effect_group/display_value[@name='dEfficientDigestion']/@value">.2</set> <!-- buffRedTea from -.15 assist -->
+	<set xpath="/items/item[@name='drinkJarRedTea']/effect_group/display_value[@name='dEfficientDigestion']/@value">.2</set> <!-- buffRedTea from -.15 assist -->
 	<!-- Weapons and Tools -->
 	<set xpath="/items/item[@name='meleeToolRepairT0StoneAxe']/property[@class='Action1']/property[@name='Repair_amount']/@value">500</set><!-- 100 Default -->
 	<set xpath="/items/item[@name='meleeToolRepairT0StoneAxe']/effect_group/display_value[@name='dBlockRepairAmount']/@value">500</set><!-- 100 Default -->
@@ -94,6 +96,7 @@
 	<set xpath="/items/item[@name='meleeToolRepairT0StoneAxe']/effect_group/passive_effect[@name='HarvestCount'][@operation='base_set']/@value">1</set><!-- .7 Default -->
 	<set xpath="/items/item[@name='meleeToolRepairT0TazasStoneAxe']/effect_group/display_value[@name='dBlockRepairAmount']/@value">500</set><!-- 100 Default -->
 	<set xpath="/items/item[@name='meleeToolRepairT0TazasStoneAxe']/effect_group/passive_effect[@name='BlockDamage'][@operation='base_set']/@value">25</set><!-- 22 Default -->
+	<set xpath="/items/item[@name='meleeToolRepairT0TazasStoneAxe']/effect_group/passive_effect[@name='HarvestCount'][@operation='base_set']/@value">1</set><!-- .7 Default -->
 	<set xpath="/items/item[@name='meleeToolRepairT1ClawHammer']/property[@class='Action1']/property[@name='Repair_amount']/@value">850</set><!-- 400 Default -->
 	<set xpath="/items/item[@name='meleeToolRepairT1ClawHammer']/effect_group/display_value[@name='dBlockRepairAmount']/@value">850</set><!-- 400 Default -->
 	<set xpath="/items/item[@name='meleeToolRepairT1ClawHammer']/property[@class='Action1']/property[@name='Upgrade_hit_offset']/@value">-5</set><!-- 1 Hit Upgrade -->
@@ -101,6 +104,7 @@
 	<set xpath="/items/item[@name='meleeToolRepairT3Nailgun']/property[@class='Action1']/property[@name='Repair_amount']/@value">2000</set><!-- 1000 Default -->
 	<set xpath="/items/item[@name='meleeToolRepairT3Nailgun']/effect_group/display_value[@name='dBlockRepairAmount']/@value">2000</set><!-- 1000 Default -->
 	<set xpath="/items/item[@name='meleeToolRepairT3Nailgun']/effect_group/passive_effect[@name='MagazineSize']/@value">25</set><!-- Mag Size -->
+	<append xpath="/items/item[@name='meleeToolRepairT3Nailgun']/property[@class='Action0']/property[@name='Magazine_items']/@value">,resourceSteelNail,resourceSteelNailFlaming,resourceSteelNailExploding</append><!-- Adding Steel Nail for the Nailgun -->	
 	<set xpath="/items/item[@name='meleeWpnBladeT3Machete']/effect_group/passive_effect[@name='AttacksPerMinute'][@operation='base_set']/@value">70</set><!-- 55 Default -->
 	<set xpath="/items/item[@name='gunRifleT1HuntingRifle']/effect_group/passive_effect[@name='MagazineSize']/@value">3</set><!-- 3 Shots per mag -->
 	<set xpath="/items/item[@name='gunBowT0PrimitiveBow']/effect_group/passive_effect[@name='SpreadMultiplierAiming']/@value">0.16</set> <!-- .26 Default -->
@@ -173,8 +177,11 @@
 	<set xpath="/items/item[@name='foodBoiledMeat']/property[@name='Stacknumber']/@value">250</set><!-- 10 default -->
 	<set xpath="/items/item[@name='foodMeatStew']/property[@name='Stacknumber']/@value">250</set><!-- 10 default -->
 	<set xpath="/items/item[@name='foodSteakAndPotato']/property[@name='Stacknumber']/@value">250</set><!-- 10 default -->
+	<set xpath="/items/item[@name='foodHoneyGlazedSham']/property[@name='Stacknumber']/@value">250</set><!-- 10 default -->
+	<set xpath="/items/item[@name='foodHoneyBrisket']/property[@name='Stacknumber']/@value">250</set><!-- 10 default -->
 	<set xpath="/items/item[@name='foodHoboStew']/property[@name='Stacknumber']/@value">250</set><!-- 10 default -->
 	<set xpath="/items/item[@name='foodFishTacos']/property[@name='Stacknumber']/@value">250</set><!-- 10 default -->
+	<set xpath="/items/item[@name='foodChiliDog']/property[@name='Stacknumber']/@value">250</set><!-- 10 default -->
 	<set xpath="/items/item[@name='foodBakedPotato']/property[@name='Stacknumber']/@value">250</set><!-- 10 default -->
 	<set xpath="/items/item[@name='foodBlueberryPie']/property[@name='Stacknumber']/@value">250</set><!-- 10 default -->
 	<set xpath="/items/item[@name='foodPumpkinPie']/property[@name='Stacknumber']/@value">250</set><!-- 10 default -->
@@ -188,6 +195,7 @@
 	<set xpath="/items/item[@name='foodBaconAndEggs']/property[@name='Stacknumber']/@value">250</set><!-- 10 default -->
 	<set xpath="/items/item[@name='foodVegetableStew']/property[@name='Stacknumber']/@value">250</set><!-- 10 default -->
 	<set xpath="/items/item[@name='foodRawMeat']/property[@name='Stacknumber']/@value">3000</set><!-- 125 default -->
+	<set xpath="/items/item[@name='foodRawMeatBundle']/property[@name='Stacknumber']/@value">250</set><!-- 10 default -->
 	<set xpath="/items/item[@name='foodRottingFlesh']/property[@name='Stacknumber']/@value">3000</set><!-- 125 default -->
 	<set xpath="/items/item[@name='foodEgg']/property[@name='Stacknumber']/@value">1500</set><!-- 125 default -->
 	<set xpath="/items/item[@name='foodCornMeal']/property[@name='Stacknumber']/@value">1500</set><!-- 125 default -->
@@ -196,14 +204,17 @@
 	<set xpath="/items/item[@name='foodCropGraceCorn']/property[@name='Stacknumber']/@value">1500</set><!-- 125 default -->
 	<set xpath="/items/item[@name='foodCropPotato']/property[@name='Stacknumber']/@value">1500</set><!-- 125 default -->
 	<set xpath="/items/item[@name='foodCropMushrooms']/property[@name='Stacknumber']/@value">1500</set><!-- 125 default -->
+	<set xpath="/items/item[@name='foodCropMushroomsRadiated']/property[@name='Stacknumber']/@value">1500</set><!-- 125 default -->
 	<set xpath="/items/item[@name='foodCropYuccaFruit']/property[@name='Stacknumber']/@value">1500</set><!-- 125 default -->
 	<set xpath="/items/item[@name='foodCropPumpkin']/property[@name='Stacknumber']/@value">1500</set><!-- 125 default -->
 	<!-- *** Drinks -->
+	<set xpath="/items/item[@name='drinkJarEmpty']/property[@name='Stacknumber']/@value">1000</set><!-- 10 default -->
 	<set xpath="/items/item[@name='drinkJarRiverWater']/property[@name='Stacknumber']/@value">1000</set><!-- 125 default -->
 	<set xpath="/items/item[@name='drinkJarBoiledWater']/property[@name='Stacknumber']/@value">500</set><!-- 10 default -->
 	<set xpath="/items/item[@name='drinkJarPureMineralWater']/property[@name='Stacknumber']/@value">250</set><!-- 10 default -->
 	<set xpath="/items/item[@name='drinkJarYuccaJuice']/property[@name='Stacknumber']/@value">250</set><!-- 10 default -->
 	<set xpath="/items/item[@name='drinkJarGoldenRodTea']/property[@name='Stacknumber']/@value">250</set><!-- 10 default -->
+	<set xpath="/items/item[@name='drinkJarHoneyTea']/property[@name='Stacknumber']/@value">250</set><!-- 10 default -->
 	<set xpath="/items/item[@name='drinkJarRedTea']/property[@name='Stacknumber']/@value">250</set><!-- 10 default -->
 	<set xpath="/items/item[@name='drinkYuccaJuiceSmoothie']/property[@name='Stacknumber']/@value">250</set><!-- 10 default -->
 	<set xpath="/items/item[@name='drinkJarCoffee']/property[@name='Stacknumber']/@value">250</set><!-- 10 default -->
@@ -234,6 +245,8 @@
 	<set xpath="/items/item[@name='resourceLeather']/property[@name='Stacknumber']/@value">2500</set><!-- 250 default -->
 	<set xpath="/items/item[@name='resourceAnimalFat']/property[@name='Stacknumber']/@value">3000</set><!-- 500 -->	
 	<set xpath="/items/item[@name='resourceTestosteroneExtract']/property[@name='Stacknumber']/@value">100</set><!-- 10 default -->
+	<set xpath="/items/item[@name='resourceQueenBee']/property[@name='Stacknumber']/@value">100</set><!-- 10 default -->	
+	<set xpath="/items/item[@name='resourceBeeswax']/property[@name='Stacknumber']/@value">500</set><!-- 10 default -->	
 	<set xpath="/items/item[@name='resourceScrapBrass']/property[@name='Stacknumber']/@value">15000</set><!-- 6000 default -->		
 	<set xpath="/items/item[@name='resourceScrapLead']/property[@name='Stacknumber']/@value">15000</set><!-- 6000 default -->
 	<set xpath="/items/item[@name='resourceClayLump']/property[@name='Stacknumber']/@value">15000</set><!-- 6000 default -->	
@@ -280,6 +293,9 @@
 	<set xpath="/items/item[@name='toolDewGatherer']/property[@name='Stacknumber']/@value">25</set><!-- 1 default -->
 	<set xpath="/items/item[@name='toolDewTarp']/property[@name='Stacknumber']/@value">25</set><!-- 1 default -->
 	<set xpath="/items/item[@name='toolDewFilter']/property[@name='Stacknumber']/@value">25</set><!-- 1 default -->
+	<set xpath="/items/item[@name='toolApiaryExtractor']/property[@name='Stacknumber']/@value">25</set><!-- 1 default -->
+	<set xpath="/items/item[@name='toolApiaryBroodBox']/property[@name='Stacknumber']/@value">25</set><!-- 1 default -->
+	<set xpath="/items/item[@name='toolApiarySmoker']/property[@name='Stacknumber']/@value">25</set><!-- 1 default -->
 	<set xpath="/items/item[@name='resourceLockPick']/property[@name='Stacknumber']/@value">250</set><!-- 50 default -->
 	<set xpath="/items/item[@name='resourceLockPickBundle']/property[@name='Stacknumber']/@value">25</set><!-- 5 default -->
 	
@@ -696,6 +712,7 @@
 		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyStats" stat="water" operation="add" value="-1"/>
 		<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="buffProcessConsumables"/>
 		<display_value name="$waterAmountAdd" value="-1"/>
+		<display_value name="dSmellUse" value="0"/>
 	</effect_group>
 </item>
 
@@ -725,6 +742,7 @@
 		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyStats" stat="water" operation="add" value="-5"/>
 		<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="buffProcessConsumables"/>
 		<display_value name="$waterAmountAdd" value="-5"/>
+		<display_value name="dSmellUse" value="0"/>
 	</effect_group>
 </item>
 
@@ -741,9 +759,8 @@
 	<property class="Action0">
 		<property name="Class" value="Eat"/>
 		<property name="Delay" value="1.0"/>
-		<property name="Use_time" value="..."/>
 		<property name="Sound_start" value="player_eating"/>
-		<!-- jar from cooking food <property name="Create_item" value="drinkJarEmpty"/> -->
+		<property name="SmellUse" value="25"/>
 	</property>
 	<property name="Group" value="Food/Cooking,CFFood/Cooking"/>
 
@@ -754,6 +771,7 @@
 			<requirement name="HasBuff" buff="buffFarmerSetBonus"/></triggered_effect>
 		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar=".foodStaminaBonusAdd" operation="add" value="10"/>
 		<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="buffProcessConsumables"/>
+		<display_value name="dSmellUse" value="25"/>
 	</effect_group>
 </item>
 
@@ -787,6 +805,7 @@
 		<display_value name="dCureInfection" value=".01"/>
 		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="$buffInfectionAddCurePerc" operation="add" value="1"/>
 		<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="buffInfectionAddCure"/>
+		<display_value name="dSmellUse" value="0"/>
 	</effect_group>
 </item>
 
@@ -806,7 +825,9 @@
 		<property name="Class" value="Eat"/>
 		<property name="Delay" value="1.0"/>
 		<property name="Sound_start" value="player_drinking"/>
-		<!-- jar from cooking food <property name="Create_item" value="drinkJarEmpty"/> -->
+		<property name="SmellUse" value="50"/>
+		<property name="Create_item" value="drinkJarEmpty"/>
+		<property name="Use_jar_refund" value="true"/>
 	</property>
 	<property name="Group" value="Food/Cooking,CFFood/Cooking"/>
 
@@ -822,6 +843,7 @@
 		<display_value name="dCureInfection" value=".05"/>
 		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="$buffInfectionAddCurePerc" operation="add" value="5"/>
 		<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="buffInfectionAddCure"/>
+		<display_value name="dSmellUse" value="50"/>
 	</effect_group>
 </item>
 
@@ -842,6 +864,7 @@
 		<property name="Class" value="Eat"/>
 		<property name="Delay" value="1.0"/>
 		<property name="Sound_start" value="player_eating"/>
+		<property name="SmellUse" value="50"/>
 	</property>
 	<property name="Group" value="Food/Cooking,CFFood/Cooking"/>
 
@@ -852,6 +875,7 @@
 			<requirement name="HasBuff" buff="buffFarmerSetBonus"/></triggered_effect>
 		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar=".foodStaminaBonusAdd" operation="add" value="20"/>
 		<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="buffProcessConsumables"/>
+		<display_value name="dSmellUse" value="50"/>
 	</effect_group>
 </item>
 
@@ -872,9 +896,8 @@
 	<property class="Action0">
 		<property name="Class" value="Eat"/>
 		<property name="Delay" value="1.0"/>
-		<property name="Use_time" value="..."/>
 		<property name="Sound_start" value="player_drinking"/>
-		<!-- jar from cooking food <property name="Create_item" value="drinkJarEmpty"/> -->
+		<property name="SmellUse" value="50"/>
 	</property>
 	<property name="Group" value="Food/Cooking,CFFood/Cooking"/>
 	
@@ -890,6 +913,7 @@
 		<display_value name="dCureInfection" value=".03"/>
 		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="$buffInfectionAddCurePerc" operation="add" value="3"/>
 		<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="buffInfectionAddCure"/>
+		<display_value name="dSmellUse" value="50"/>
 	</effect_group>
 </item>
 
@@ -907,9 +931,8 @@
 	<property class="Action0">
 		<property name="Class" value="Eat"/>
 		<property name="Delay" value="1.0"/>
-		<property name="Use_time" value="..."/>
 		<property name="Sound_start" value="player_eating"/>
-		<!-- jar from cooking food <property name="Create_item" value="drinkJarEmpty"/> -->
+		<property name="SmellUse" value="25"/>
 	</property>
 	<property name="Group" value="Food/Cooking,CFFood/Cooking"/>
 	<effect_group tiered="false" name="Food Tier 0">
@@ -922,7 +945,8 @@
 		
 		<display_value name="dCureInfection" value=".01"/>
 		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="$buffInfectionAddCurePerc" operation="add" value="1"/>
-		<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="buffInfectionAddCure"/>		
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="buffInfectionAddCure"/>
+		<display_value name="dSmellUse" value="25"/>		
 	</effect_group>
 </item>
 
@@ -941,6 +965,9 @@
 		<property name="Class" value="Eat"/>
 		<property name="Delay" value="1.0"/>
 		<property name="Sound_start" value="player_eating"/>
+		<property name="SmellUse" value="25"/>
+		<property name="Create_item" value="drinkJarEmpty"/>
+		<property name="Use_jar_refund" value="true"/>
 	</property>
 	<property name="Group" value="Food/Cooking,CFFood/Cooking"/>
 
@@ -952,6 +979,7 @@
 		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyStats" stat="water" operation="add" value="-5"/>
 		<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="buffProcessConsumables"/>
 		<display_value name="$waterAmountAdd" value="-5"/>
+		<display_value name="dSmellUse" value="25"/>
 	</effect_group>
 </item>
 
@@ -968,9 +996,8 @@
 	<property class="Action0">
 		<property name="Class" value="Eat"/>
 		<property name="Delay" value="1.0"/>
-		<property name="Use_time" value="..."/>
 		<property name="Sound_start" value="player_eating"/>
-		<!-- jar from cooking food <property name="Create_item" value="drinkJarEmpty"/> -->
+		<property name="SmellUse" value="25"/>
 	</property>
 	<property name="Group" value="Food/Cooking,CFFood/Cooking"/>
 
@@ -981,6 +1008,7 @@
 			<requirement name="HasBuff" buff="buffFarmerSetBonus"/></triggered_effect>
 		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar=".foodStaminaBonusAdd" operation="add" value="10"/>
 		<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="buffProcessConsumables"/>
+		<display_value name="dSmellUse" value="25"/>
 	</effect_group>
 </item>
 
@@ -1000,7 +1028,9 @@
 		<property name="Class" value="Eat"/>
 		<property name="Delay" value="1.0"/>
 		<property name="Sound_start" value="player_eating"/>
-		<!-- <property name="Create_item" value="drinkJarEmpty"/> -->
+		<property name="SmellUse" value="50"/>
+		<property name="Create_item" value="drinkJarEmpty"/>
+		<property name="Use_jar_refund" value="true"/>
 	</property>
 	<property name="Group" value="Food/Cooking,CFFood/Cooking"/>
 	
@@ -1025,7 +1055,8 @@
 			
 		<display_value name="dCureInfection" value=".1"/>
 		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="$buffInfectionAddCurePerc" operation="add" value="10"/>
-		<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="buffInfectionAddCure"/>	
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="buffInfectionAddCure"/>
+		<display_value name="dSmellUse" value="50"/>
 	</effect_group>
 
 	<effect_group tiered="false">
@@ -1049,6 +1080,7 @@
 		<property name="Class" value="Eat"/>
 		<property name="Delay" value="1.0"/>
 		<property name="Sound_start" value="player_eating"/>
+		<property name="SmellUse" value="25"/>
 	</property>
 	<property name="Group" value="Food/Cooking,CFFood/Cooking"/>
 
@@ -1060,6 +1092,7 @@
 		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyStats" stat="water" operation="add" value="-5"/>
 		<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="buffProcessConsumables"/>
 		<display_value name="$waterAmountAdd" value="-5"/>
+		<display_value name="dSmellUse" value="25"/>
 	</effect_group>
 </item>
 
@@ -1078,6 +1111,7 @@
 		<property name="Class" value="Eat"/>
 		<property name="Delay" value="1.0"/>
 		<property name="Sound_start" value="player_eating"/>
+		<property name="SmellUse" value="25"/>
 	</property>
 	<property name="Group" value="Food/Cooking,CFFood/Cooking"/>
 
@@ -1089,6 +1123,7 @@
 		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyStats" stat="water" operation="add" value="-5"/>
 		<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="buffProcessConsumables"/>
 		<display_value name="$waterAmountAdd" value="-5"/>
+		<display_value name="dSmellUse" value="25"/>
 	</effect_group>
 </item>
 
@@ -1105,7 +1140,7 @@
 		<property name="Class" value="Eat"/>
 		<property name="Delay" value="1.0"/>
 		<property name="Sound_start" value="player_eating"/>
-		<!-- jar from cooking food <property name="Create_item" value="drinkJarEmpty"/> -->
+		<property name="SmellUse" value="25"/>
 	</property>
 	<property name="Group" value="Food/Cooking,CFFood/Cooking"/>
 
@@ -1117,6 +1152,7 @@
 		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="$waterAmountAdd" operation="add" value="5"/>
 		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar=".foodStaminaBonusAdd" operation="add" value="30"/>
 		<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="buffProcessConsumables"/>
+		<display_value name="dSmellUse" value="25"/>
 	</effect_group>
 </item>
 
@@ -1136,7 +1172,7 @@
 		<property name="Class" value="Eat"/>
 		<property name="Delay" value="1.0"/>
 		<property name="Sound_start" value="player_eating"/>
-		<!-- <property name="Create_item" value="drinkJarEmpty"/> -->
+		<property name="SmellUse" value="25"/>
 	</property>
 	<property name="Group" value="Food/Cooking,CFFood/Cooking"/>
 	
@@ -1157,6 +1193,7 @@
 			<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="$buffRedTeaDuration" operation="set" value="1083">
 				<requirement name="CVarCompare" cvar="$buffRedTeaDuration" operation="GT" value="1083"/></triggered_effect>
 			<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="buffProcessConsumables,buffRedTea"/>
+		<display_value name="dSmellUse" value="25"/>
 	</effect_group>
 
 	<effect_group tiered="false">
@@ -1179,7 +1216,7 @@
 		<property name="Class" value="Eat"/>
 		<property name="Delay" value="1.0"/>
 		<property name="Sound_start" value="player_eating"/>
-		<!-- <property name="Create_item" value="drinkCanEmpty"/> -->
+		<property name="SmellUse" value="25"/>
 	</property>
 	<property name="Group" value="Food/Cooking,CFFood/Cooking"/>
 
@@ -1189,6 +1226,7 @@
 		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="foodHealthFarmer" operation="set" value="7">
 			<requirement name="HasBuff" buff="buffFarmerSetBonus"/></triggered_effect>
 		<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="buffProcessConsumables"/>
+		<display_value name="dSmellUse" value="25"/>
 	</effect_group>
 </item>
 
@@ -1208,8 +1246,8 @@
 	<property class="Action0">
 		<property name="Class" value="Eat"/>
 		<property name="Delay" value="1.0"/>
-		<property name="Use_time" value="..."/>
 		<property name="Sound_start" value="player_eating"/>
+		<property name="SmellUse" value="50"/>
 	</property>
 	<property name="Group" value="Food/Cooking,CFFood/Cooking"/>
 
@@ -1220,6 +1258,7 @@
 			<requirement name="HasBuff" buff="buffFarmerSetBonus"/></triggered_effect>
 		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar=".foodStaminaBonusAdd" operation="add" value="20"/>
 		<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="buffProcessConsumables"/>
+		<display_value name="dSmellUse" value="50"/>
 	</effect_group>
 </item>
 
@@ -1255,7 +1294,9 @@
 		<property name="Class" value="Eat"/>
 		<property name="Delay" value="1.0"/>
 		<property name="Sound_start" value="player_drinking"/>
-		<!-- jar from cooking food <property name="Create_item" value="drinkJarEmpty"/> -->
+		<property name="SmellUse" value="50"/>
+		<property name="Create_item" value="drinkJarEmpty"/>
+		<property name="Use_jar_refund" value="true"/>
 	</property>
 	<property name="Group" value="Food/Cooking,CFFood/Cooking"/>
 
@@ -1267,6 +1308,7 @@
 		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="$waterAmountAdd" operation="add" value="25"/>
 		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar=".foodStaminaBonusAdd" operation="add" value="30"/>
 		<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="buffProcessConsumables"/>
+		<display_value name="dSmellUse" value="50"/>
 	</effect_group>
 </item>
 
@@ -1286,7 +1328,7 @@
 		<property name="Class" value="Eat"/>
 		<property name="Delay" value="1.0"/>
 		<property name="Sound_start" value="player_drinking"/>
-		<!-- jar from cooking food <property name="Create_item" value="drinkJarEmpty"/> -->
+		<property name="SmellUse" value="50"/>
 	</property>
 	<property name="Group" value="Food/Cooking,CFFood/Cooking"/>
 
@@ -1298,6 +1340,7 @@
 		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="$waterAmountAdd" operation="add" value="25"/>
 		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar=".foodStaminaBonusAdd" operation="add" value="30"/>
 		<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="buffProcessConsumables"/>
+		<display_value name="dSmellUse" value="50"/>
 	</effect_group>
 </item>
 
@@ -1319,8 +1362,8 @@
 	<property class="Action0">
 		<property name="Class" value="Eat"/>
 		<property name="Delay" value="1.0"/>
-		<property name="Use_time" value="..."/>
 		<property name="Sound_start" value="player_eating"/>
+		<property name="SmellUse" value="50"/>
 	</property>
 	<property name="Group" value="Food/Cooking,CFFood/Cooking"/>
 
@@ -1331,6 +1374,7 @@
 			<requirement name="HasBuff" buff="buffFarmerSetBonus"/></triggered_effect>
 		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar=".foodStaminaBonusAdd" operation="add" value="20"/>
 		<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="buffProcessConsumables"/>
+		<display_value name="dSmellUse" value="50"/>
 	</effect_group>
 </item>
 
@@ -1351,6 +1395,7 @@
 		<property name="Class" value="Eat"/>
 		<property name="Delay" value="1.0"/>
 		<property name="Sound_start" value="player_eating"/>
+		<property name="SmellUse" value="50"/>
 	</property>
 	<property name="Group" value="Food/Cooking,CFFood/Cooking"/>
 
@@ -1362,6 +1407,7 @@
 		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="$waterAmountAdd" operation="add" value="20"/>
 		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar=".foodStaminaBonusAdd" operation="add" value="40"/>
 		<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="buffProcessConsumables"/>
+		<display_value name="dSmellUse" value="50"/>
 	</effect_group>
 </item>
 
@@ -1381,7 +1427,7 @@
 		<property name="Class" value="Eat"/>
 		<property name="Delay" value="1.0"/>
 		<property name="Sound_start" value="player_drinking"/>
-		<!-- jar from cooking food <property name="Create_item" value="drinkJarEmpty"/> -->
+		<property name="SmellUse" value="50"/>
 	</property>
 	<property name="Group" value="Food/Cooking,CFFood/Cooking"/>
 
@@ -1393,6 +1439,7 @@
 		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="$waterAmountAdd" operation="add" value="15"/>
 		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar=".foodStaminaBonusAdd" operation="add" value="30"/>
 		<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="buffProcessConsumables"/>
+		<display_value name="dSmellUse" value="50"/>
 	</effect_group>
 </item>
 
@@ -1413,6 +1460,7 @@
 		<property name="Class" value="Eat"/>
 		<property name="Delay" value="1.0"/>
 		<property name="Sound_start" value="player_eating"/>
+		<property name="SmellUse" value="50"/>
 	</property>
 	<property name="Group" value="Food/Cooking,CFFood/Cooking"/>
 
@@ -1424,6 +1472,7 @@
 		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="$waterAmountAdd" operation="add" value="20"/>
 		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar=".foodStaminaBonusAdd" operation="add" value="40"/>
 		<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="buffProcessConsumables"/>
+		<display_value name="dSmellUse" value="50"/>
 	</effect_group>
 </item>
 
@@ -1442,8 +1491,8 @@
 	<property class="Action0">
 		<property name="Class" value="Eat"/>
 		<property name="Delay" value="1.0"/>
-		<property name="Use_time" value="..."/>
 		<property name="Sound_start" value="player_eating"/>
+		<property name="SmellUse" value="25"/>
 	</property>
 	<effect_group tiered="false" name="Food Tier 1">
 		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="$foodAmountAdd" operation="add" value="28"/>
@@ -1458,6 +1507,7 @@
 		<display_value name="dCureInfection" value=".01"/>
 		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="$buffInfectionAddCurePerc" operation="add" value="1"/>
 		<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="buffInfectionAddCure"/>
+		<display_value name="dSmellUse" value="25"/>
 	</effect_group>
 </item>
 
@@ -1477,6 +1527,7 @@
 		<property name="Class" value="Eat"/>
 		<property name="Delay" value="2.1"/>
 		<property name="Sound_start" value="player_eating"/>
+		<property name="SmellUse" value="25"/>
 	</property>
 	<property name="Group" value="Food/Cooking,CFFood/Cooking"/>
 
@@ -1487,6 +1538,7 @@
 			<requirement name="HasBuff" buff="buffFarmerSetBonus"/></triggered_effect>
 		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar=".foodStaminaBonusAdd" operation="add" value="10"/>
 		<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="buffProcessConsumables"/>
+		<display_value name="dSmellUse" value="25"/>
 	</effect_group>
 </item>
 
@@ -1506,7 +1558,9 @@
 		<property name="Class" value="Eat"/>
 		<property name="Delay" value="1.0"/>
 		<property name="Sound_start" value="player_eating"/>
-		<!-- jar from cooking food <property name="Create_item" value="drinkJarEmpty"/> -->
+		<property name="SmellUse" value="25"/>
+		<property name="Create_item" value="drinkJarEmpty"/>
+		<property name="Use_jar_refund" value="true"/>
 	</property>
 	<property name="Group" value="Food/Cooking,CFFood/Cooking"/>
 	<effect_group tiered="false" name="Food Tier 2">
@@ -1516,6 +1570,7 @@
 			<requirement name="HasBuff" buff="buffFarmerSetBonus"/></triggered_effect>
 		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar=".foodStaminaBonusAdd" operation="add" value="20"/>
 		<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="buffProcessConsumables"/>
+		<display_value name="dSmellUse" value="25"/>
 	</effect_group>
 </item>
 
@@ -1544,6 +1599,7 @@
 		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="foodHealthFarmer" operation="set" value="2">
 			<requirement name="HasBuff" buff="buffFarmerSetBonus"/></triggered_effect>
 		<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="buffProcessConsumables"/>
+		<display_value name="dSmellUse" value="0"/>
 	</effect_group>
 </item>
 
@@ -1572,6 +1628,7 @@
 		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="foodHealthFarmer" operation="set" value="3">
 			<requirement name="HasBuff" buff="buffFarmerSetBonus"/></triggered_effect>
 		<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="buffProcessConsumables"/>
+		<display_value name="dSmellUse" value="0"/>
 	</effect_group>
 </item>
 
@@ -1591,6 +1648,7 @@
 		<property name="Class" value="Eat"/>
 		<property name="Delay" value="2.1"/>
 		<property name="Sound_start" value="player_eating"/>
+		<property name="SmellUse" value="25"/>
 	</property>
 	<property name="Group" value="Food/Cooking,CFFood/Cooking"/>
 
@@ -1601,6 +1659,7 @@
 			<requirement name="HasBuff" buff="buffFarmerSetBonus"/></triggered_effect>
 		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar=".foodStaminaBonusAdd" operation="add" value="10"/>
 		<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="buffProcessConsumables"/>
+		<display_value name="dSmellUse" value="25"/>
 	</effect_group>
 </item>
 
@@ -1620,6 +1679,7 @@
 		<property name="Class" value="Eat"/>
 		<property name="Delay" value="2.1"/>
 		<property name="Sound_start" value="player_eating"/>
+		<property name="SmellUse" value="25"/>
 	</property>
 	<property name="Smell" value="largeSmell"/>
 	<property name="Group" value="Food/Cooking,CFFood/Cooking"/>
@@ -1631,6 +1691,7 @@
 			<requirement name="HasBuff" buff="buffFarmerSetBonus"/></triggered_effect>
 		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar=".foodStaminaBonusAdd" operation="add" value="10"/>
 		<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="buffProcessConsumables"/>
+		<display_value name="dSmellUse" value="25"/>
 	</effect_group>
 </item>
 
@@ -1659,6 +1720,7 @@
 		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="foodHealthFarmer" operation="set" value="3">
 			<requirement name="HasBuff" buff="buffFarmerSetBonus"/></triggered_effect>
 		<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="buffProcessConsumables"/>
+		<display_value name="dSmellUse" value="0"/>
 	</effect_group>
 </item>
 
@@ -1678,7 +1740,9 @@
 		<property name="Class" value="Eat"/>
 		<property name="Delay" value="1.0"/>
 		<property name="Sound_start" value="player_eating"/>
-		<!-- jar from cooking food <property name="Create_item" value="drinkJarEmpty"/> -->
+		<property name="SmellUse" value="25"/>
+		<property name="Create_item" value="drinkJarEmpty"/>
+		<property name="Use_jar_refund" value="true"/>
 	</property>
 	<property name="Group" value="Food/Cooking,CFFood/Cooking"/>
 	<effect_group tiered="false" name="Food Tier 2">
@@ -1688,6 +1752,7 @@
 			<requirement name="HasBuff" buff="buffFarmerSetBonus"/></triggered_effect>
 		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar=".foodStaminaBonusAdd" operation="add" value="20"/>
 		<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="buffProcessConsumables"/>
+		<display_value name="dSmellUse" value="25"/>
 	</effect_group>
 </item>
 
@@ -1707,7 +1772,9 @@
 		<property name="Class" value="Eat"/>
 		<property name="Delay" value="1.0"/>
 		<property name="Sound_start" value="player_eating"/>
-		<!-- jar from cooking food <property name="Create_item" value="drinkJarEmpty"/> -->
+		<property name="SmellUse" value="50"/>
+		<property name="Create_item" value="drinkJarEmpty"/>
+		<property name="Use_jar_refund" value="true"/>
 	</property>
 	<property name="Group" value="Food/Cooking,CFFood/Cooking"/>
 	<effect_group tiered="false" name="Food Tier 3">
@@ -1717,6 +1784,7 @@
 			<requirement name="HasBuff" buff="buffFarmerSetBonus"/></triggered_effect>
 		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar=".foodStaminaBonusAdd" operation="add" value="40"/>
 		<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="buffProcessConsumables"/>
+		<display_value name="dSmellUse" value="50"/>
 	</effect_group>
 </item>
 
@@ -1736,7 +1804,7 @@
 		<property name="Class" value="Eat"/>
 		<property name="Delay" value="1.0"/>
 		<property name="Sound_start" value="player_drinking"/>
-		<!-- jar from cooking food <property name="Create_item" value="drinkJarEmpty"/> -->
+		<property name="SmellUse" value="50"/>
 	</property>
 	<property name="Group" value="Food/Cooking,CFFood/Cooking"/>
 
@@ -1748,6 +1816,7 @@
 		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="$waterAmountAdd" operation="add" value="20"/>
 		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar=".foodStaminaBonusAdd" operation="add" value="20"/>
 		<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="buffProcessConsumables"/>
+		<display_value name="dSmellUse" value="50"/>
 	</effect_group>
 </item>
 
@@ -1766,7 +1835,8 @@
 		<property name="Class" value="Eat"/>
 		<property name="Delay" value="1.0"/>
 		<property name="Sound_start" value="player_drinking"/>
-		<!-- <property name="Create_item" value="drinkJarEmpty"/> -->
+		<property name="Create_item" value="drinkJarEmpty"/>
+		<property name="Use_jar_refund" value="true"/>
 	</property>
 	<property name="Group" value="Food/Cooking,CFDrink/Cooking"/>
 	<effect_group tiered="false" name="drinkCactusFruitJuice">
@@ -1803,7 +1873,8 @@
 		<property name="Class" value="Eat"/>
 		<property name="Delay" value="1.0"/>
 		<property name="Sound_start" value="player_drinking"/>
-		<!-- <property name="Create_item" value="drinkJarEmpty"/> -->
+		<property name="Create_item" value="drinkJarEmpty"/>
+		<property name="Use_jar_refund" value="true"/>
 	</property>
 	<property name="Group" value="Food/Cooking,CFDrink/Cooking"/>
 	<effect_group tiered="false" name="Drink Tier 3">
@@ -1842,7 +1913,6 @@
 		<property name="Class" value="Eat"/>
 		<property name="Delay" value="1.0"/>
 		<property name="Sound_start" value="player_drinking"/>
-		<!-- <property name="Create_item" value="drinkJarEmpty"/> -->
 	</property>
 	<property name="Group" value="Food/Cooking,CFDrink/Cooking"/>
 	
@@ -1900,6 +1970,7 @@
 		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyStats" stat="water" operation="add" value="-3"/>
 		<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="buffProcessConsumables"/>
 		<display_value name="$waterAmountAdd" value="-3"/>
+		<display_value name="dSmellUse" value="0"/>
 	</effect_group>
 </item>
 
@@ -1917,7 +1988,8 @@
 		<property name="Class" value="Eat"/>
 		<property name="Delay" value="1.0"/>
 		<property name="Sound_start" value="player_drinking"/>
-		<!-- <property name="Create_item" value="drinkJarEmpty"/> -->
+		<property name="Create_item" value="drinkJarEmpty"/>
+		<property name="Use_jar_refund" value="true"/>
 	</property>
 	<property name="Group" value="Food/Cooking,CFDrink/Cooking"/>
 
@@ -1954,7 +2026,6 @@
 		<property name="Class" value="Eat"/>
 		<property name="Delay" value="1.0"/>
 		<property name="Sound_start" value="player_drinking"/>
-		<!-- <property name="Create_item" value="drinkJarEmpty"/> -->
 	</property>
 	<property name="Group" value="Food/Cooking,CFDrink/Cooking"/>
 	<effect_group tiered="false" name="Wombat">
@@ -2021,9 +2092,8 @@
 	<property class="Action0">
 		<property name="Class" value="Eat"/>
 		<property name="Delay" value="1.0"/>
-		<property name="Use_time" value="..."/>
 		<property name="Sound_start" value="player_eating"/>
-		<!-- jar from cooking food <property name="Create_item" value="drinkJarEmpty"/> -->
+		<property name="SmellUse" value="25"/>
 	</property>
 	<property name="Group" value="Food/Cooking,CFFood/Cooking"/>
 
@@ -2034,6 +2104,7 @@
 			<requirement name="HasBuff" buff="buffFarmerSetBonus"/></triggered_effect>
 		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar=".foodStaminaBonusAdd" operation="add" value="25"/>
 		<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="buffProcessConsumables"/>
+		<display_value name="dSmellUse" value="25"/>
 	</effect_group>
 </item>
 
@@ -2052,9 +2123,8 @@
 	<property class="Action0">
 		<property name="Class" value="Eat"/>
 		<property name="Delay" value="1.0"/>
-		<property name="Use_time" value="..."/>
 		<property name="Sound_start" value="player_eating"/>
-		<!-- jar from cooking food <property name="Create_item" value="drinkJarEmpty"/> -->
+		<property name="SmellUse" value="25"/>
 	</property>
 	<property name="Group" value="Food/Cooking,CFFood/Cooking"/>
 
@@ -2065,6 +2135,7 @@
 			<requirement name="HasBuff" buff="buffFarmerSetBonus"/></triggered_effect>
 		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar=".foodStaminaBonusAdd" operation="add" value="15"/>
 		<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="buffProcessConsumables"/>
+		<display_value name="dSmellUse" value="25"/>
 	</effect_group>
 </item>
 
@@ -2085,9 +2156,8 @@
 	<property class="Action0">
 		<property name="Class" value="Eat"/>
 		<property name="Delay" value="1.0"/>
-		<property name="Use_time" value="..."/>
 		<property name="Sound_start" value="player_drinking"/>
-		<!-- jar from cooking food <property name="Create_item" value="drinkJarEmpty"/> -->
+		<property name="SmellUse" value="50"/>
 	</property>
 	<property name="Group" value="Food/Cooking,CFFood/Cooking"/>
 
@@ -2099,6 +2169,7 @@
 		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="$waterAmountAdd" operation="add" value="20"/>
 		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar=".foodStaminaBonusAdd" operation="add" value="20"/>
 		<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="buffProcessConsumables"/>
+		<display_value name="dSmellUse" value="50"/>
 	</effect_group>
 </item>
 
@@ -2118,6 +2189,7 @@
 		<property name="Class" value="Eat"/>
 		<property name="Delay" value="2.1"/>
 		<property name="Sound_start" value="player_eating"/>
+		<property name="SmellUse" value="50"/>
 	</property>
 	<property name="Smell" value="largeSmell"/>
 	<property name="Group" value="Food/Cooking,CFFood/Cooking"/>
@@ -2129,6 +2201,7 @@
 			<requirement name="HasBuff" buff="buffFarmerSetBonus"/></triggered_effect>
 		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar=".foodStaminaBonusAdd" operation="add" value="15"/>
 		<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="buffProcessConsumables"/>
+		<display_value name="dSmellUse" value="50"/>
 	</effect_group>
 </item>
 
@@ -2147,9 +2220,8 @@
 	<property class="Action0">
 		<property name="Class" value="Eat"/>
 		<property name="Delay" value="1.0"/>
-		<property name="Use_time" value="..."/>
 		<property name="Sound_start" value="player_eating"/>
-		<!-- jar from cooking food <property name="Create_item" value="drinkJarEmpty"/> -->
+		<property name="SmellUse" value="25"/>
 	</property>
 	<property name="Group" value="Food/Cooking,CFFood/Cooking"/>
 
@@ -2162,6 +2234,7 @@
 		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar=".foodStaminaBonusAdd" operation="add" value="5"/>
 		<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="buffProcessConsumables"/>
 		<display_value name="$waterAmountAdd" value="-5"/>
+		<display_value name="dSmellUse" value="25"/>
 		
 		<display_value name="dCureInfection" value=".01"/>
 		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="$buffInfectionAddCurePerc" operation="add" value="1"/>
@@ -2184,7 +2257,6 @@
 	<property class="Action0">
 		<property name="Class" value="Eat"/>
 		<property name="Delay" value="2.1"/>
-		<property name="Use_time" value="..."/>
 		<property name="Sound_start" value="player_eating"/>
 	</property>
 	<property name="Group" value="Food/Cooking,CFFood/Cooking"/>
@@ -2200,6 +2272,7 @@
 		<display_value name="dCureInfection" value=".01"/>
 		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="$buffInfectionAddCurePerc" operation="add" value="1"/>
 		<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="buffInfectionAddCure"/>
+		<display_value name="dSmellUse" value="0"/>
 	</effect_group>
 </item>
 
@@ -2247,9 +2320,8 @@
 	<property class="Action0">
 		<property name="Class" value="Eat"/>
 		<property name="Delay" value="1.0"/>
-		<property name="Use_time" value="..."/>
 		<property name="Sound_start" value="player_eating"/>
-		<!-- jar from cooking food <property name="Create_item" value="drinkJarEmpty"/> -->
+		<property name="SmellUse" value="25"/>
 	</property>
 	<property name="Group" value="Food/Cooking,CFFood/Cooking"/>
 
@@ -2264,6 +2336,7 @@
 		<display_value name="dCureInfection" value=".05"/>
 		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="$buffInfectionAddCurePerc" operation="add" value="5"/>
 		<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="buffInfectionAddCure"/>
+		<display_value name="dSmellUse" value="25"/>
 	</effect_group>
 </item>
 
@@ -2281,9 +2354,8 @@
 	<property class="Action0">
 		<property name="Class" value="Eat"/>
 		<property name="Delay" value="1.0"/>
-		<property name="Use_time" value="..."/>
 		<property name="Sound_start" value="player_eating"/>
-		<!-- jar from cooking food <property name="Create_item" value="drinkJarEmpty"/> -->
+		<property name="SmellUse" value="25"/>
 	</property>
 	<property name="Group" value="Food/Cooking,CFFood/Cooking"/>
 	<effect_group tiered="false" name="Food Tier 2">
@@ -2296,7 +2368,8 @@
 		
 		<display_value name="dCureInfection" value=".05"/>
 		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="$buffInfectionAddCurePerc" operation="add" value="5"/>
-		<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="buffInfectionAddCure"/>		
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="buffInfectionAddCure"/>
+		<display_value name="dSmellUse" value="25"/>		
 	</effect_group>
 </item>
 
@@ -2315,7 +2388,7 @@
 		<property name="Class" value="Eat"/>
 		<property name="Delay" value="1.0"/>
 		<property name="Sound_start" value="player_eating"/>
-		<!-- jar from cooking food <property name="Create_item" value="drinkJarEmpty"/> -->
+		<property name="SmellUse" value="25"/>
 	</property>
 	<property name="Group" value="Food/Cooking,CFFood/Cooking"/>
 	<effect_group tiered="false" name="Food Tier 2">
@@ -2329,6 +2402,7 @@
 		<display_value name="dCureInfection" value=".05"/>
 		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="$buffInfectionAddCurePerc" operation="add" value="5"/>
 		<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="buffInfectionAddCure"/>
+		<display_value name="dSmellUse" value="25"/>
 	</effect_group>
 </item>
 
@@ -2347,9 +2421,8 @@
 	<property class="Action0">
 		<property name="Class" value="Eat"/>
 		<property name="Delay" value="1.0"/>
-		<property name="Use_time" value="..."/>
 		<property name="Sound_start" value="player_eating"/>
-		<!-- jar from cooking food <property name="Create_item" value="drinkJarEmpty"/> -->
+		<property name="SmellUse" value="25"/>
 	</property>
 	<property name="Group" value="Food/Cooking,CFFood/Cooking"/>
 
@@ -2364,6 +2437,7 @@
 		<display_value name="dCureInfection" value=".05"/>
 		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="$buffInfectionAddCurePerc" operation="add" value="5"/>
 		<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="buffInfectionAddCure"/>
+		<display_value name="dSmellUse" value="25"/>
 	</effect_group>
 </item>
 
@@ -2385,7 +2459,8 @@
 		<property name="Class" value="Eat"/>
 		<property name="Delay" value="2"/>
 		<property name="Sound_start" value="player_drinking"/>
-		<!-- <property name="Create_item" value="drinkJarEmpty"/> -->
+		<property name="Create_item" value="drinkJarEmpty"/>
+		<property name="Use_jar_refund" value="true"/>
 	</property>
 	<effect_group tiered="false" name="Drink Tier 3">
 		<requirement name="NotHasBuff" buff="buffIsOnFire"/>
@@ -4152,7 +4227,7 @@
 <item name="vehiclePocoCarPlaceable">
     <property name="Extends" value="vehicleMinibikePlaceable"/>
     <!--property name="UnlockedBy" value="craftingVehicles"/-->    
-	<property name="Tags" value="vehicle,vengine,vfuel,vlight,vplow,vseat,canHaveCosmetic"/>
+	<property name="Tags" value="vehicle,vengine,vfuel,vlight,vplow,vseat,vstorage,canHaveCosmetic"/>
     <property name="Meshfile" value="#@modfolder:/Resources/ApocCar1.unity3d?ApocCar.prefab"/>
     <property name="Material" value="Mmetal"/>
     <property name="EconomicValue" value="30000"/>
@@ -4172,7 +4247,7 @@
 <item name="vehiclePocoBuggyPlaceable">
     <property name="Extends" value="vehicleMinibikePlaceable"/>
     <!--property name="UnlockedBy" value="craftingVehicles"/-->    
-	<property name="Tags" value="vehicle,vengine,vfuel,vlight,vplow,vseat,canHaveCosmetic"/>
+	<property name="Tags" value="vehicle,vengine,vfuel,vlight,vplow,vseat,vstorage,canHaveCosmetic"/>
     <property name="Meshfile" value="#@modfolder:/Resources/PreppoBuggy1.unity3d?PreppoBuggy.prefab"/>
     <property name="Material" value="Mmetal"/>
     <property name="EconomicValue" value="30000"/>
@@ -4192,7 +4267,7 @@
 <item name="vehiclePocoBattleCarPlaceable">
     <property name="Extends" value="vehicleMinibikePlaceable"/>
     <!--property name="UnlockedBy" value="craftingVehicles"/-->    
-	<property name="Tags" value="vehicle,vengine,vfuel,vlight,vplow,vseat,canHaveCosmetic"/>
+	<property name="Tags" value="vehicle,vengine,vfuel,vlight,vplow,vseat,vstorage,canHaveCosmetic"/>
     <property name="Meshfile" value="#@modfolder:/Resources/apocbattlecar1.unity3d?apocbattlecar.prefab"/>
     <property name="Material" value="Mmetal"/>
     <property name="EconomicValue" value="30000"/>
@@ -4212,7 +4287,7 @@
 <item name="vehiclePocoBusPlaceable">
     <property name="Extends" value="vehicleMinibikePlaceable"/>
     <!--property name="UnlockedBy" value="craftingVehicles"/-->    
-	<property name="Tags" value="vehicle,vengine,vfuel,vlight,vplow,vseat,canHaveCosmetic"/>
+	<property name="Tags" value="vehicle,vengine,vfuel,vlight,vplow,vseat,vstorage,canHaveCosmetic"/>
     <property name="Meshfile" value="#@modfolder:/Resources/ApocBus1.unity3d?ApocBus.prefab"/>
     <property name="Material" value="Mmetal"/>
     <property name="EconomicValue" value="30000"/>
@@ -4232,7 +4307,7 @@
 <item name="vehiclePocoTruckPlaceable">
     <property name="Extends" value="vehicleMinibikePlaceable"/>
     <!--property name="UnlockedBy" value="craftingVehicles"/-->    
-	<property name="Tags" value="vehicle,vengine,vfuel,vlight,vplow,vseat,canHaveCosmetic"/>
+	<property name="Tags" value="vehicle,vengine,vfuel,vlight,vplow,vseat,vstorage,canHaveCosmetic"/>
     <property name="Meshfile" value="#@modfolder:/Resources/appoctruck1.unity3d?appoctruck.prefab"/>
     <property name="Material" value="Mmetal"/>
     <property name="EconomicValue" value="30000"/>
@@ -4252,7 +4327,7 @@
 <item name="vehiclePocoNuxPlaceable">
     <property name="Extends" value="vehicleMinibikePlaceable"/>
     <!--property name="UnlockedBy" value="craftingVehicles"/-->    
-	<property name="Tags" value="vehicle,vengine,vfuel,vlight,vplow,vseat,canHaveCosmetic"/>
+	<property name="Tags" value="vehicle,vengine,vfuel,vlight,vplow,vseat,vstorage,canHaveCosmetic"/>
     <property name="Meshfile" value="#@modfolder:/Resources/apocnux1.unity3d?apocnux.prefab"/>
     <property name="Material" value="Mmetal"/>
     <property name="EconomicValue" value="30000"/>
@@ -4272,7 +4347,7 @@
 <item name="vehiclePocoRaceCarPlaceable">
     <property name="Extends" value="vehicleMinibikePlaceable"/>
     <!--property name="UnlockedBy" value="craftingVehicles"/-->    
-	<property name="Tags" value="vehicle,vengine,vfuel,vlight,vplow,vseat,canHaveCosmetic"/>
+	<property name="Tags" value="vehicle,vengine,vfuel,vlight,vplow,vseat,vstorage,canHaveCosmetic"/>
     <property name="Meshfile" value="#@modfolder:/Resources/apocracecar1.unity3d?apocracecar.prefab"/>
     <property name="Material" value="Mmetal"/>
     <property name="EconomicValue" value="30000"/>
@@ -4292,7 +4367,7 @@
 <item name="vehiclePocoBattleBuggyPlaceable">
     <property name="Extends" value="vehicleMinibikePlaceable"/>
     <!--property name="UnlockedBy" value="craftingVehicles"/-->    
-	<property name="Tags" value="vehicle,vengine,vfuel,vlight,vplow,vseat,canHaveCosmetic"/>
+	<property name="Tags" value="vehicle,vengine,vfuel,vlight,vplow,vseat,vstorage,canHaveCosmetic"/>
     <property name="Meshfile" value="#@modfolder:/Resources/apocbattlebuggy1.unity3d?apocbattlebuggy.prefab"/>
     <property name="Material" value="Mmetal"/>
     <property name="EconomicValue" value="30000"/>
@@ -4312,7 +4387,7 @@
 <item name="vehiclePocoBattleCranePlaceable">
     <property name="Extends" value="vehicleMinibikePlaceable"/>
     <!--property name="UnlockedBy" value="craftingVehicles"/-->    
-	<property name="Tags" value="vehicle,vengine,vfuel,vlight,vplow,vseat,canHaveCosmetic"/>
+	<property name="Tags" value="vehicle,vengine,vfuel,vlight,vplow,vseat,vstorage,canHaveCosmetic"/>
     <property name="Meshfile" value="#@modfolder:/Resources/apocbattlecrane1.unity3d?apocbattlecrane.prefab"/>
     <property name="Material" value="Mmetal"/>
     <property name="EconomicValue" value="30000"/>
@@ -4330,7 +4405,7 @@
 
 <item name="vehicleSpiderRiderPlaceable">
 	<property name="Extends" value="vehicleMinibikePlaceable"/> <!-- arramus -->
-	<property name="Tags" value="vehicle,vengine,vfuel,vlight,vseat,canHaveCosmetic"/>
+	<property name="Tags" value="vehicle,vengine,vfuel,vlight,vseat,vstorage,canHaveCosmetic"/>
 	<property name="CustomIcon" value="vehicleSpiderRiderPlaceable"/>
 	<property name="CustomIconTint" value="100,100,100"/>
 	<property name="HoldType" value="7"/>
@@ -4358,7 +4433,7 @@
 
 <item name="vehicleBalloon1Placeable">
 	<property name="Extends" value="vehicleMinibikePlaceable"/>	
-	<property name="Tags" value="vehicle,vengine,vfuel,vlight,vseat,canHaveCosmetic"/>
+	<property name="Tags" value="vehicle,vengine,vfuel,vlight,vseat,vstorage,canHaveCosmetic"/>
 	<property name="CustomIcon" value="vehicleBalloon1Placeable"/>
 	<property name="Meshfile" value="#@modfolder:Resources/V1Balloons.unity3d?oakballoon"/>
 	<property name="EconomicValue" value="30000"/>
@@ -4379,7 +4454,7 @@
 
 <item name="vehicleBalloon2Placeable">
 	<property name="Extends" value="vehicleMinibikePlaceable"/>	
-	<property name="Tags" value="vehicle,vengine,vfuel,vlight,vseat,canHaveCosmetic"/>
+	<property name="Tags" value="vehicle,vengine,vfuel,vlight,vseat,vstorage,canHaveCosmetic"/>
 	<property name="CustomIcon" value="vehicleBalloon2Placeable"/>	
 	<property name="Meshfile" value="#@modfolder:Resources/V1Balloons.unity3d?oakballoon2"/>
 	<property name="EconomicValue" value="30000"/>

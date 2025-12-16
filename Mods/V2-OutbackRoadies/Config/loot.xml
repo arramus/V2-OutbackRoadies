@@ -27,6 +27,11 @@
 	<set xpath="/lootcontainers/lootcontainer[@name='lockersNOPOP']/@size">8,9</set> <!-- Player Lockers from 6,2 as above -->
 	<set xpath="/lootcontainers/lootcontainer[@name='refrigeratorNOPOP']/@size">8,9</set> <!-- Player Refrigerator from 6,4 as above -->
 
+	<!-- This lootgroup is somewhat irregular at present with 2.5 reshuffle and bringing in less scripted luck -->
+	<append xpath="/lootcontainers/lootgroup[@name='workstationToolsScaled']">
+	<item name="toolForgeCrucible" count="1" loot_prob_template="veryLowDelayed"/>
+	</append>
+
 	<remove xpath="/lootcontainers/lootcontainer[@name='birdNest']" />
 	
 	<append xpath="/lootcontainers/lootgroup[@name='rareFoodDrink']">
@@ -82,22 +87,31 @@
 	<item name="meleeWpnClubT3NewCricketBat"/>
 	</append>
 	
-	<!-- Bringing in mid/late range vehicle mod schematics earlier and keeping them later to remove scripted drops which are far too predictable -->	
-	<!-- T0_Vehicle_Mod_Schematics -->	
+	<!-- Bringing in mid/late range vehicle mod schematics earlier and keeping them all later to remove scripted drops which are far too predictable -->	
+	<!-- T0_Vehicle_Mod_Schematics -->
 	<append xpath="/lootcontainers/lootgroup[@name='vehicleModSchematics01']">
 	<item name="modVehicleFuelSaverSchematic"/>
 	<item name="modVehicleReserveFuelTankSchematic"/>
+	<item name="modVehicleExpandedSeatSchematic"/>
+	<item name="modVehicleSuperChargerSchematic"/>
+	<item name="modVehiclePlowSchematic"/>
+	<item name="modVehicleArmorSchematic"/>
 	</append>
 	
 	<!-- T1_Vehicle_Mod_Schematics -->	
 	<append xpath="/lootcontainers/lootgroup[@name='vehicleModSchematics02']">
 	<item name="modVehicleOffRoadHeadlightsSchematic"/>
+	<item name="modVehicleStorageSchematic"/>
 	<item name="modVehicleExpandedSeatSchematic"/>
 	<item name="modVehicleSuperChargerSchematic"/>
+	<item name="modVehiclePlowSchematic"/>
+	<item name="modVehicleArmorSchematic"/>
 	</append>
 	
 	<!-- T2_Vehicle_Mod_Schematics -->	
 	<append xpath="/lootcontainers/lootgroup[@name='vehicleModSchematics03']">
+	<item name="modVehicleOffRoadHeadlightsSchematic"/>
+	<item name="modVehicleStorageSchematic"/>
 	<item name="modVehicleFuelSaverSchematic"/>
 	<item name="modVehicleReserveFuelTankSchematic"/>
 	</append>
@@ -259,16 +273,8 @@
 	<lootcontainer name="ammoPileSmallpalletCartonMilitary" size="6,1" sound_open="UseActions/open_garbage" sound_close="silencefiller" loot_quality_template="qualBaseTemplate">
 		<item group="groupAmmoPileSmall"/>
 	</lootcontainer>
-	
-	<lootcontainer id="25" name="birdNest" count="1" size="6,2" sound_open="UseActions/open_pill_case" sound_close="UseActions/close_pill_case" loot_quality_template="qualBaseTemplate" destroy_on_close="true">
-		<item group="groupBirdNest"/>
-	</lootcontainer>	
-	
-	<lootcontainer id="772" name="EggsReady" count="1" size="6,2" destroy_on_close="true" sound_open="UseActions/Chicken6Sounds" sound_close="silencefiller" loot_quality_template="qualBaseTemplate">
-		<item name="foodEgg" count="3,5" prob="1"/>
-		<item name="GrownChicken" count="1,2" prob="1"/>
-		<item name="resourceFeather" count="4,10" prob="1"/>
-	</lootcontainer>
+
+	<!-- Oakraven Fish Trap Loot -->
 	
 	<lootcontainer name="cntFishTrap" count="4,6" size="7,2" destroy_on_close="true" sound_open="bucketplace_water" sound_close="silencefiller" loot_quality_template="qualBaseTemplate">
 		<item name="foodBarramundi" count="1" prob="0.65"/>
@@ -285,6 +291,16 @@
 		<item name="resourceBone" count="2,6" prob="0.2"/>
 		<item name="resourceLeather" count="2,3" prob="0.2"/>
 		<item name="armorPrimitiveBoots" count="1" prob="0.05"/>
+	</lootcontainer>
+	
+	<lootcontainer id="25" name="birdNest" count="1" size="6,2" sound_open="UseActions/open_pill_case" sound_close="UseActions/close_pill_case" loot_quality_template="qualBaseTemplate" destroy_on_close="true">
+		<item group="groupBirdNest"/>
+	</lootcontainer>	
+	
+	<lootcontainer id="772" name="EggsReady" count="1" size="6,2" destroy_on_close="true" sound_open="UseActions/Chicken6Sounds" sound_close="silencefiller" loot_quality_template="qualBaseTemplate">
+		<item name="foodEgg" count="3,5" prob="1"/>
+		<item name="GrownChicken" count="1,2" prob="1"/>
+		<item name="resourceFeather" count="4,10" prob="1"/>
 	</lootcontainer>
 	</append>
 	
