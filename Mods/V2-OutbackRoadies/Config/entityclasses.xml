@@ -430,6 +430,56 @@
 		<drop event="Harvest" name="resourceBone" count="1" tag="WasteTreasuresCompleteHarvest"/>
 		<drop event="Harvest" name="resourcePotassiumNitratePowder" count="1,2" tag="WasteTreasuresCompleteHarvest"/>
 	</append>
+	<append xpath="/entity_classes/entity_class[@name='zombieRanger']">
+		<drop event="Harvest" name="foodRawMeat" count="0" tool_category="Butcher"/>
+		<drop event="Harvest" name="foodRottingFlesh" tag="butcherHarvest" count="1,3"/>
+		<drop event="Harvest" name="resourceBone" tag="butcherHarvest" count="1,3"/>
+		<drop event="Harvest" name="resourcePotassiumNitratePowder" tag="butcherHarvest" count="2,3"/>
+		<drop event="Harvest" name="resourceBone" tag="allToolsHarvest" count="1"/>
+		<drop event="Harvest" name="foodRottingFlesh" count="1" tag="WasteTreasuresCompleteHarvest"/>
+		<drop event="Harvest" name="resourceBone" count="1" tag="WasteTreasuresCompleteHarvest"/>
+		<drop event="Harvest" name="resourcePotassiumNitratePowder" count="1,2" tag="WasteTreasuresCompleteHarvest"/>
+	</append>
+	<append xpath="/entity_classes/entity_class[@name='zombieRangerFeral']">
+		<drop event="Harvest" name="foodRawMeat" count="0" tool_category="Butcher"/>
+		<drop event="Harvest" name="foodRottingFlesh" tag="butcherHarvest" count="1,3"/>
+		<drop event="Harvest" name="resourceBone" tag="butcherHarvest" count="1,3"/>
+		<drop event="Harvest" name="resourcePotassiumNitratePowder" tag="butcherHarvest" count="2,3"/>
+		<drop event="Harvest" name="resourceBone" tag="allToolsHarvest" count="1"/>
+		<drop event="Harvest" name="foodRottingFlesh" count="1" tag="WasteTreasuresCompleteHarvest"/>
+		<drop event="Harvest" name="resourceBone" count="1" tag="WasteTreasuresCompleteHarvest"/>
+		<drop event="Harvest" name="resourcePotassiumNitratePowder" count="1,2" tag="WasteTreasuresCompleteHarvest"/>
+	</append>
+	<append xpath="/entity_classes/entity_class[@name='zombieRangerRadiated']">
+		<drop event="Harvest" name="foodRawMeat" count="0" tool_category="Butcher"/>
+		<drop event="Harvest" name="foodRottingFlesh" tag="butcherHarvest" count="1,3"/>
+		<drop event="Harvest" name="resourceBone" tag="butcherHarvest" count="1,3"/>
+		<drop event="Harvest" name="resourcePotassiumNitratePowder" tag="butcherHarvest" count="2,3"/>
+		<drop event="Harvest" name="resourceBone" tag="allToolsHarvest" count="1"/>
+		<drop event="Harvest" name="foodRottingFlesh" count="1" tag="WasteTreasuresCompleteHarvest"/>
+		<drop event="Harvest" name="resourceBone" count="1" tag="WasteTreasuresCompleteHarvest"/>
+		<drop event="Harvest" name="resourcePotassiumNitratePowder" count="1,2" tag="WasteTreasuresCompleteHarvest"/>
+	</append>
+	<append xpath="/entity_classes/entity_class[@name='zombieRangerCharged']">
+		<drop event="Harvest" name="foodRawMeat" count="0" tool_category="Butcher"/>
+		<drop event="Harvest" name="foodRottingFlesh" tag="butcherHarvest" count="1,3"/>
+		<drop event="Harvest" name="resourceBone" tag="butcherHarvest" count="1,3"/>
+		<drop event="Harvest" name="resourcePotassiumNitratePowder" tag="butcherHarvest" count="2,3"/>
+		<drop event="Harvest" name="resourceBone" tag="allToolsHarvest" count="1"/>
+		<drop event="Harvest" name="foodRottingFlesh" count="1" tag="WasteTreasuresCompleteHarvest"/>
+		<drop event="Harvest" name="resourceBone" count="1" tag="WasteTreasuresCompleteHarvest"/>
+		<drop event="Harvest" name="resourcePotassiumNitratePowder" count="1,2" tag="WasteTreasuresCompleteHarvest"/>
+	</append>
+	<append xpath="/entity_classes/entity_class[@name='zombieRangerInfernal']">
+		<drop event="Harvest" name="foodRawMeat" count="0" tool_category="Butcher"/>
+		<drop event="Harvest" name="foodRottingFlesh" tag="butcherHarvest" count="1,3"/>
+		<drop event="Harvest" name="resourceBone" tag="butcherHarvest" count="1,3"/>
+		<drop event="Harvest" name="resourcePotassiumNitratePowder" tag="butcherHarvest" count="2,3"/>
+		<drop event="Harvest" name="resourceBone" tag="allToolsHarvest" count="1"/>
+		<drop event="Harvest" name="foodRottingFlesh" count="1" tag="WasteTreasuresCompleteHarvest"/>
+		<drop event="Harvest" name="resourceBone" count="1" tag="WasteTreasuresCompleteHarvest"/>
+		<drop event="Harvest" name="resourcePotassiumNitratePowder" count="1,2" tag="WasteTreasuresCompleteHarvest"/>
+	</append>
 	<append xpath="/entity_classes/entity_class[@name='zombiePlagueSpitter']">
 		<drop event="Harvest" name="foodRawMeat" count="0" tool_category="Butcher"/>
 		<drop event="Harvest" name="foodRottingFlesh" tag="butcherHarvest" count="1,3"/>
@@ -471,6 +521,56 @@
 		<drop event="Harvest" name="resourcePotassiumNitratePowder" count="1,2" tag="WasteTreasuresCompleteHarvest"/>
 	</append>
 	<append xpath="/entity_classes/entity_class[@name='zombiePlagueSpitterInfernal']">
+		<drop event="Harvest" name="foodRawMeat" count="0" tool_category="Butcher"/>
+		<drop event="Harvest" name="foodRottingFlesh" tag="butcherHarvest" count="1,3"/>
+		<drop event="Harvest" name="resourceBone" tag="butcherHarvest" count="1,3"/>
+		<drop event="Harvest" name="resourcePotassiumNitratePowder" tag="butcherHarvest" count="2,3"/>
+		<drop event="Harvest" name="resourceBone" tag="allToolsHarvest" count="1"/>
+		<drop event="Harvest" name="foodRottingFlesh" count="1" tag="WasteTreasuresCompleteHarvest"/>
+		<drop event="Harvest" name="resourceBone" count="1" tag="WasteTreasuresCompleteHarvest"/>
+		<drop event="Harvest" name="resourcePotassiumNitratePowder" count="1,2" tag="WasteTreasuresCompleteHarvest"/>
+	</append>
+	<append xpath="/entity_classes/entity_class[@name='zombieChuck']">
+		<drop event="Harvest" name="foodRawMeat" count="0" tool_category="Butcher"/>
+		<drop event="Harvest" name="foodRottingFlesh" tag="butcherHarvest" count="1,3"/>
+		<drop event="Harvest" name="resourceBone" tag="butcherHarvest" count="1,3"/>
+		<drop event="Harvest" name="resourcePotassiumNitratePowder" tag="butcherHarvest" count="2,3"/>
+		<drop event="Harvest" name="resourceBone" tag="allToolsHarvest" count="1"/>
+		<drop event="Harvest" name="foodRottingFlesh" count="1" tag="WasteTreasuresCompleteHarvest"/>
+		<drop event="Harvest" name="resourceBone" count="1" tag="WasteTreasuresCompleteHarvest"/>
+		<drop event="Harvest" name="resourcePotassiumNitratePowder" count="1,2" tag="WasteTreasuresCompleteHarvest"/>
+	</append>
+	<append xpath="/entity_classes/entity_class[@name='zombieChuckFeral']">
+		<drop event="Harvest" name="foodRawMeat" count="0" tool_category="Butcher"/>
+		<drop event="Harvest" name="foodRottingFlesh" tag="butcherHarvest" count="1,3"/>
+		<drop event="Harvest" name="resourceBone" tag="butcherHarvest" count="1,3"/>
+		<drop event="Harvest" name="resourcePotassiumNitratePowder" tag="butcherHarvest" count="2,3"/>
+		<drop event="Harvest" name="resourceBone" tag="allToolsHarvest" count="1"/>
+		<drop event="Harvest" name="foodRottingFlesh" count="1" tag="WasteTreasuresCompleteHarvest"/>
+		<drop event="Harvest" name="resourceBone" count="1" tag="WasteTreasuresCompleteHarvest"/>
+		<drop event="Harvest" name="resourcePotassiumNitratePowder" count="1,2" tag="WasteTreasuresCompleteHarvest"/>
+	</append>
+	<append xpath="/entity_classes/entity_class[@name='zombieChuckRadiated']">
+		<drop event="Harvest" name="foodRawMeat" count="0" tool_category="Butcher"/>
+		<drop event="Harvest" name="foodRottingFlesh" tag="butcherHarvest" count="1,3"/>
+		<drop event="Harvest" name="resourceBone" tag="butcherHarvest" count="1,3"/>
+		<drop event="Harvest" name="resourcePotassiumNitratePowder" tag="butcherHarvest" count="2,3"/>
+		<drop event="Harvest" name="resourceBone" tag="allToolsHarvest" count="1"/>
+		<drop event="Harvest" name="foodRottingFlesh" count="1" tag="WasteTreasuresCompleteHarvest"/>
+		<drop event="Harvest" name="resourceBone" count="1" tag="WasteTreasuresCompleteHarvest"/>
+		<drop event="Harvest" name="resourcePotassiumNitratePowder" count="1,2" tag="WasteTreasuresCompleteHarvest"/>
+	</append>
+	<append xpath="/entity_classes/entity_class[@name='zombieChuckCharged']">
+		<drop event="Harvest" name="foodRawMeat" count="0" tool_category="Butcher"/>
+		<drop event="Harvest" name="foodRottingFlesh" tag="butcherHarvest" count="1,3"/>
+		<drop event="Harvest" name="resourceBone" tag="butcherHarvest" count="1,3"/>
+		<drop event="Harvest" name="resourcePotassiumNitratePowder" tag="butcherHarvest" count="2,3"/>
+		<drop event="Harvest" name="resourceBone" tag="allToolsHarvest" count="1"/>
+		<drop event="Harvest" name="foodRottingFlesh" count="1" tag="WasteTreasuresCompleteHarvest"/>
+		<drop event="Harvest" name="resourceBone" count="1" tag="WasteTreasuresCompleteHarvest"/>
+		<drop event="Harvest" name="resourcePotassiumNitratePowder" count="1,2" tag="WasteTreasuresCompleteHarvest"/>
+	</append>
+	<append xpath="/entity_classes/entity_class[@name='zombieChuckInfernal']">
 		<drop event="Harvest" name="foodRawMeat" count="0" tool_category="Butcher"/>
 		<drop event="Harvest" name="foodRottingFlesh" tag="butcherHarvest" count="1,3"/>
 		<drop event="Harvest" name="resourceBone" tag="butcherHarvest" count="1,3"/>
