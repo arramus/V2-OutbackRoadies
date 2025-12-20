@@ -52,6 +52,7 @@
 	<append xpath="/traders/trader_item_groups/trader_item_group[@name='groupRangedMods']">
 	<!-- *** T1_Ranged_Mods-->
 		<item name="modWeaponMaintenance"/>
+		<item name="modGunDoubleBarrelSpeedLoader"/>
 	<!-- *** T2_Ranged_Mods -->
 		<item name="modGunBowArrowGrip"/>
 		<item name="modArcheryReloadSpeed"/>
@@ -70,7 +71,9 @@
 		<item name="modMeleeMacheteArmorPiercingSchematic"/>
 		<item name="modGunBowArrowGripSchematic"/>		
 		<item name="modArcheryReloadSpeedSchematic"/>
-		<item name="modArmorRunningShoesHPSchematic"/>	
+		<item name="modArmorRunningShoesHPSchematic"/>
+		<item name="modGunMagnumMagazineExtenderSchematic"/>
+		<item name="modGunDoubleBarrelSpeedLoaderSchematic"/>		
 	</append>
 	
 	<!-- Summon FriendZ and Animals Note - Custom Group -->

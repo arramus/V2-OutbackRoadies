@@ -3063,6 +3063,18 @@
 			</effect_group>
 		</item>
 		
+<!-- Double Barrel Shotgun Speed Reload Mod -->		
+		<item name="modGunDoubleBarrelSpeedLoaderSchematic">
+			<property name="Extends" value="schematicNoQualityMaster"/>
+			<property name="CreativeMode" value="Player"/>
+			<property name="CustomIcon" value="modGunDoubleBarrelSpeedLoader"/>
+			<property name="Unlocks" value="modGunDoubleBarrelSpeedLoader"/>
+			<effect_group tiered="false">
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="modGunDoubleBarrelSpeedLoader" operation="set" value="1"/>
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50"/>
+			</effect_group>
+		</item>
+		
 <!-- Rocket Fire Ammo -->
 
 <item name="ammoRocketFire">
