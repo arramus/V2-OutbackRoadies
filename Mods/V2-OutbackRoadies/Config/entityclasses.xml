@@ -28,6 +28,7 @@
 		<drop event="Harvest" name="foodRottingFlesh" tag="butcherHarvest" count="1,3"/>
 		<drop event="Harvest" name="resourceBone" tag="butcherHarvest" count="1,3"/>
 		<drop event="Harvest" name="resourcePotassiumNitratePowder" tag="butcherHarvest" count="2,3"/>
+		<drop event="Harvest" name="resourceCloth" tag="butcherHarvest" count="1,3"/>
 		<drop event="Harvest" name="resourceBone" tag="allToolsHarvest" count="1"/>
 		<drop event="Harvest" name="foodRottingFlesh" count="1" tag="WasteTreasuresCompleteHarvest"/>
 		<drop event="Harvest" name="resourceBone" count="1" tag="WasteTreasuresCompleteHarvest"/>
@@ -38,6 +39,7 @@
 		<drop event="Harvest" name="foodRottingFlesh" tag="butcherHarvest" count="1,3"/>
 		<drop event="Harvest" name="resourceBone" tag="butcherHarvest" count="1,3"/>
 		<drop event="Harvest" name="resourcePotassiumNitratePowder" tag="butcherHarvest" count="2,3"/>
+		<drop event="Harvest" name="resourceCloth" tag="butcherHarvest" count="1,3"/>
 		<drop event="Harvest" name="resourceBone" tag="allToolsHarvest" count="1"/>
 		<drop event="Harvest" name="foodRottingFlesh" count="1" tag="WasteTreasuresCompleteHarvest"/>
 		<drop event="Harvest" name="resourceBone" count="1" tag="WasteTreasuresCompleteHarvest"/>
@@ -48,6 +50,7 @@
 		<drop event="Harvest" name="foodRottingFlesh" tag="butcherHarvest" count="1,3"/>
 		<drop event="Harvest" name="resourceBone" tag="butcherHarvest" count="1,3"/>
 		<drop event="Harvest" name="resourcePotassiumNitratePowder" tag="butcherHarvest" count="2,3"/>
+		<drop event="Harvest" name="resourceCloth" tag="butcherHarvest" count="1,3"/>
 		<drop event="Harvest" name="resourceBone" tag="allToolsHarvest" count="1"/>
 		<drop event="Harvest" name="foodRottingFlesh" count="1" tag="WasteTreasuresCompleteHarvest"/>
 		<drop event="Harvest" name="resourceBone" count="1" tag="WasteTreasuresCompleteHarvest"/>
@@ -58,6 +61,7 @@
 		<drop event="Harvest" name="foodRottingFlesh" tag="butcherHarvest" count="1,3"/>
 		<drop event="Harvest" name="resourceBone" tag="butcherHarvest" count="1,3"/>
 		<drop event="Harvest" name="resourcePotassiumNitratePowder" tag="butcherHarvest" count="2,3"/>
+		<drop event="Harvest" name="resourceCloth" tag="butcherHarvest" count="1,3"/>
 		<drop event="Harvest" name="resourceBone" tag="allToolsHarvest" count="1"/>
 		<drop event="Harvest" name="foodRottingFlesh" count="1" tag="WasteTreasuresCompleteHarvest"/>
 		<drop event="Harvest" name="resourceBone" count="1" tag="WasteTreasuresCompleteHarvest"/>
@@ -69,6 +73,7 @@
 		<drop event="Harvest" name="foodRottingFlesh" tag="butcherHarvest" count="1,3"/>
 		<drop event="Harvest" name="resourceBone" tag="butcherHarvest" count="1,3"/>
 		<drop event="Harvest" name="resourcePotassiumNitratePowder" tag="butcherHarvest" count="2,3"/>
+		<drop event="Harvest" name="resourceCloth" tag="butcherHarvest" count="1,3"/>
 		<drop event="Harvest" name="resourceBone" tag="allToolsHarvest" count="1"/>
 		<drop event="Harvest" name="foodRottingFlesh" count="1" tag="WasteTreasuresCompleteHarvest"/>
 		<drop event="Harvest" name="resourceBone" count="1" tag="WasteTreasuresCompleteHarvest"/>
@@ -79,6 +84,7 @@
 		<drop event="Harvest" name="foodRottingFlesh" tag="butcherHarvest" count="1,3"/>
 		<drop event="Harvest" name="resourceBone" tag="butcherHarvest" count="1,3"/>
 		<drop event="Harvest" name="resourcePotassiumNitratePowder" tag="butcherHarvest" count="2,3"/>
+		<drop event="Harvest" name="resourceCloth" tag="butcherHarvest" count="1,3"/>
 		<drop event="Harvest" name="resourceBone" tag="allToolsHarvest" count="1"/>
 		<drop event="Harvest" name="foodRottingFlesh" count="1" tag="WasteTreasuresCompleteHarvest"/>
 		<drop event="Harvest" name="resourceBone" count="1" tag="WasteTreasuresCompleteHarvest"/>
@@ -89,6 +95,7 @@
 		<drop event="Harvest" name="foodRottingFlesh" tag="butcherHarvest" count="1,3"/>
 		<drop event="Harvest" name="resourceBone" tag="butcherHarvest" count="1,3"/>
 		<drop event="Harvest" name="resourcePotassiumNitratePowder" tag="butcherHarvest" count="2,3"/>
+		<drop event="Harvest" name="resourceCloth" tag="butcherHarvest" count="1,3"/>
 		<drop event="Harvest" name="resourceBone" tag="allToolsHarvest" count="1"/>
 		<drop event="Harvest" name="foodRottingFlesh" count="1" tag="WasteTreasuresCompleteHarvest"/>
 		<drop event="Harvest" name="resourceBone" count="1" tag="WasteTreasuresCompleteHarvest"/>
@@ -99,6 +106,7 @@
 		<drop event="Harvest" name="foodRottingFlesh" tag="butcherHarvest" count="1,3"/>
 		<drop event="Harvest" name="resourceBone" tag="butcherHarvest" count="1,3"/>
 		<drop event="Harvest" name="resourcePotassiumNitratePowder" tag="butcherHarvest" count="2,3"/>
+		<drop event="Harvest" name="resourceCloth" tag="butcherHarvest" count="1,3"/>
 		<drop event="Harvest" name="resourceBone" tag="allToolsHarvest" count="1"/>
 		<drop event="Harvest" name="foodRottingFlesh" count="1" tag="WasteTreasuresCompleteHarvest"/>
 		<drop event="Harvest" name="resourceBone" count="1" tag="WasteTreasuresCompleteHarvest"/>
@@ -110,6 +118,7 @@
 		<drop event="Harvest" name="foodRottingFlesh" tag="butcherHarvest" count="1,3"/>
 		<drop event="Harvest" name="resourceBone" tag="butcherHarvest" count="1,3"/>
 		<drop event="Harvest" name="resourcePotassiumNitratePowder" tag="butcherHarvest" count="2,3"/>
+		<drop event="Harvest" name="resourceCloth" tag="butcherHarvest" count="1,3"/>
 		<drop event="Harvest" name="resourceBone" tag="allToolsHarvest" count="1"/>
 		<drop event="Harvest" name="foodRottingFlesh" count="1" tag="WasteTreasuresCompleteHarvest"/>
 		<drop event="Harvest" name="resourceBone" count="1" tag="WasteTreasuresCompleteHarvest"/>
@@ -120,6 +129,8 @@
 		<drop event="Harvest" name="foodRottingFlesh" tag="butcherHarvest" count="1,3"/>
 		<drop event="Harvest" name="resourceBone" tag="butcherHarvest" count="1,3"/>
 		<drop event="Harvest" name="resourcePotassiumNitratePowder" tag="butcherHarvest" count="2,3"/>
+		<drop event="Harvest" name="resourceCloth" tag="butcherHarvest" count="1,3"/>
+		<drop event="Harvest" name="resourceCloth" tag="butcherHarvest" count="1,3"/>
 		<drop event="Harvest" name="resourceBone" tag="allToolsHarvest" count="1"/>
 		<drop event="Harvest" name="foodRottingFlesh" count="1" tag="WasteTreasuresCompleteHarvest"/>
 		<drop event="Harvest" name="resourceBone" count="1" tag="WasteTreasuresCompleteHarvest"/>
@@ -130,6 +141,8 @@
 		<drop event="Harvest" name="foodRottingFlesh" tag="butcherHarvest" count="1,3"/>
 		<drop event="Harvest" name="resourceBone" tag="butcherHarvest" count="1,3"/>
 		<drop event="Harvest" name="resourcePotassiumNitratePowder" tag="butcherHarvest" count="2,3"/>
+		<drop event="Harvest" name="resourceCloth" tag="butcherHarvest" count="1,3"/>
+		<drop event="Harvest" name="resourceCloth" tag="butcherHarvest" count="1,3"/>
 		<drop event="Harvest" name="resourceBone" tag="allToolsHarvest" count="1"/>
 		<drop event="Harvest" name="foodRottingFlesh" count="1" tag="WasteTreasuresCompleteHarvest"/>
 		<drop event="Harvest" name="resourceBone" count="1" tag="WasteTreasuresCompleteHarvest"/>
@@ -140,6 +153,7 @@
 		<drop event="Harvest" name="foodRottingFlesh" tag="butcherHarvest" count="1,3"/>
 		<drop event="Harvest" name="resourceBone" tag="butcherHarvest" count="1,3"/>
 		<drop event="Harvest" name="resourcePotassiumNitratePowder" tag="butcherHarvest" count="2,3"/>
+		<drop event="Harvest" name="resourceCloth" tag="butcherHarvest" count="1,3"/>
 		<drop event="Harvest" name="resourceBone" tag="allToolsHarvest" count="1"/>
 		<drop event="Harvest" name="foodRottingFlesh" count="1" tag="WasteTreasuresCompleteHarvest"/>
 		<drop event="Harvest" name="resourceBone" count="1" tag="WasteTreasuresCompleteHarvest"/>
@@ -151,6 +165,7 @@
 		<drop event="Harvest" name="foodRottingFlesh" tag="butcherHarvest" count="1,3"/>
 		<drop event="Harvest" name="resourceBone" tag="butcherHarvest" count="1,3"/>
 		<drop event="Harvest" name="resourcePotassiumNitratePowder" tag="butcherHarvest" count="2,3"/>
+		<drop event="Harvest" name="resourceCloth" tag="butcherHarvest" count="1,3"/>
 		<drop event="Harvest" name="resourceBone" tag="allToolsHarvest" count="1"/>
 		<drop event="Harvest" name="foodRottingFlesh" count="1" tag="WasteTreasuresCompleteHarvest"/>
 		<drop event="Harvest" name="resourceBone" count="1" tag="WasteTreasuresCompleteHarvest"/>
@@ -161,6 +176,7 @@
 		<drop event="Harvest" name="foodRottingFlesh" tag="butcherHarvest" count="1,3"/>
 		<drop event="Harvest" name="resourceBone" tag="butcherHarvest" count="1,3"/>
 		<drop event="Harvest" name="resourcePotassiumNitratePowder" tag="butcherHarvest" count="2,3"/>
+		<drop event="Harvest" name="resourceCloth" tag="butcherHarvest" count="1,3"/>
 		<drop event="Harvest" name="resourceBone" tag="allToolsHarvest" count="1"/>
 		<drop event="Harvest" name="foodRottingFlesh" count="1" tag="WasteTreasuresCompleteHarvest"/>
 		<drop event="Harvest" name="resourceBone" count="1" tag="WasteTreasuresCompleteHarvest"/>
@@ -171,6 +187,7 @@
 		<drop event="Harvest" name="foodRottingFlesh" tag="butcherHarvest" count="1,3"/>
 		<drop event="Harvest" name="resourceBone" tag="butcherHarvest" count="1,3"/>
 		<drop event="Harvest" name="resourcePotassiumNitratePowder" tag="butcherHarvest" count="2,3"/>
+		<drop event="Harvest" name="resourceCloth" tag="butcherHarvest" count="1,3"/>
 		<drop event="Harvest" name="resourceBone" tag="allToolsHarvest" count="1"/>
 		<drop event="Harvest" name="foodRottingFlesh" count="1" tag="WasteTreasuresCompleteHarvest"/>
 		<drop event="Harvest" name="resourceBone" count="1" tag="WasteTreasuresCompleteHarvest"/>
@@ -181,6 +198,7 @@
 		<drop event="Harvest" name="foodRottingFlesh" tag="butcherHarvest" count="1,3"/>
 		<drop event="Harvest" name="resourceBone" tag="butcherHarvest" count="1,3"/>
 		<drop event="Harvest" name="resourcePotassiumNitratePowder" tag="butcherHarvest" count="2,3"/>
+		<drop event="Harvest" name="resourceCloth" tag="butcherHarvest" count="1,3"/>
 		<drop event="Harvest" name="resourceBone" tag="allToolsHarvest" count="1"/>
 		<drop event="Harvest" name="foodRottingFlesh" count="1" tag="WasteTreasuresCompleteHarvest"/>
 		<drop event="Harvest" name="resourceBone" count="1" tag="WasteTreasuresCompleteHarvest"/>
@@ -192,6 +210,7 @@
 		<drop event="Harvest" name="foodRottingFlesh" tag="butcherHarvest" count="1,3"/>
 		<drop event="Harvest" name="resourceBone" tag="butcherHarvest" count="1,3"/>
 		<drop event="Harvest" name="resourcePotassiumNitratePowder" tag="butcherHarvest" count="2,3"/>
+		<drop event="Harvest" name="resourceCloth" tag="butcherHarvest" count="1,3"/>
 		<drop event="Harvest" name="resourceBone" tag="allToolsHarvest" count="1"/>
 		<drop event="Harvest" name="foodRottingFlesh" count="1" tag="WasteTreasuresCompleteHarvest"/>
 		<drop event="Harvest" name="resourceBone" count="1" tag="WasteTreasuresCompleteHarvest"/>
@@ -202,6 +221,7 @@
 		<drop event="Harvest" name="foodRottingFlesh" tag="butcherHarvest" count="1,3"/>
 		<drop event="Harvest" name="resourceBone" tag="butcherHarvest" count="1,3"/>
 		<drop event="Harvest" name="resourcePotassiumNitratePowder" tag="butcherHarvest" count="2,3"/>
+		<drop event="Harvest" name="resourceCloth" tag="butcherHarvest" count="1,3"/>
 		<drop event="Harvest" name="resourceBone" tag="allToolsHarvest" count="1"/>
 		<drop event="Harvest" name="foodRottingFlesh" count="1" tag="WasteTreasuresCompleteHarvest"/>
 		<drop event="Harvest" name="resourceBone" count="1" tag="WasteTreasuresCompleteHarvest"/>
@@ -212,6 +232,7 @@
 		<drop event="Harvest" name="foodRottingFlesh" tag="butcherHarvest" count="1,3"/>
 		<drop event="Harvest" name="resourceBone" tag="butcherHarvest" count="1,3"/>
 		<drop event="Harvest" name="resourcePotassiumNitratePowder" tag="butcherHarvest" count="2,3"/>
+		<drop event="Harvest" name="resourceCloth" tag="butcherHarvest" count="1,3"/>
 		<drop event="Harvest" name="resourceBone" tag="allToolsHarvest" count="1"/>
 		<drop event="Harvest" name="foodRottingFlesh" count="1" tag="WasteTreasuresCompleteHarvest"/>
 		<drop event="Harvest" name="resourceBone" count="1" tag="WasteTreasuresCompleteHarvest"/>
@@ -222,6 +243,7 @@
 		<drop event="Harvest" name="foodRottingFlesh" tag="butcherHarvest" count="1,3"/>
 		<drop event="Harvest" name="resourceBone" tag="butcherHarvest" count="1,3"/>
 		<drop event="Harvest" name="resourcePotassiumNitratePowder" tag="butcherHarvest" count="2,3"/>
+		<drop event="Harvest" name="resourceCloth" tag="butcherHarvest" count="1,3"/>
 		<drop event="Harvest" name="resourceBone" tag="allToolsHarvest" count="1"/>
 		<drop event="Harvest" name="foodRottingFlesh" count="1" tag="WasteTreasuresCompleteHarvest"/>
 		<drop event="Harvest" name="resourceBone" count="1" tag="WasteTreasuresCompleteHarvest"/>
@@ -233,6 +255,7 @@
 		<drop event="Harvest" name="foodRottingFlesh" tag="butcherHarvest" count="1,3"/>
 		<drop event="Harvest" name="resourceBone" tag="butcherHarvest" count="1,3"/>
 		<drop event="Harvest" name="resourcePotassiumNitratePowder" tag="butcherHarvest" count="2,3"/>
+		<drop event="Harvest" name="resourceCloth" tag="butcherHarvest" count="1,3"/>
 		<drop event="Harvest" name="resourceBone" tag="allToolsHarvest" count="1"/>
 		<drop event="Harvest" name="foodRottingFlesh" count="1" tag="WasteTreasuresCompleteHarvest"/>
 		<drop event="Harvest" name="resourceBone" count="1" tag="WasteTreasuresCompleteHarvest"/>
@@ -243,6 +266,7 @@
 		<drop event="Harvest" name="foodRottingFlesh" tag="butcherHarvest" count="1,3"/>
 		<drop event="Harvest" name="resourceBone" tag="butcherHarvest" count="1,3"/>
 		<drop event="Harvest" name="resourcePotassiumNitratePowder" tag="butcherHarvest" count="2,3"/>
+		<drop event="Harvest" name="resourceCloth" tag="butcherHarvest" count="1,3"/>
 		<drop event="Harvest" name="resourceBone" tag="allToolsHarvest" count="1"/>
 		<drop event="Harvest" name="foodRottingFlesh" count="1" tag="WasteTreasuresCompleteHarvest"/>
 		<drop event="Harvest" name="resourceBone" count="1" tag="WasteTreasuresCompleteHarvest"/>
@@ -253,6 +277,7 @@
 		<drop event="Harvest" name="foodRottingFlesh" tag="butcherHarvest" count="1,3"/>
 		<drop event="Harvest" name="resourceBone" tag="butcherHarvest" count="1,3"/>
 		<drop event="Harvest" name="resourcePotassiumNitratePowder" tag="butcherHarvest" count="2,3"/>
+		<drop event="Harvest" name="resourceCloth" tag="butcherHarvest" count="1,3"/>
 		<drop event="Harvest" name="resourceBone" tag="allToolsHarvest" count="1"/>
 		<drop event="Harvest" name="foodRottingFlesh" count="1" tag="WasteTreasuresCompleteHarvest"/>
 		<drop event="Harvest" name="resourceBone" count="1" tag="WasteTreasuresCompleteHarvest"/>
@@ -263,6 +288,7 @@
 		<drop event="Harvest" name="foodRottingFlesh" tag="butcherHarvest" count="1,3"/>
 		<drop event="Harvest" name="resourceBone" tag="butcherHarvest" count="1,3"/>
 		<drop event="Harvest" name="resourcePotassiumNitratePowder" tag="butcherHarvest" count="2,3"/>
+		<drop event="Harvest" name="resourceCloth" tag="butcherHarvest" count="1,3"/>
 		<drop event="Harvest" name="resourceBone" tag="allToolsHarvest" count="1"/>
 		<drop event="Harvest" name="foodRottingFlesh" count="1" tag="WasteTreasuresCompleteHarvest"/>
 		<drop event="Harvest" name="resourceBone" count="1" tag="WasteTreasuresCompleteHarvest"/>
@@ -274,6 +300,7 @@
 		<drop event="Harvest" name="foodRottingFlesh" tag="butcherHarvest" count="1,3"/>
 		<drop event="Harvest" name="resourceBone" tag="butcherHarvest" count="1,3"/>
 		<drop event="Harvest" name="resourcePotassiumNitratePowder" tag="butcherHarvest" count="2,3"/>
+		<drop event="Harvest" name="resourceCloth" tag="butcherHarvest" count="1,3"/>
 		<drop event="Harvest" name="resourceBone" tag="allToolsHarvest" count="1"/>
 		<drop event="Harvest" name="foodRottingFlesh" count="1" tag="WasteTreasuresCompleteHarvest"/>
 		<drop event="Harvest" name="resourceBone" count="1" tag="WasteTreasuresCompleteHarvest"/>
@@ -284,6 +311,7 @@
 		<drop event="Harvest" name="foodRottingFlesh" tag="butcherHarvest" count="1,3"/>
 		<drop event="Harvest" name="resourceBone" tag="butcherHarvest" count="1,3"/>
 		<drop event="Harvest" name="resourcePotassiumNitratePowder" tag="butcherHarvest" count="2,3"/>
+		<drop event="Harvest" name="resourceCloth" tag="butcherHarvest" count="1,3"/>
 		<drop event="Harvest" name="resourceBone" tag="allToolsHarvest" count="1"/>
 		<drop event="Harvest" name="foodRottingFlesh" count="1" tag="WasteTreasuresCompleteHarvest"/>
 		<drop event="Harvest" name="resourceBone" count="1" tag="WasteTreasuresCompleteHarvest"/>
@@ -294,6 +322,7 @@
 		<drop event="Harvest" name="foodRottingFlesh" tag="butcherHarvest" count="1,3"/>
 		<drop event="Harvest" name="resourceBone" tag="butcherHarvest" count="1,3"/>
 		<drop event="Harvest" name="resourcePotassiumNitratePowder" tag="butcherHarvest" count="2,3"/>
+		<drop event="Harvest" name="resourceCloth" tag="butcherHarvest" count="1,3"/>
 		<drop event="Harvest" name="resourceBone" tag="allToolsHarvest" count="1"/>
 		<drop event="Harvest" name="foodRottingFlesh" count="1" tag="WasteTreasuresCompleteHarvest"/>
 		<drop event="Harvest" name="resourceBone" count="1" tag="WasteTreasuresCompleteHarvest"/>
@@ -304,6 +333,7 @@
 		<drop event="Harvest" name="foodRottingFlesh" tag="butcherHarvest" count="1,3"/>
 		<drop event="Harvest" name="resourceBone" tag="butcherHarvest" count="1,3"/>
 		<drop event="Harvest" name="resourcePotassiumNitratePowder" tag="butcherHarvest" count="2,3"/>
+		<drop event="Harvest" name="resourceCloth" tag="butcherHarvest" count="1,3"/>
 		<drop event="Harvest" name="resourceBone" tag="allToolsHarvest" count="1"/>
 		<drop event="Harvest" name="foodRottingFlesh" count="1" tag="WasteTreasuresCompleteHarvest"/>
 		<drop event="Harvest" name="resourceBone" count="1" tag="WasteTreasuresCompleteHarvest"/>
@@ -315,6 +345,7 @@
 		<drop event="Harvest" name="foodRottingFlesh" tag="butcherHarvest" count="1,3"/>
 		<drop event="Harvest" name="resourceBone" tag="butcherHarvest" count="1,3"/>
 		<drop event="Harvest" name="resourcePotassiumNitratePowder" tag="butcherHarvest" count="2,3"/>
+		<drop event="Harvest" name="resourceCloth" tag="butcherHarvest" count="1,3"/>
 		<drop event="Harvest" name="resourceBone" tag="allToolsHarvest" count="1"/>
 		<drop event="Harvest" name="foodRottingFlesh" count="1" tag="WasteTreasuresCompleteHarvest"/>
 		<drop event="Harvest" name="resourceBone" count="1" tag="WasteTreasuresCompleteHarvest"/>
@@ -325,6 +356,7 @@
 		<drop event="Harvest" name="foodRottingFlesh" tag="butcherHarvest" count="1,3"/>
 		<drop event="Harvest" name="resourceBone" tag="butcherHarvest" count="1,3"/>
 		<drop event="Harvest" name="resourcePotassiumNitratePowder" tag="butcherHarvest" count="2,3"/>
+		<drop event="Harvest" name="resourceCloth" tag="butcherHarvest" count="1,3"/>
 		<drop event="Harvest" name="resourceBone" tag="allToolsHarvest" count="1"/>
 		<drop event="Harvest" name="foodRottingFlesh" count="1" tag="WasteTreasuresCompleteHarvest"/>
 		<drop event="Harvest" name="resourceBone" count="1" tag="WasteTreasuresCompleteHarvest"/>
@@ -335,6 +367,7 @@
 		<drop event="Harvest" name="foodRottingFlesh" tag="butcherHarvest" count="1,3"/>
 		<drop event="Harvest" name="resourceBone" tag="butcherHarvest" count="1,3"/>
 		<drop event="Harvest" name="resourcePotassiumNitratePowder" tag="butcherHarvest" count="2,3"/>
+		<drop event="Harvest" name="resourceCloth" tag="butcherHarvest" count="1,3"/>
 		<drop event="Harvest" name="resourceBone" tag="allToolsHarvest" count="1"/>
 		<drop event="Harvest" name="foodRottingFlesh" count="1" tag="WasteTreasuresCompleteHarvest"/>
 		<drop event="Harvest" name="resourceBone" count="1" tag="WasteTreasuresCompleteHarvest"/>
@@ -345,6 +378,7 @@
 		<drop event="Harvest" name="foodRottingFlesh" tag="butcherHarvest" count="1,3"/>
 		<drop event="Harvest" name="resourceBone" tag="butcherHarvest" count="1,3"/>
 		<drop event="Harvest" name="resourcePotassiumNitratePowder" tag="butcherHarvest" count="2,3"/>
+		<drop event="Harvest" name="resourceCloth" tag="butcherHarvest" count="1,3"/>
 		<drop event="Harvest" name="resourceBone" tag="allToolsHarvest" count="1"/>
 		<drop event="Harvest" name="foodRottingFlesh" count="1" tag="WasteTreasuresCompleteHarvest"/>
 		<drop event="Harvest" name="resourceBone" count="1" tag="WasteTreasuresCompleteHarvest"/>
@@ -355,6 +389,7 @@
 		<drop event="Harvest" name="foodRottingFlesh" tag="butcherHarvest" count="1,3"/>
 		<drop event="Harvest" name="resourceBone" tag="butcherHarvest" count="1,3"/>
 		<drop event="Harvest" name="resourcePotassiumNitratePowder" tag="butcherHarvest" count="2,3"/>
+		<drop event="Harvest" name="resourceCloth" tag="butcherHarvest" count="1,3"/>
 		<drop event="Harvest" name="resourceBone" tag="allToolsHarvest" count="1"/>
 		<drop event="Harvest" name="foodRottingFlesh" count="1" tag="WasteTreasuresCompleteHarvest"/>
 		<drop event="Harvest" name="resourceBone" count="1" tag="WasteTreasuresCompleteHarvest"/>
@@ -367,6 +402,7 @@
 		<drop event="Harvest" name="resourceBone" tag="allToolsHarvest" count="1"/>
 		<drop event="Harvest" name="resourcePotassiumNitratePowder" count="5,10" tag="butcherHarvest"/>
 		<drop event="Harvest" name="resourceCoal" count="5,10" tag="butcherHarvest"/>
+		<drop event="Harvest" name="resourceCloth" tag="butcherHarvest" count="1,3"/>
 		<drop event="Harvest" name="foodRottingFlesh" count="1" tag="WasteTreasuresCompleteHarvest"/>
 		<drop event="Harvest" name="resourceBone" count="1" tag="WasteTreasuresCompleteHarvest"/>
 		<drop event="Harvest" name="resourcePotassiumNitratePowder" count="3,5" tag="WasteTreasuresCompleteHarvest"/>
@@ -379,6 +415,7 @@
 		<drop event="Harvest" name="resourceBone" tag="allToolsHarvest" count="1"/>
 		<drop event="Harvest" name="resourcePotassiumNitratePowder" count="5,10" tag="butcherHarvest"/>
 		<drop event="Harvest" name="resourceCoal" count="5,10" tag="butcherHarvest"/>
+		<drop event="Harvest" name="resourceCloth" tag="butcherHarvest" count="1,3"/>
 		<drop event="Harvest" name="foodRottingFlesh" count="1" tag="WasteTreasuresCompleteHarvest"/>
 		<drop event="Harvest" name="resourceBone" count="1" tag="WasteTreasuresCompleteHarvest"/>
 		<drop event="Harvest" name="resourcePotassiumNitratePowder" count="3,5" tag="WasteTreasuresCompleteHarvest"/>
@@ -391,6 +428,7 @@
 		<drop event="Harvest" name="resourceBone" tag="allToolsHarvest" count="1"/>
 		<drop event="Harvest" name="resourcePotassiumNitratePowder" count="5,10" tag="butcherHarvest"/>
 		<drop event="Harvest" name="resourceCoal" count="5,10" tag="butcherHarvest"/>
+		<drop event="Harvest" name="resourceCloth" tag="butcherHarvest" count="1,3"/>
 		<drop event="Harvest" name="foodRottingFlesh" count="1" tag="WasteTreasuresCompleteHarvest"/>
 		<drop event="Harvest" name="resourceBone" count="1" tag="WasteTreasuresCompleteHarvest"/>
 		<drop event="Harvest" name="resourcePotassiumNitratePowder" count="3,5" tag="WasteTreasuresCompleteHarvest"/>
@@ -403,6 +441,7 @@
 		<drop event="Harvest" name="resourceBone" tag="allToolsHarvest" count="1"/>
 		<drop event="Harvest" name="resourcePotassiumNitratePowder" count="5,10" tag="butcherHarvest"/>
 		<drop event="Harvest" name="resourceCoal" count="5,10" tag="butcherHarvest"/>
+		<drop event="Harvest" name="resourceCloth" tag="butcherHarvest" count="1,3"/>
 		<drop event="Harvest" name="foodRottingFlesh" count="1" tag="WasteTreasuresCompleteHarvest"/>
 		<drop event="Harvest" name="resourceBone" count="1" tag="WasteTreasuresCompleteHarvest"/>
 		<drop event="Harvest" name="resourcePotassiumNitratePowder" count="3,5" tag="WasteTreasuresCompleteHarvest"/>
@@ -415,26 +454,18 @@
 		<drop event="Harvest" name="resourceBone" tag="allToolsHarvest" count="1"/>
 		<drop event="Harvest" name="resourcePotassiumNitratePowder" count="5,10" tag="butcherHarvest"/>
 		<drop event="Harvest" name="resourceCoal" count="5,10" tag="butcherHarvest"/>
+		<drop event="Harvest" name="resourceCloth" tag="butcherHarvest" count="1,3"/>
 		<drop event="Harvest" name="foodRottingFlesh" count="1" tag="WasteTreasuresCompleteHarvest"/>
 		<drop event="Harvest" name="resourceBone" count="1" tag="WasteTreasuresCompleteHarvest"/>
 		<drop event="Harvest" name="resourcePotassiumNitratePowder" count="3,5" tag="WasteTreasuresCompleteHarvest"/>
 		<drop event="Harvest" name="resourceCoal" count="3,5" tag="WasteTreasuresCompleteHarvest"/>
-	</append>
-	<append xpath="/entity_classes/entity_class[@name='zombieSpider']">
-		<drop event="Harvest" name="foodRawMeat" count="0" tool_category="Butcher"/>
-		<drop event="Harvest" name="foodRottingFlesh" tag="butcherHarvest" count="1,3"/>
-		<drop event="Harvest" name="resourceBone" tag="butcherHarvest" count="1,3"/>
-		<drop event="Harvest" name="resourcePotassiumNitratePowder" tag="butcherHarvest" count="2,3"/>
-		<drop event="Harvest" name="resourceBone" tag="allToolsHarvest" count="1"/>
-		<drop event="Harvest" name="foodRottingFlesh" count="1" tag="WasteTreasuresCompleteHarvest"/>
-		<drop event="Harvest" name="resourceBone" count="1" tag="WasteTreasuresCompleteHarvest"/>
-		<drop event="Harvest" name="resourcePotassiumNitratePowder" count="1,2" tag="WasteTreasuresCompleteHarvest"/>
 	</append>
 	<append xpath="/entity_classes/entity_class[@name='zombieRancher']">
 		<drop event="Harvest" name="foodRawMeat" count="0" tool_category="Butcher"/>
 		<drop event="Harvest" name="foodRottingFlesh" tag="butcherHarvest" count="1,3"/>
 		<drop event="Harvest" name="resourceBone" tag="butcherHarvest" count="1,3"/>
 		<drop event="Harvest" name="resourcePotassiumNitratePowder" tag="butcherHarvest" count="2,3"/>
+		<drop event="Harvest" name="resourceCloth" tag="butcherHarvest" count="1,3"/>
 		<drop event="Harvest" name="resourceBone" tag="allToolsHarvest" count="1"/>
 		<drop event="Harvest" name="foodRottingFlesh" count="1" tag="WasteTreasuresCompleteHarvest"/>
 		<drop event="Harvest" name="resourceBone" count="1" tag="WasteTreasuresCompleteHarvest"/>
@@ -445,6 +476,7 @@
 		<drop event="Harvest" name="foodRottingFlesh" tag="butcherHarvest" count="1,3"/>
 		<drop event="Harvest" name="resourceBone" tag="butcherHarvest" count="1,3"/>
 		<drop event="Harvest" name="resourcePotassiumNitratePowder" tag="butcherHarvest" count="2,3"/>
+		<drop event="Harvest" name="resourceCloth" tag="butcherHarvest" count="1,3"/>
 		<drop event="Harvest" name="resourceBone" tag="allToolsHarvest" count="1"/>
 		<drop event="Harvest" name="foodRottingFlesh" count="1" tag="WasteTreasuresCompleteHarvest"/>
 		<drop event="Harvest" name="resourceBone" count="1" tag="WasteTreasuresCompleteHarvest"/>
@@ -455,6 +487,7 @@
 		<drop event="Harvest" name="foodRottingFlesh" tag="butcherHarvest" count="1,3"/>
 		<drop event="Harvest" name="resourceBone" tag="butcherHarvest" count="1,3"/>
 		<drop event="Harvest" name="resourcePotassiumNitratePowder" tag="butcherHarvest" count="2,3"/>
+		<drop event="Harvest" name="resourceCloth" tag="butcherHarvest" count="1,3"/>
 		<drop event="Harvest" name="resourceBone" tag="allToolsHarvest" count="1"/>
 		<drop event="Harvest" name="foodRottingFlesh" count="1" tag="WasteTreasuresCompleteHarvest"/>
 		<drop event="Harvest" name="resourceBone" count="1" tag="WasteTreasuresCompleteHarvest"/>
@@ -465,6 +498,7 @@
 		<drop event="Harvest" name="foodRottingFlesh" tag="butcherHarvest" count="1,3"/>
 		<drop event="Harvest" name="resourceBone" tag="butcherHarvest" count="1,3"/>
 		<drop event="Harvest" name="resourcePotassiumNitratePowder" tag="butcherHarvest" count="2,3"/>
+		<drop event="Harvest" name="resourceCloth" tag="butcherHarvest" count="1,3"/>
 		<drop event="Harvest" name="resourceBone" tag="allToolsHarvest" count="1"/>
 		<drop event="Harvest" name="foodRottingFlesh" count="1" tag="WasteTreasuresCompleteHarvest"/>
 		<drop event="Harvest" name="resourceBone" count="1" tag="WasteTreasuresCompleteHarvest"/>
@@ -475,6 +509,7 @@
 		<drop event="Harvest" name="foodRottingFlesh" tag="butcherHarvest" count="1,3"/>
 		<drop event="Harvest" name="resourceBone" tag="butcherHarvest" count="1,3"/>
 		<drop event="Harvest" name="resourcePotassiumNitratePowder" tag="butcherHarvest" count="2,3"/>
+		<drop event="Harvest" name="resourceCloth" tag="butcherHarvest" count="1,3"/>
 		<drop event="Harvest" name="resourceBone" tag="allToolsHarvest" count="1"/>
 		<drop event="Harvest" name="foodRottingFlesh" count="1" tag="WasteTreasuresCompleteHarvest"/>
 		<drop event="Harvest" name="resourceBone" count="1" tag="WasteTreasuresCompleteHarvest"/>
@@ -485,6 +520,7 @@
 		<drop event="Harvest" name="foodRottingFlesh" tag="butcherHarvest" count="1,3"/>
 		<drop event="Harvest" name="resourceBone" tag="butcherHarvest" count="1,3"/>
 		<drop event="Harvest" name="resourcePotassiumNitratePowder" tag="butcherHarvest" count="2,3"/>
+		<drop event="Harvest" name="resourceCloth" tag="butcherHarvest" count="1,3"/>
 		<drop event="Harvest" name="resourceBone" tag="allToolsHarvest" count="1"/>
 		<drop event="Harvest" name="foodRottingFlesh" count="1" tag="WasteTreasuresCompleteHarvest"/>
 		<drop event="Harvest" name="resourceBone" count="1" tag="WasteTreasuresCompleteHarvest"/>
@@ -495,6 +531,7 @@
 		<drop event="Harvest" name="foodRottingFlesh" tag="butcherHarvest" count="1,3"/>
 		<drop event="Harvest" name="resourceBone" tag="butcherHarvest" count="1,3"/>
 		<drop event="Harvest" name="resourcePotassiumNitratePowder" tag="butcherHarvest" count="2,3"/>
+		<drop event="Harvest" name="resourceCloth" tag="butcherHarvest" count="1,3"/>
 		<drop event="Harvest" name="resourceBone" tag="allToolsHarvest" count="1"/>
 		<drop event="Harvest" name="foodRottingFlesh" count="1" tag="WasteTreasuresCompleteHarvest"/>
 		<drop event="Harvest" name="resourceBone" count="1" tag="WasteTreasuresCompleteHarvest"/>
@@ -505,6 +542,7 @@
 		<drop event="Harvest" name="foodRottingFlesh" tag="butcherHarvest" count="1,3"/>
 		<drop event="Harvest" name="resourceBone" tag="butcherHarvest" count="1,3"/>
 		<drop event="Harvest" name="resourcePotassiumNitratePowder" tag="butcherHarvest" count="2,3"/>
+		<drop event="Harvest" name="resourceCloth" tag="butcherHarvest" count="1,3"/>
 		<drop event="Harvest" name="resourceBone" tag="allToolsHarvest" count="1"/>
 		<drop event="Harvest" name="foodRottingFlesh" count="1" tag="WasteTreasuresCompleteHarvest"/>
 		<drop event="Harvest" name="resourceBone" count="1" tag="WasteTreasuresCompleteHarvest"/>
@@ -515,6 +553,7 @@
 		<drop event="Harvest" name="foodRottingFlesh" tag="butcherHarvest" count="1,3"/>
 		<drop event="Harvest" name="resourceBone" tag="butcherHarvest" count="1,3"/>
 		<drop event="Harvest" name="resourcePotassiumNitratePowder" tag="butcherHarvest" count="2,3"/>
+		<drop event="Harvest" name="resourceCloth" tag="butcherHarvest" count="1,3"/>
 		<drop event="Harvest" name="resourceBone" tag="allToolsHarvest" count="1"/>
 		<drop event="Harvest" name="foodRottingFlesh" count="1" tag="WasteTreasuresCompleteHarvest"/>
 		<drop event="Harvest" name="resourceBone" count="1" tag="WasteTreasuresCompleteHarvest"/>
@@ -525,6 +564,7 @@
 		<drop event="Harvest" name="foodRottingFlesh" tag="butcherHarvest" count="1,3"/>
 		<drop event="Harvest" name="resourceBone" tag="butcherHarvest" count="1,3"/>
 		<drop event="Harvest" name="resourcePotassiumNitratePowder" tag="butcherHarvest" count="2,3"/>
+		<drop event="Harvest" name="resourceCloth" tag="butcherHarvest" count="1,3"/>
 		<drop event="Harvest" name="resourceBone" tag="allToolsHarvest" count="1"/>
 		<drop event="Harvest" name="foodRottingFlesh" count="1" tag="WasteTreasuresCompleteHarvest"/>
 		<drop event="Harvest" name="resourceBone" count="1" tag="WasteTreasuresCompleteHarvest"/>
@@ -535,6 +575,7 @@
 		<drop event="Harvest" name="foodRottingFlesh" tag="butcherHarvest" count="1,3"/>
 		<drop event="Harvest" name="resourceBone" tag="butcherHarvest" count="1,3"/>
 		<drop event="Harvest" name="resourcePotassiumNitratePowder" tag="butcherHarvest" count="2,3"/>
+		<drop event="Harvest" name="resourceCloth" tag="butcherHarvest" count="1,3"/>
 		<drop event="Harvest" name="resourceBone" tag="allToolsHarvest" count="1"/>
 		<drop event="Harvest" name="foodRottingFlesh" count="1" tag="WasteTreasuresCompleteHarvest"/>
 		<drop event="Harvest" name="resourceBone" count="1" tag="WasteTreasuresCompleteHarvest"/>
@@ -545,6 +586,7 @@
 		<drop event="Harvest" name="foodRottingFlesh" tag="butcherHarvest" count="1,3"/>
 		<drop event="Harvest" name="resourceBone" tag="butcherHarvest" count="1,3"/>
 		<drop event="Harvest" name="resourcePotassiumNitratePowder" tag="butcherHarvest" count="2,3"/>
+		<drop event="Harvest" name="resourceCloth" tag="butcherHarvest" count="1,3"/>
 		<drop event="Harvest" name="resourceBone" tag="allToolsHarvest" count="1"/>
 		<drop event="Harvest" name="foodRottingFlesh" count="1" tag="WasteTreasuresCompleteHarvest"/>
 		<drop event="Harvest" name="resourceBone" count="1" tag="WasteTreasuresCompleteHarvest"/>
@@ -555,6 +597,7 @@
 		<drop event="Harvest" name="foodRottingFlesh" tag="butcherHarvest" count="1,3"/>
 		<drop event="Harvest" name="resourceBone" tag="butcherHarvest" count="1,3"/>
 		<drop event="Harvest" name="resourcePotassiumNitratePowder" tag="butcherHarvest" count="2,3"/>
+		<drop event="Harvest" name="resourceCloth" tag="butcherHarvest" count="1,3"/>
 		<drop event="Harvest" name="resourceBone" tag="allToolsHarvest" count="1"/>
 		<drop event="Harvest" name="foodRottingFlesh" count="1" tag="WasteTreasuresCompleteHarvest"/>
 		<drop event="Harvest" name="resourceBone" count="1" tag="WasteTreasuresCompleteHarvest"/>
@@ -565,6 +608,7 @@
 		<drop event="Harvest" name="foodRottingFlesh" tag="butcherHarvest" count="1,3"/>
 		<drop event="Harvest" name="resourceBone" tag="butcherHarvest" count="1,3"/>
 		<drop event="Harvest" name="resourcePotassiumNitratePowder" tag="butcherHarvest" count="2,3"/>
+		<drop event="Harvest" name="resourceCloth" tag="butcherHarvest" count="1,3"/>
 		<drop event="Harvest" name="resourceBone" tag="allToolsHarvest" count="1"/>
 		<drop event="Harvest" name="foodRottingFlesh" count="1" tag="WasteTreasuresCompleteHarvest"/>
 		<drop event="Harvest" name="resourceBone" count="1" tag="WasteTreasuresCompleteHarvest"/>
@@ -575,6 +619,7 @@
 		<drop event="Harvest" name="foodRottingFlesh" tag="butcherHarvest" count="1,3"/>
 		<drop event="Harvest" name="resourceBone" tag="butcherHarvest" count="1,3"/>
 		<drop event="Harvest" name="resourcePotassiumNitratePowder" tag="butcherHarvest" count="2,3"/>
+		<drop event="Harvest" name="resourceCloth" tag="butcherHarvest" count="1,3"/>
 		<drop event="Harvest" name="resourceBone" tag="allToolsHarvest" count="1"/>
 		<drop event="Harvest" name="foodRottingFlesh" count="1" tag="WasteTreasuresCompleteHarvest"/>
 		<drop event="Harvest" name="resourceBone" count="1" tag="WasteTreasuresCompleteHarvest"/>
@@ -585,6 +630,7 @@
 		<drop event="Harvest" name="foodRottingFlesh" tag="butcherHarvest" count="1,3"/>
 		<drop event="Harvest" name="resourceBone" tag="butcherHarvest" count="1,3"/>
 		<drop event="Harvest" name="resourcePotassiumNitratePowder" tag="butcherHarvest" count="2,3"/>
+		<drop event="Harvest" name="resourceCloth" tag="butcherHarvest" count="1,3"/>
 		<drop event="Harvest" name="resourceBone" tag="allToolsHarvest" count="1"/>
 		<drop event="Harvest" name="foodRottingFlesh" count="1" tag="WasteTreasuresCompleteHarvest"/>
 		<drop event="Harvest" name="resourceBone" count="1" tag="WasteTreasuresCompleteHarvest"/>
@@ -595,6 +641,7 @@
 		<drop event="Harvest" name="foodRottingFlesh" tag="butcherHarvest" count="1,3"/>
 		<drop event="Harvest" name="resourceBone" tag="butcherHarvest" count="1,3"/>
 		<drop event="Harvest" name="resourcePotassiumNitratePowder" tag="butcherHarvest" count="2,3"/>
+		<drop event="Harvest" name="resourceCloth" tag="butcherHarvest" count="1,3"/>
 		<drop event="Harvest" name="resourceBone" tag="allToolsHarvest" count="1"/>
 		<drop event="Harvest" name="foodRottingFlesh" count="1" tag="WasteTreasuresCompleteHarvest"/>
 		<drop event="Harvest" name="resourceBone" count="1" tag="WasteTreasuresCompleteHarvest"/>
@@ -605,6 +652,7 @@
 		<drop event="Harvest" name="foodRottingFlesh" tag="butcherHarvest" count="1,3"/>
 		<drop event="Harvest" name="resourceBone" tag="butcherHarvest" count="1,3"/>
 		<drop event="Harvest" name="resourcePotassiumNitratePowder" tag="butcherHarvest" count="2,3"/>
+		<drop event="Harvest" name="resourceCloth" tag="butcherHarvest" count="1,3"/>
 		<drop event="Harvest" name="resourceBone" tag="allToolsHarvest" count="1"/>
 		<drop event="Harvest" name="foodRottingFlesh" count="1" tag="WasteTreasuresCompleteHarvest"/>
 		<drop event="Harvest" name="resourceBone" count="1" tag="WasteTreasuresCompleteHarvest"/>
@@ -615,6 +663,7 @@
 		<drop event="Harvest" name="foodRottingFlesh" tag="butcherHarvest" count="1,3"/>
 		<drop event="Harvest" name="resourceBone" tag="butcherHarvest" count="1,3"/>
 		<drop event="Harvest" name="resourcePotassiumNitratePowder" tag="butcherHarvest" count="2,3"/>
+		<drop event="Harvest" name="resourceCloth" tag="butcherHarvest" count="1,3"/>
 		<drop event="Harvest" name="resourceBone" tag="allToolsHarvest" count="1"/>
 		<drop event="Harvest" name="foodRottingFlesh" count="1" tag="WasteTreasuresCompleteHarvest"/>
 		<drop event="Harvest" name="resourceBone" count="1" tag="WasteTreasuresCompleteHarvest"/>
@@ -625,6 +674,18 @@
 		<drop event="Harvest" name="foodRottingFlesh" tag="butcherHarvest" count="1,3"/>
 		<drop event="Harvest" name="resourceBone" tag="butcherHarvest" count="1,3"/>
 		<drop event="Harvest" name="resourcePotassiumNitratePowder" tag="butcherHarvest" count="2,3"/>
+		<drop event="Harvest" name="resourceCloth" tag="butcherHarvest" count="1,3"/>
+		<drop event="Harvest" name="resourceBone" tag="allToolsHarvest" count="1"/>
+		<drop event="Harvest" name="foodRottingFlesh" count="1" tag="WasteTreasuresCompleteHarvest"/>
+		<drop event="Harvest" name="resourceBone" count="1" tag="WasteTreasuresCompleteHarvest"/>
+		<drop event="Harvest" name="resourcePotassiumNitratePowder" count="1,2" tag="WasteTreasuresCompleteHarvest"/>
+	</append>
+	<append xpath="/entity_classes/entity_class[@name='zombieSpider']">
+		<drop event="Harvest" name="foodRawMeat" count="0" tool_category="Butcher"/>
+		<drop event="Harvest" name="foodRottingFlesh" tag="butcherHarvest" count="1,3"/>
+		<drop event="Harvest" name="resourceBone" tag="butcherHarvest" count="1,3"/>
+		<drop event="Harvest" name="resourcePotassiumNitratePowder" tag="butcherHarvest" count="2,3"/>
+		<drop event="Harvest" name="resourceCloth" tag="butcherHarvest" count="1,3"/>
 		<drop event="Harvest" name="resourceBone" tag="allToolsHarvest" count="1"/>
 		<drop event="Harvest" name="foodRottingFlesh" count="1" tag="WasteTreasuresCompleteHarvest"/>
 		<drop event="Harvest" name="resourceBone" count="1" tag="WasteTreasuresCompleteHarvest"/>
@@ -635,6 +696,7 @@
 		<drop event="Harvest" name="foodRottingFlesh" tag="butcherHarvest" count="1,3"/>
 		<drop event="Harvest" name="resourceBone" tag="butcherHarvest" count="1,3"/>
 		<drop event="Harvest" name="resourcePotassiumNitratePowder" tag="butcherHarvest" count="2,3"/>
+		<drop event="Harvest" name="resourceCloth" tag="butcherHarvest" count="1,3"/>
 		<drop event="Harvest" name="resourceBone" tag="allToolsHarvest" count="1"/>
 		<drop event="Harvest" name="foodRottingFlesh" count="1" tag="WasteTreasuresCompleteHarvest"/>
 		<drop event="Harvest" name="resourceBone" count="1" tag="WasteTreasuresCompleteHarvest"/>
@@ -645,6 +707,7 @@
 		<drop event="Harvest" name="foodRottingFlesh" tag="butcherHarvest" count="1,3"/>
 		<drop event="Harvest" name="resourceBone" tag="butcherHarvest" count="1,3"/>
 		<drop event="Harvest" name="resourcePotassiumNitratePowder" tag="butcherHarvest" count="2,3"/>
+		<drop event="Harvest" name="resourceCloth" tag="butcherHarvest" count="1,3"/>
 		<drop event="Harvest" name="resourceBone" tag="allToolsHarvest" count="1"/>
 		<drop event="Harvest" name="foodRottingFlesh" count="1" tag="WasteTreasuresCompleteHarvest"/>
 		<drop event="Harvest" name="resourceBone" count="1" tag="WasteTreasuresCompleteHarvest"/>
@@ -655,6 +718,7 @@
 		<drop event="Harvest" name="foodRottingFlesh" tag="butcherHarvest" count="1,3"/>
 		<drop event="Harvest" name="resourceBone" tag="butcherHarvest" count="1,3"/>
 		<drop event="Harvest" name="resourcePotassiumNitratePowder" tag="butcherHarvest" count="2,3"/>
+		<drop event="Harvest" name="resourceCloth" tag="butcherHarvest" count="1,3"/>
 		<drop event="Harvest" name="resourceBone" tag="allToolsHarvest" count="1"/>
 		<drop event="Harvest" name="foodRottingFlesh" count="1" tag="WasteTreasuresCompleteHarvest"/>
 		<drop event="Harvest" name="resourceBone" count="1" tag="WasteTreasuresCompleteHarvest"/>
@@ -665,6 +729,7 @@
 		<drop event="Harvest" name="foodRottingFlesh" tag="butcherHarvest" count="1,3"/>
 		<drop event="Harvest" name="resourceBone" tag="butcherHarvest" count="1,3"/>
 		<drop event="Harvest" name="resourcePotassiumNitratePowder" tag="butcherHarvest" count="2,3"/>
+		<drop event="Harvest" name="resourceCloth" tag="butcherHarvest" count="1,3"/>
 		<drop event="Harvest" name="resourceBone" tag="allToolsHarvest" count="1"/>
 		<drop event="Harvest" name="foodRottingFlesh" count="1" tag="WasteTreasuresCompleteHarvest"/>
 		<drop event="Harvest" name="resourceBone" count="1" tag="WasteTreasuresCompleteHarvest"/>
@@ -673,9 +738,10 @@
 	<!-- *** ZOMBIES_NORMAL -->
 	<append xpath="/entity_classes/entity_class[@name='zombieBoe']">
 		<drop event="Harvest" name="foodRawMeat" count="0" tool_category="Butcher"/>
-		<drop event="Harvest" name="foodRottingFlesh" tag="butcherHarvest" count="2,3"/>
+		<drop event="Harvest" name="foodRottingFlesh" tag="butcherHarvest" count="1,3"/>
 		<drop event="Harvest" name="resourceBone" tag="butcherHarvest" count="1,3"/>
 		<drop event="Harvest" name="resourcePotassiumNitratePowder" tag="butcherHarvest" count="2,3"/>
+		<drop event="Harvest" name="resourceCloth" tag="butcherHarvest" count="1,3"/>
 		<drop event="Harvest" name="resourceBone" tag="allToolsHarvest" count="1"/>
 		<drop event="Harvest" name="foodRottingFlesh" count="1" tag="WasteTreasuresCompleteHarvest"/>
 		<drop event="Harvest" name="resourceBone" count="1" tag="WasteTreasuresCompleteHarvest"/>
@@ -683,9 +749,10 @@
 	</append>
 	<append xpath="/entity_classes/entity_class[@name='zombieBoeFeral']">
 		<drop event="Harvest" name="foodRawMeat" count="0" tool_category="Butcher"/>
-		<drop event="Harvest" name="foodRottingFlesh" tag="butcherHarvest" count="2,3"/>
+		<drop event="Harvest" name="foodRottingFlesh" tag="butcherHarvest" count="1,3"/>
 		<drop event="Harvest" name="resourceBone" tag="butcherHarvest" count="1,3"/>
 		<drop event="Harvest" name="resourcePotassiumNitratePowder" tag="butcherHarvest" count="2,3"/>
+		<drop event="Harvest" name="resourceCloth" tag="butcherHarvest" count="1,3"/>
 		<drop event="Harvest" name="resourceBone" tag="allToolsHarvest" count="1"/>
 		<drop event="Harvest" name="foodRottingFlesh" count="1" tag="WasteTreasuresCompleteHarvest"/>
 		<drop event="Harvest" name="resourceBone" count="1" tag="WasteTreasuresCompleteHarvest"/>
@@ -693,9 +760,10 @@
 	</append>
 	<append xpath="/entity_classes/entity_class[@name='zombieBoeRadiated']">
 		<drop event="Harvest" name="foodRawMeat" count="0" tool_category="Butcher"/>
-		<drop event="Harvest" name="foodRottingFlesh" tag="butcherHarvest" count="2,3"/>
+		<drop event="Harvest" name="foodRottingFlesh" tag="butcherHarvest" count="1,3"/>
 		<drop event="Harvest" name="resourceBone" tag="butcherHarvest" count="1,3"/>
 		<drop event="Harvest" name="resourcePotassiumNitratePowder" tag="butcherHarvest" count="2,3"/>
+		<drop event="Harvest" name="resourceCloth" tag="butcherHarvest" count="1,3"/>
 		<drop event="Harvest" name="resourceBone" tag="allToolsHarvest" count="1"/>
 		<drop event="Harvest" name="foodRottingFlesh" count="1" tag="WasteTreasuresCompleteHarvest"/>
 		<drop event="Harvest" name="resourceBone" count="1" tag="WasteTreasuresCompleteHarvest"/>
@@ -703,9 +771,10 @@
 	</append>
 	<append xpath="/entity_classes/entity_class[@name='zombieBoeCharged']">
 		<drop event="Harvest" name="foodRawMeat" count="0" tool_category="Butcher"/>
-		<drop event="Harvest" name="foodRottingFlesh" tag="butcherHarvest" count="2,3"/>
+		<drop event="Harvest" name="foodRottingFlesh" tag="butcherHarvest" count="1,3"/>
 		<drop event="Harvest" name="resourceBone" tag="butcherHarvest" count="1,3"/>
 		<drop event="Harvest" name="resourcePotassiumNitratePowder" tag="butcherHarvest" count="2,3"/>
+		<drop event="Harvest" name="resourceCloth" tag="butcherHarvest" count="1,3"/>
 		<drop event="Harvest" name="resourceBone" tag="allToolsHarvest" count="1"/>
 		<drop event="Harvest" name="foodRottingFlesh" count="1" tag="WasteTreasuresCompleteHarvest"/>
 		<drop event="Harvest" name="resourceBone" count="1" tag="WasteTreasuresCompleteHarvest"/>
@@ -713,9 +782,10 @@
 	</append>
 	<append xpath="/entity_classes/entity_class[@name='zombieBoeInfernal']">
 		<drop event="Harvest" name="foodRawMeat" count="0" tool_category="Butcher"/>
-		<drop event="Harvest" name="foodRottingFlesh" tag="butcherHarvest" count="2,3"/>
+		<drop event="Harvest" name="foodRottingFlesh" tag="butcherHarvest" count="1,3"/>
 		<drop event="Harvest" name="resourceBone" tag="butcherHarvest" count="1,3"/>
 		<drop event="Harvest" name="resourcePotassiumNitratePowder" tag="butcherHarvest" count="2,3"/>
+		<drop event="Harvest" name="resourceCloth" tag="butcherHarvest" count="1,3"/>
 		<drop event="Harvest" name="resourceBone" tag="allToolsHarvest" count="1"/>
 		<drop event="Harvest" name="foodRottingFlesh" count="1" tag="WasteTreasuresCompleteHarvest"/>
 		<drop event="Harvest" name="resourceBone" count="1" tag="WasteTreasuresCompleteHarvest"/>
@@ -723,9 +793,10 @@
 	</append>
 	<append xpath="/entity_classes/entity_class[@name='zombieMaleHazmat']">
 		<drop event="Harvest" name="foodRawMeat" count="0" tool_category="Butcher"/>
-		<drop event="Harvest" name="foodRottingFlesh" tag="butcherHarvest" count="2,3"/>
+		<drop event="Harvest" name="foodRottingFlesh" tag="butcherHarvest" count="1,3"/>
 		<drop event="Harvest" name="resourceBone" tag="butcherHarvest" count="1,3"/>
 		<drop event="Harvest" name="resourcePotassiumNitratePowder" tag="butcherHarvest" count="2,3"/>
+		<drop event="Harvest" name="resourceCloth" tag="butcherHarvest" count="1,3"/>
 		<drop event="Harvest" name="resourceBone" tag="allToolsHarvest" count="1"/>
 		<drop event="Harvest" name="foodRottingFlesh" count="1" tag="WasteTreasuresCompleteHarvest"/>
 		<drop event="Harvest" name="resourceBone" count="1" tag="WasteTreasuresCompleteHarvest"/>
@@ -733,9 +804,10 @@
 	</append>
 	<append xpath="/entity_classes/entity_class[@name='zombieMaleHazmatFeral']">
 		<drop event="Harvest" name="foodRawMeat" count="0" tool_category="Butcher"/>
-		<drop event="Harvest" name="foodRottingFlesh" tag="butcherHarvest" count="2,3"/>
+		<drop event="Harvest" name="foodRottingFlesh" tag="butcherHarvest" count="1,3"/>
 		<drop event="Harvest" name="resourceBone" tag="butcherHarvest" count="1,3"/>
 		<drop event="Harvest" name="resourcePotassiumNitratePowder" tag="butcherHarvest" count="2,3"/>
+		<drop event="Harvest" name="resourceCloth" tag="butcherHarvest" count="1,3"/>
 		<drop event="Harvest" name="resourceBone" tag="allToolsHarvest" count="1"/>
 		<drop event="Harvest" name="foodRottingFlesh" count="1" tag="WasteTreasuresCompleteHarvest"/>
 		<drop event="Harvest" name="resourceBone" count="1" tag="WasteTreasuresCompleteHarvest"/>
@@ -743,9 +815,10 @@
 	</append>
 	<append xpath="/entity_classes/entity_class[@name='zombieMaleHazmatRadiated']">
 		<drop event="Harvest" name="foodRawMeat" count="0" tool_category="Butcher"/>
-		<drop event="Harvest" name="foodRottingFlesh" tag="butcherHarvest" count="2,3"/>
+		<drop event="Harvest" name="foodRottingFlesh" tag="butcherHarvest" count="1,3"/>
 		<drop event="Harvest" name="resourceBone" tag="butcherHarvest" count="1,3"/>
 		<drop event="Harvest" name="resourcePotassiumNitratePowder" tag="butcherHarvest" count="2,3"/>
+		<drop event="Harvest" name="resourceCloth" tag="butcherHarvest" count="1,3"/>
 		<drop event="Harvest" name="resourceBone" tag="allToolsHarvest" count="1"/>
 		<drop event="Harvest" name="foodRottingFlesh" count="1" tag="WasteTreasuresCompleteHarvest"/>
 		<drop event="Harvest" name="resourceBone" count="1" tag="WasteTreasuresCompleteHarvest"/>
@@ -753,9 +826,10 @@
 	</append>
 	<append xpath="/entity_classes/entity_class[@name='zombieMaleHazmatCharged']">
 		<drop event="Harvest" name="foodRawMeat" count="0" tool_category="Butcher"/>
-		<drop event="Harvest" name="foodRottingFlesh" tag="butcherHarvest" count="2,3"/>
+		<drop event="Harvest" name="foodRottingFlesh" tag="butcherHarvest" count="1,3"/>
 		<drop event="Harvest" name="resourceBone" tag="butcherHarvest" count="1,3"/>
 		<drop event="Harvest" name="resourcePotassiumNitratePowder" tag="butcherHarvest" count="2,3"/>
+		<drop event="Harvest" name="resourceCloth" tag="butcherHarvest" count="1,3"/>
 		<drop event="Harvest" name="resourceBone" tag="allToolsHarvest" count="1"/>
 		<drop event="Harvest" name="foodRottingFlesh" count="1" tag="WasteTreasuresCompleteHarvest"/>
 		<drop event="Harvest" name="resourceBone" count="1" tag="WasteTreasuresCompleteHarvest"/>
@@ -763,9 +837,10 @@
 	</append>
 	<append xpath="/entity_classes/entity_class[@name='zombieMaleHazmatInfernal']">
 		<drop event="Harvest" name="foodRawMeat" count="0" tool_category="Butcher"/>
-		<drop event="Harvest" name="foodRottingFlesh" tag="butcherHarvest" count="2,3"/>
+		<drop event="Harvest" name="foodRottingFlesh" tag="butcherHarvest" count="1,3"/>
 		<drop event="Harvest" name="resourceBone" tag="butcherHarvest" count="1,3"/>
 		<drop event="Harvest" name="resourcePotassiumNitratePowder" tag="butcherHarvest" count="2,3"/>
+		<drop event="Harvest" name="resourceCloth" tag="butcherHarvest" count="1,3"/>
 		<drop event="Harvest" name="resourceBone" tag="allToolsHarvest" count="1"/>
 		<drop event="Harvest" name="foodRottingFlesh" count="1" tag="WasteTreasuresCompleteHarvest"/>
 		<drop event="Harvest" name="resourceBone" count="1" tag="WasteTreasuresCompleteHarvest"/>
@@ -773,9 +848,10 @@
 	</append>
 	<append xpath="/entity_classes/entity_class[@name='zombieJanitor']">
 		<drop event="Harvest" name="foodRawMeat" count="0" tool_category="Butcher"/>
-		<drop event="Harvest" name="foodRottingFlesh" tag="butcherHarvest" count="2,3"/>
+		<drop event="Harvest" name="foodRottingFlesh" tag="butcherHarvest" count="1,3"/>
 		<drop event="Harvest" name="resourceBone" tag="butcherHarvest" count="1,3"/>
 		<drop event="Harvest" name="resourcePotassiumNitratePowder" tag="butcherHarvest" count="2,3"/>
+		<drop event="Harvest" name="resourceCloth" tag="butcherHarvest" count="1,3"/>
 		<drop event="Harvest" name="resourceBone" tag="allToolsHarvest" count="1"/>
 		<drop event="Harvest" name="foodRottingFlesh" count="1" tag="WasteTreasuresCompleteHarvest"/>
 		<drop event="Harvest" name="resourceBone" count="1" tag="WasteTreasuresCompleteHarvest"/>
@@ -783,9 +859,10 @@
 	</append>
 	<append xpath="/entity_classes/entity_class[@name='zombieJanitorFeral']">
 		<drop event="Harvest" name="foodRawMeat" count="0" tool_category="Butcher"/>
-		<drop event="Harvest" name="foodRottingFlesh" tag="butcherHarvest" count="2,3"/>
+		<drop event="Harvest" name="foodRottingFlesh" tag="butcherHarvest" count="1,3"/>
 		<drop event="Harvest" name="resourceBone" tag="butcherHarvest" count="1,3"/>
 		<drop event="Harvest" name="resourcePotassiumNitratePowder" tag="butcherHarvest" count="2,3"/>
+		<drop event="Harvest" name="resourceCloth" tag="butcherHarvest" count="1,3"/>
 		<drop event="Harvest" name="resourceBone" tag="allToolsHarvest" count="1"/>
 		<drop event="Harvest" name="foodRottingFlesh" count="1" tag="WasteTreasuresCompleteHarvest"/>
 		<drop event="Harvest" name="resourceBone" count="1" tag="WasteTreasuresCompleteHarvest"/>
@@ -793,9 +870,10 @@
 	</append>
 	<append xpath="/entity_classes/entity_class[@name='zombieJanitorRadiated']">
 		<drop event="Harvest" name="foodRawMeat" count="0" tool_category="Butcher"/>
-		<drop event="Harvest" name="foodRottingFlesh" tag="butcherHarvest" count="2,3"/>
+		<drop event="Harvest" name="foodRottingFlesh" tag="butcherHarvest" count="1,3"/>
 		<drop event="Harvest" name="resourceBone" tag="butcherHarvest" count="1,3"/>
 		<drop event="Harvest" name="resourcePotassiumNitratePowder" tag="butcherHarvest" count="2,3"/>
+		<drop event="Harvest" name="resourceCloth" tag="butcherHarvest" count="1,3"/>
 		<drop event="Harvest" name="resourceBone" tag="allToolsHarvest" count="1"/>
 		<drop event="Harvest" name="foodRottingFlesh" count="1" tag="WasteTreasuresCompleteHarvest"/>
 		<drop event="Harvest" name="resourceBone" count="1" tag="WasteTreasuresCompleteHarvest"/>
@@ -803,9 +881,10 @@
 	</append>
 	<append xpath="/entity_classes/entity_class[@name='zombieJanitorCharged']">
 		<drop event="Harvest" name="foodRawMeat" count="0" tool_category="Butcher"/>
-		<drop event="Harvest" name="foodRottingFlesh" tag="butcherHarvest" count="2,3"/>
+		<drop event="Harvest" name="foodRottingFlesh" tag="butcherHarvest" count="1,3"/>
 		<drop event="Harvest" name="resourceBone" tag="butcherHarvest" count="1,3"/>
 		<drop event="Harvest" name="resourcePotassiumNitratePowder" tag="butcherHarvest" count="2,3"/>
+		<drop event="Harvest" name="resourceCloth" tag="butcherHarvest" count="1,3"/>
 		<drop event="Harvest" name="resourceBone" tag="allToolsHarvest" count="1"/>
 		<drop event="Harvest" name="foodRottingFlesh" count="1" tag="WasteTreasuresCompleteHarvest"/>
 		<drop event="Harvest" name="resourceBone" count="1" tag="WasteTreasuresCompleteHarvest"/>
@@ -813,9 +892,10 @@
 	</append>
 	<append xpath="/entity_classes/entity_class[@name='zombieJanitorInfernal']">
 		<drop event="Harvest" name="foodRawMeat" count="0" tool_category="Butcher"/>
-		<drop event="Harvest" name="foodRottingFlesh" tag="butcherHarvest" count="2,3"/>
+		<drop event="Harvest" name="foodRottingFlesh" tag="butcherHarvest" count="1,3"/>
 		<drop event="Harvest" name="resourceBone" tag="butcherHarvest" count="1,3"/>
 		<drop event="Harvest" name="resourcePotassiumNitratePowder" tag="butcherHarvest" count="2,3"/>
+		<drop event="Harvest" name="resourceCloth" tag="butcherHarvest" count="1,3"/>
 		<drop event="Harvest" name="resourceBone" tag="allToolsHarvest" count="1"/>
 		<drop event="Harvest" name="foodRottingFlesh" count="1" tag="WasteTreasuresCompleteHarvest"/>
 		<drop event="Harvest" name="resourceBone" count="1" tag="WasteTreasuresCompleteHarvest"/>
@@ -823,9 +903,10 @@
 	</append>
 	<append xpath="/entity_classes/entity_class[@name='zombieInmate']">
 		<drop event="Harvest" name="foodRawMeat" count="0" tool_category="Butcher"/>
-		<drop event="Harvest" name="foodRottingFlesh" tag="butcherHarvest" count="2,3"/>
+		<drop event="Harvest" name="foodRottingFlesh" tag="butcherHarvest" count="1,3"/>
 		<drop event="Harvest" name="resourceBone" tag="butcherHarvest" count="1,3"/>
 		<drop event="Harvest" name="resourcePotassiumNitratePowder" tag="butcherHarvest" count="2,3"/>
+		<drop event="Harvest" name="resourceCloth" tag="butcherHarvest" count="1,3"/>
 		<drop event="Harvest" name="resourceBone" tag="allToolsHarvest" count="1"/>
 		<drop event="Harvest" name="foodRottingFlesh" count="1" tag="WasteTreasuresCompleteHarvest"/>
 		<drop event="Harvest" name="resourceBone" count="1" tag="WasteTreasuresCompleteHarvest"/>
@@ -833,9 +914,10 @@
 	</append>
 	<append xpath="/entity_classes/entity_class[@name='zombieInmateFeral']">
 		<drop event="Harvest" name="foodRawMeat" count="0" tool_category="Butcher"/>
-		<drop event="Harvest" name="foodRottingFlesh" tag="butcherHarvest" count="2,3"/>
+		<drop event="Harvest" name="foodRottingFlesh" tag="butcherHarvest" count="1,3"/>
 		<drop event="Harvest" name="resourceBone" tag="butcherHarvest" count="1,3"/>
 		<drop event="Harvest" name="resourcePotassiumNitratePowder" tag="butcherHarvest" count="2,3"/>
+		<drop event="Harvest" name="resourceCloth" tag="butcherHarvest" count="1,3"/>
 		<drop event="Harvest" name="resourceBone" tag="allToolsHarvest" count="1"/>
 		<drop event="Harvest" name="foodRottingFlesh" count="1" tag="WasteTreasuresCompleteHarvest"/>
 		<drop event="Harvest" name="resourceBone" count="1" tag="WasteTreasuresCompleteHarvest"/>
@@ -843,9 +925,10 @@
 	</append>
 	<append xpath="/entity_classes/entity_class[@name='zombieInmateRadiated']">
 		<drop event="Harvest" name="foodRawMeat" count="0" tool_category="Butcher"/>
-		<drop event="Harvest" name="foodRottingFlesh" tag="butcherHarvest" count="2,3"/>
+		<drop event="Harvest" name="foodRottingFlesh" tag="butcherHarvest" count="1,3"/>
 		<drop event="Harvest" name="resourceBone" tag="butcherHarvest" count="1,3"/>
 		<drop event="Harvest" name="resourcePotassiumNitratePowder" tag="butcherHarvest" count="2,3"/>
+		<drop event="Harvest" name="resourceCloth" tag="butcherHarvest" count="1,3"/>
 		<drop event="Harvest" name="resourceBone" tag="allToolsHarvest" count="1"/>
 		<drop event="Harvest" name="foodRottingFlesh" count="1" tag="WasteTreasuresCompleteHarvest"/>
 		<drop event="Harvest" name="resourceBone" count="1" tag="WasteTreasuresCompleteHarvest"/>
@@ -853,9 +936,10 @@
 	</append>
 	<append xpath="/entity_classes/entity_class[@name='zombieInmateCharged']">
 		<drop event="Harvest" name="foodRawMeat" count="0" tool_category="Butcher"/>
-		<drop event="Harvest" name="foodRottingFlesh" tag="butcherHarvest" count="2,3"/>
+		<drop event="Harvest" name="foodRottingFlesh" tag="butcherHarvest" count="1,3"/>
 		<drop event="Harvest" name="resourceBone" tag="butcherHarvest" count="1,3"/>
 		<drop event="Harvest" name="resourcePotassiumNitratePowder" tag="butcherHarvest" count="2,3"/>
+		<drop event="Harvest" name="resourceCloth" tag="butcherHarvest" count="1,3"/>
 		<drop event="Harvest" name="resourceBone" tag="allToolsHarvest" count="1"/>
 		<drop event="Harvest" name="foodRottingFlesh" count="1" tag="WasteTreasuresCompleteHarvest"/>
 		<drop event="Harvest" name="resourceBone" count="1" tag="WasteTreasuresCompleteHarvest"/>
@@ -863,9 +947,10 @@
 	</append>
 	<append xpath="/entity_classes/entity_class[@name='zombieInmateInfernal']">
 		<drop event="Harvest" name="foodRawMeat" count="0" tool_category="Butcher"/>
-		<drop event="Harvest" name="foodRottingFlesh" tag="butcherHarvest" count="2,3"/>
+		<drop event="Harvest" name="foodRottingFlesh" tag="butcherHarvest" count="1,3"/>
 		<drop event="Harvest" name="resourceBone" tag="butcherHarvest" count="1,3"/>
 		<drop event="Harvest" name="resourcePotassiumNitratePowder" tag="butcherHarvest" count="2,3"/>
+		<drop event="Harvest" name="resourceCloth" tag="butcherHarvest" count="1,3"/>
 		<drop event="Harvest" name="resourceBone" tag="allToolsHarvest" count="1"/>
 		<drop event="Harvest" name="foodRottingFlesh" count="1" tag="WasteTreasuresCompleteHarvest"/>
 		<drop event="Harvest" name="resourceBone" count="1" tag="WasteTreasuresCompleteHarvest"/>
@@ -873,9 +958,10 @@
 	</append>
 	<append xpath="/entity_classes/entity_class[@name='zombieMoe']">
 		<drop event="Harvest" name="foodRawMeat" count="0" tool_category="Butcher"/>
-		<drop event="Harvest" name="foodRottingFlesh" tag="butcherHarvest" count="2,3"/>
+		<drop event="Harvest" name="foodRottingFlesh" tag="butcherHarvest" count="1,3"/>
 		<drop event="Harvest" name="resourceBone" tag="butcherHarvest" count="1,3"/>
 		<drop event="Harvest" name="resourcePotassiumNitratePowder" tag="butcherHarvest" count="2,3"/>
+		<drop event="Harvest" name="resourceCloth" tag="butcherHarvest" count="1,3"/>
 		<drop event="Harvest" name="resourceBone" tag="allToolsHarvest" count="1"/>
 		<drop event="Harvest" name="foodRottingFlesh" count="1" tag="WasteTreasuresCompleteHarvest"/>
 		<drop event="Harvest" name="resourceBone" count="1" tag="WasteTreasuresCompleteHarvest"/>
@@ -883,9 +969,10 @@
 	</append>
 	<append xpath="/entity_classes/entity_class[@name='zombieMoeFeral']">
 		<drop event="Harvest" name="foodRawMeat" count="0" tool_category="Butcher"/>
-		<drop event="Harvest" name="foodRottingFlesh" tag="butcherHarvest" count="2,3"/>
+		<drop event="Harvest" name="foodRottingFlesh" tag="butcherHarvest" count="1,3"/>
 		<drop event="Harvest" name="resourceBone" tag="butcherHarvest" count="1,3"/>
 		<drop event="Harvest" name="resourcePotassiumNitratePowder" tag="butcherHarvest" count="2,3"/>
+		<drop event="Harvest" name="resourceCloth" tag="butcherHarvest" count="1,3"/>
 		<drop event="Harvest" name="resourceBone" tag="allToolsHarvest" count="1"/>
 		<drop event="Harvest" name="foodRottingFlesh" count="1" tag="WasteTreasuresCompleteHarvest"/>
 		<drop event="Harvest" name="resourceBone" count="1" tag="WasteTreasuresCompleteHarvest"/>
@@ -893,9 +980,10 @@
 	</append>
 	<append xpath="/entity_classes/entity_class[@name='zombieMoeRadiated']">
 		<drop event="Harvest" name="foodRawMeat" count="0" tool_category="Butcher"/>
-		<drop event="Harvest" name="foodRottingFlesh" tag="butcherHarvest" count="2,3"/>
+		<drop event="Harvest" name="foodRottingFlesh" tag="butcherHarvest" count="1,3"/>
 		<drop event="Harvest" name="resourceBone" tag="butcherHarvest" count="1,3"/>
 		<drop event="Harvest" name="resourcePotassiumNitratePowder" tag="butcherHarvest" count="2,3"/>
+		<drop event="Harvest" name="resourceCloth" tag="butcherHarvest" count="1,3"/>
 		<drop event="Harvest" name="resourceBone" tag="allToolsHarvest" count="1"/>
 		<drop event="Harvest" name="foodRottingFlesh" count="1" tag="WasteTreasuresCompleteHarvest"/>
 		<drop event="Harvest" name="resourceBone" count="1" tag="WasteTreasuresCompleteHarvest"/>
@@ -904,9 +992,10 @@
 	<!-- *** ZOMBIE_MOE_CHARGED -->
 	<append xpath="/entity_classes/entity_class[@name='zombieMoeInfernal']">
 		<drop event="Harvest" name="foodRawMeat" count="0" tool_category="Butcher"/>
-		<drop event="Harvest" name="foodRottingFlesh" tag="butcherHarvest" count="2,3"/>
+		<drop event="Harvest" name="foodRottingFlesh" tag="butcherHarvest" count="1,3"/>
 		<drop event="Harvest" name="resourceBone" tag="butcherHarvest" count="1,3"/>
 		<drop event="Harvest" name="resourcePotassiumNitratePowder" tag="butcherHarvest" count="2,3"/>
+		<drop event="Harvest" name="resourceCloth" tag="butcherHarvest" count="1,3"/>
 		<drop event="Harvest" name="resourceBone" tag="allToolsHarvest" count="1"/>
 		<drop event="Harvest" name="foodRottingFlesh" count="1" tag="WasteTreasuresCompleteHarvest"/>
 		<drop event="Harvest" name="resourceBone" count="1" tag="WasteTreasuresCompleteHarvest"/>
@@ -914,9 +1003,10 @@
 	</append>
 	<append xpath="/entity_classes/entity_class[@name='zombieLab']">
 		<drop event="Harvest" name="foodRawMeat" count="0" tool_category="Butcher"/>
-		<drop event="Harvest" name="foodRottingFlesh" tag="butcherHarvest" count="2,3"/>
+		<drop event="Harvest" name="foodRottingFlesh" tag="butcherHarvest" count="1,3"/>
 		<drop event="Harvest" name="resourceBone" tag="butcherHarvest" count="1,3"/>
 		<drop event="Harvest" name="resourcePotassiumNitratePowder" tag="butcherHarvest" count="2,3"/>
+		<drop event="Harvest" name="resourceCloth" tag="butcherHarvest" count="1,3"/>
 		<drop event="Harvest" name="resourceBone" tag="allToolsHarvest" count="1"/>
 		<drop event="Harvest" name="foodRottingFlesh" count="1" tag="WasteTreasuresCompleteHarvest"/>
 		<drop event="Harvest" name="resourceBone" count="1" tag="WasteTreasuresCompleteHarvest"/>
@@ -924,9 +1014,10 @@
 	</append>
 	<append xpath="/entity_classes/entity_class[@name='zombieLabFeral']">
 		<drop event="Harvest" name="foodRawMeat" count="0" tool_category="Butcher"/>
-		<drop event="Harvest" name="foodRottingFlesh" tag="butcherHarvest" count="2,3"/>
+		<drop event="Harvest" name="foodRottingFlesh" tag="butcherHarvest" count="1,3"/>
 		<drop event="Harvest" name="resourceBone" tag="butcherHarvest" count="1,3"/>
 		<drop event="Harvest" name="resourcePotassiumNitratePowder" tag="butcherHarvest" count="2,3"/>
+		<drop event="Harvest" name="resourceCloth" tag="butcherHarvest" count="1,3"/>
 		<drop event="Harvest" name="resourceBone" tag="allToolsHarvest" count="1"/>
 		<drop event="Harvest" name="foodRottingFlesh" count="1" tag="WasteTreasuresCompleteHarvest"/>
 		<drop event="Harvest" name="resourceBone" count="1" tag="WasteTreasuresCompleteHarvest"/>
@@ -934,9 +1025,10 @@
 	</append>
 	<append xpath="/entity_classes/entity_class[@name='zombieLabRadiated']">
 		<drop event="Harvest" name="foodRawMeat" count="0" tool_category="Butcher"/>
-		<drop event="Harvest" name="foodRottingFlesh" tag="butcherHarvest" count="2,3"/>
+		<drop event="Harvest" name="foodRottingFlesh" tag="butcherHarvest" count="1,3"/>
 		<drop event="Harvest" name="resourceBone" tag="butcherHarvest" count="1,3"/>
 		<drop event="Harvest" name="resourcePotassiumNitratePowder" tag="butcherHarvest" count="2,3"/>
+		<drop event="Harvest" name="resourceCloth" tag="butcherHarvest" count="1,3"/>
 		<drop event="Harvest" name="resourceBone" tag="allToolsHarvest" count="1"/>
 		<drop event="Harvest" name="foodRottingFlesh" count="1" tag="WasteTreasuresCompleteHarvest"/>
 		<drop event="Harvest" name="resourceBone" count="1" tag="WasteTreasuresCompleteHarvest"/>
@@ -944,9 +1036,10 @@
 	</append>
 	<append xpath="/entity_classes/entity_class[@name='zombieLabCharged']">
 		<drop event="Harvest" name="foodRawMeat" count="0" tool_category="Butcher"/>
-		<drop event="Harvest" name="foodRottingFlesh" tag="butcherHarvest" count="2,3"/>
+		<drop event="Harvest" name="foodRottingFlesh" tag="butcherHarvest" count="1,3"/>
 		<drop event="Harvest" name="resourceBone" tag="butcherHarvest" count="1,3"/>
 		<drop event="Harvest" name="resourcePotassiumNitratePowder" tag="butcherHarvest" count="2,3"/>
+		<drop event="Harvest" name="resourceCloth" tag="butcherHarvest" count="1,3"/>
 		<drop event="Harvest" name="resourceBone" tag="allToolsHarvest" count="1"/>
 		<drop event="Harvest" name="foodRottingFlesh" count="1" tag="WasteTreasuresCompleteHarvest"/>
 		<drop event="Harvest" name="resourceBone" count="1" tag="WasteTreasuresCompleteHarvest"/>
@@ -955,9 +1048,10 @@
 	<!-- *** ZOMBIE_LAB_INFERNAL -->
 	<append xpath="/entity_classes/entity_class[@name='zombieDarlene']">
 		<drop event="Harvest" name="foodRawMeat" count="0" tool_category="Butcher"/>
-		<drop event="Harvest" name="foodRottingFlesh" tag="butcherHarvest" count="2,3"/>
+		<drop event="Harvest" name="foodRottingFlesh" tag="butcherHarvest" count="1,3"/>
 		<drop event="Harvest" name="resourceBone" tag="butcherHarvest" count="1,3"/>
 		<drop event="Harvest" name="resourcePotassiumNitratePowder" tag="butcherHarvest" count="2,3"/>
+		<drop event="Harvest" name="resourceCloth" tag="butcherHarvest" count="1,3"/>
 		<drop event="Harvest" name="resourceBone" tag="allToolsHarvest" count="1"/>
 		<drop event="Harvest" name="foodRottingFlesh" count="1" tag="WasteTreasuresCompleteHarvest"/>
 		<drop event="Harvest" name="resourceBone" count="1" tag="WasteTreasuresCompleteHarvest"/>
@@ -965,9 +1059,10 @@
 	</append>
 	<append xpath="/entity_classes/entity_class[@name='zombieDarleneFeral']">
 		<drop event="Harvest" name="foodRawMeat" count="0" tool_category="Butcher"/>
-		<drop event="Harvest" name="foodRottingFlesh" tag="butcherHarvest" count="2,3"/>
+		<drop event="Harvest" name="foodRottingFlesh" tag="butcherHarvest" count="1,3"/>
 		<drop event="Harvest" name="resourceBone" tag="butcherHarvest" count="1,3"/>
 		<drop event="Harvest" name="resourcePotassiumNitratePowder" tag="butcherHarvest" count="2,3"/>
+		<drop event="Harvest" name="resourceCloth" tag="butcherHarvest" count="1,3"/>
 		<drop event="Harvest" name="resourceBone" tag="allToolsHarvest" count="1"/>
 		<drop event="Harvest" name="foodRottingFlesh" count="1" tag="WasteTreasuresCompleteHarvest"/>
 		<drop event="Harvest" name="resourceBone" count="1" tag="WasteTreasuresCompleteHarvest"/>
@@ -975,9 +1070,10 @@
 	</append>
 	<append xpath="/entity_classes/entity_class[@name='zombieDarleneRadiated']">
 		<drop event="Harvest" name="foodRawMeat" count="0" tool_category="Butcher"/>
-		<drop event="Harvest" name="foodRottingFlesh" tag="butcherHarvest" count="2,3"/>
+		<drop event="Harvest" name="foodRottingFlesh" tag="butcherHarvest" count="1,3"/>
 		<drop event="Harvest" name="resourceBone" tag="butcherHarvest" count="1,3"/>
 		<drop event="Harvest" name="resourcePotassiumNitratePowder" tag="butcherHarvest" count="2,3"/>
+		<drop event="Harvest" name="resourceCloth" tag="butcherHarvest" count="1,3"/>
 		<drop event="Harvest" name="resourceBone" tag="allToolsHarvest" count="1"/>
 		<drop event="Harvest" name="foodRottingFlesh" count="1" tag="WasteTreasuresCompleteHarvest"/>
 		<drop event="Harvest" name="resourceBone" count="1" tag="WasteTreasuresCompleteHarvest"/>
@@ -985,9 +1081,10 @@
 	</append>
 	<append xpath="/entity_classes/entity_class[@name='zombieDarleneCharged']">
 		<drop event="Harvest" name="foodRawMeat" count="0" tool_category="Butcher"/>
-		<drop event="Harvest" name="foodRottingFlesh" tag="butcherHarvest" count="2,3"/>
+		<drop event="Harvest" name="foodRottingFlesh" tag="butcherHarvest" count="1,3"/>
 		<drop event="Harvest" name="resourceBone" tag="butcherHarvest" count="1,3"/>
 		<drop event="Harvest" name="resourcePotassiumNitratePowder" tag="butcherHarvest" count="2,3"/>
+		<drop event="Harvest" name="resourceCloth" tag="butcherHarvest" count="1,3"/>
 		<drop event="Harvest" name="resourceBone" tag="allToolsHarvest" count="1"/>
 		<drop event="Harvest" name="foodRottingFlesh" count="1" tag="WasteTreasuresCompleteHarvest"/>
 		<drop event="Harvest" name="resourceBone" count="1" tag="WasteTreasuresCompleteHarvest"/>
@@ -995,9 +1092,10 @@
 	</append>
 	<append xpath="/entity_classes/entity_class[@name='zombieDarleneInfernal']">
 		<drop event="Harvest" name="foodRawMeat" count="0" tool_category="Butcher"/>
-		<drop event="Harvest" name="foodRottingFlesh" tag="butcherHarvest" count="2,3"/>
+		<drop event="Harvest" name="foodRottingFlesh" tag="butcherHarvest" count="1,3"/>
 		<drop event="Harvest" name="resourceBone" tag="butcherHarvest" count="1,3"/>
 		<drop event="Harvest" name="resourcePotassiumNitratePowder" tag="butcherHarvest" count="2,3"/>
+		<drop event="Harvest" name="resourceCloth" tag="butcherHarvest" count="1,3"/>
 		<drop event="Harvest" name="resourceBone" tag="allToolsHarvest" count="1"/>
 		<drop event="Harvest" name="foodRottingFlesh" count="1" tag="WasteTreasuresCompleteHarvest"/>
 		<drop event="Harvest" name="resourceBone" count="1" tag="WasteTreasuresCompleteHarvest"/>
@@ -1005,9 +1103,10 @@
 	</append>
 	<append xpath="/entity_classes/entity_class[@name='zombieYo']">
 		<drop event="Harvest" name="foodRawMeat" count="0" tool_category="Butcher"/>
-		<drop event="Harvest" name="foodRottingFlesh" tag="butcherHarvest" count="2,3"/>
+		<drop event="Harvest" name="foodRottingFlesh" tag="butcherHarvest" count="1,3"/>
 		<drop event="Harvest" name="resourceBone" tag="butcherHarvest" count="1,3"/>
 		<drop event="Harvest" name="resourcePotassiumNitratePowder" tag="butcherHarvest" count="2,3"/>
+		<drop event="Harvest" name="resourceCloth" tag="butcherHarvest" count="1,3"/>
 		<drop event="Harvest" name="resourceBone" tag="allToolsHarvest" count="1"/>
 		<drop event="Harvest" name="foodRottingFlesh" count="1" tag="WasteTreasuresCompleteHarvest"/>
 		<drop event="Harvest" name="resourceBone" count="1" tag="WasteTreasuresCompleteHarvest"/>
@@ -1015,9 +1114,10 @@
 	</append>
 	<append xpath="/entity_classes/entity_class[@name='zombieYoFeral']">
 		<drop event="Harvest" name="foodRawMeat" count="0" tool_category="Butcher"/>
-		<drop event="Harvest" name="foodRottingFlesh" tag="butcherHarvest" count="2,3"/>
+		<drop event="Harvest" name="foodRottingFlesh" tag="butcherHarvest" count="1,3"/>
 		<drop event="Harvest" name="resourceBone" tag="butcherHarvest" count="1,3"/>
 		<drop event="Harvest" name="resourcePotassiumNitratePowder" tag="butcherHarvest" count="2,3"/>
+		<drop event="Harvest" name="resourceCloth" tag="butcherHarvest" count="1,3"/>
 		<drop event="Harvest" name="resourceBone" tag="allToolsHarvest" count="1"/>
 		<drop event="Harvest" name="foodRottingFlesh" count="1" tag="WasteTreasuresCompleteHarvest"/>
 		<drop event="Harvest" name="resourceBone" count="1" tag="WasteTreasuresCompleteHarvest"/>
@@ -1025,9 +1125,10 @@
 	</append>
 	<append xpath="/entity_classes/entity_class[@name='zombieYoRadiated']">
 		<drop event="Harvest" name="foodRawMeat" count="0" tool_category="Butcher"/>
-		<drop event="Harvest" name="foodRottingFlesh" tag="butcherHarvest" count="2,3"/>
+		<drop event="Harvest" name="foodRottingFlesh" tag="butcherHarvest" count="1,3"/>
 		<drop event="Harvest" name="resourceBone" tag="butcherHarvest" count="1,3"/>
 		<drop event="Harvest" name="resourcePotassiumNitratePowder" tag="butcherHarvest" count="2,3"/>
+		<drop event="Harvest" name="resourceCloth" tag="butcherHarvest" count="1,3"/>
 		<drop event="Harvest" name="resourceBone" tag="allToolsHarvest" count="1"/>
 		<drop event="Harvest" name="foodRottingFlesh" count="1" tag="WasteTreasuresCompleteHarvest"/>
 		<drop event="Harvest" name="resourceBone" count="1" tag="WasteTreasuresCompleteHarvest"/>
@@ -1035,9 +1136,10 @@
 	</append>
 	<append xpath="/entity_classes/entity_class[@name='zombieYoCharged']">
 		<drop event="Harvest" name="foodRawMeat" count="0" tool_category="Butcher"/>
-		<drop event="Harvest" name="foodRottingFlesh" tag="butcherHarvest" count="2,3"/>
+		<drop event="Harvest" name="foodRottingFlesh" tag="butcherHarvest" count="1,3"/>
 		<drop event="Harvest" name="resourceBone" tag="butcherHarvest" count="1,3"/>
 		<drop event="Harvest" name="resourcePotassiumNitratePowder" tag="butcherHarvest" count="2,3"/>
+		<drop event="Harvest" name="resourceCloth" tag="butcherHarvest" count="1,3"/>
 		<drop event="Harvest" name="resourceBone" tag="allToolsHarvest" count="1"/>
 		<drop event="Harvest" name="foodRottingFlesh" count="1" tag="WasteTreasuresCompleteHarvest"/>
 		<drop event="Harvest" name="resourceBone" count="1" tag="WasteTreasuresCompleteHarvest"/>
@@ -1045,9 +1147,10 @@
 	</append>
 	<append xpath="/entity_classes/entity_class[@name='zombieYoInfernal']">
 		<drop event="Harvest" name="foodRawMeat" count="0" tool_category="Butcher"/>
-		<drop event="Harvest" name="foodRottingFlesh" tag="butcherHarvest" count="2,3"/>
+		<drop event="Harvest" name="foodRottingFlesh" tag="butcherHarvest" count="1,3"/>
 		<drop event="Harvest" name="resourceBone" tag="butcherHarvest" count="1,3"/>
 		<drop event="Harvest" name="resourcePotassiumNitratePowder" tag="butcherHarvest" count="2,3"/>
+		<drop event="Harvest" name="resourceCloth" tag="butcherHarvest" count="1,3"/>
 		<drop event="Harvest" name="resourceBone" tag="allToolsHarvest" count="1"/>
 		<drop event="Harvest" name="foodRottingFlesh" count="1" tag="WasteTreasuresCompleteHarvest"/>
 		<drop event="Harvest" name="resourceBone" count="1" tag="WasteTreasuresCompleteHarvest"/>
@@ -1055,9 +1158,10 @@
 	</append>
 	<append xpath="/entity_classes/entity_class[@name='zombieUtilityWorker']">
 		<drop event="Harvest" name="foodRawMeat" count="0" tool_category="Butcher"/>
-		<drop event="Harvest" name="foodRottingFlesh" tag="butcherHarvest" count="2,3"/>
+		<drop event="Harvest" name="foodRottingFlesh" tag="butcherHarvest" count="1,3"/>
 		<drop event="Harvest" name="resourceBone" tag="butcherHarvest" count="1,3"/>
 		<drop event="Harvest" name="resourcePotassiumNitratePowder" tag="butcherHarvest" count="2,3"/>
+		<drop event="Harvest" name="resourceCloth" tag="butcherHarvest" count="1,3"/>
 		<drop event="Harvest" name="resourceBone" tag="allToolsHarvest" count="1"/>
 		<drop event="Harvest" name="foodRottingFlesh" count="1" tag="WasteTreasuresCompleteHarvest"/>
 		<drop event="Harvest" name="resourceBone" count="1" tag="WasteTreasuresCompleteHarvest"/>
@@ -1065,9 +1169,10 @@
 	</append>
 	<append xpath="/entity_classes/entity_class[@name='zombieUtilityWorkerFeral']">
 		<drop event="Harvest" name="foodRawMeat" count="0" tool_category="Butcher"/>
-		<drop event="Harvest" name="foodRottingFlesh" tag="butcherHarvest" count="2,3"/>
+		<drop event="Harvest" name="foodRottingFlesh" tag="butcherHarvest" count="1,3"/>
 		<drop event="Harvest" name="resourceBone" tag="butcherHarvest" count="1,3"/>
 		<drop event="Harvest" name="resourcePotassiumNitratePowder" tag="butcherHarvest" count="2,3"/>
+		<drop event="Harvest" name="resourceCloth" tag="butcherHarvest" count="1,3"/>
 		<drop event="Harvest" name="resourceBone" tag="allToolsHarvest" count="1"/>
 		<drop event="Harvest" name="foodRottingFlesh" count="1" tag="WasteTreasuresCompleteHarvest"/>
 		<drop event="Harvest" name="resourceBone" count="1" tag="WasteTreasuresCompleteHarvest"/>
@@ -1075,9 +1180,10 @@
 	</append>
 	<append xpath="/entity_classes/entity_class[@name='zombieUtilityWorkerRadiated']">
 		<drop event="Harvest" name="foodRawMeat" count="0" tool_category="Butcher"/>
-		<drop event="Harvest" name="foodRottingFlesh" tag="butcherHarvest" count="2,3"/>
+		<drop event="Harvest" name="foodRottingFlesh" tag="butcherHarvest" count="1,3"/>
 		<drop event="Harvest" name="resourceBone" tag="butcherHarvest" count="1,3"/>
 		<drop event="Harvest" name="resourcePotassiumNitratePowder" tag="butcherHarvest" count="2,3"/>
+		<drop event="Harvest" name="resourceCloth" tag="butcherHarvest" count="1,3"/>
 		<drop event="Harvest" name="resourceBone" tag="allToolsHarvest" count="1"/>
 		<drop event="Harvest" name="foodRottingFlesh" count="1" tag="WasteTreasuresCompleteHarvest"/>
 		<drop event="Harvest" name="resourceBone" count="1" tag="WasteTreasuresCompleteHarvest"/>
@@ -1085,9 +1191,10 @@
 	</append>
 	<append xpath="/entity_classes/entity_class[@name='zombieUtilityWorkerCharged']">
 		<drop event="Harvest" name="foodRawMeat" count="0" tool_category="Butcher"/>
-		<drop event="Harvest" name="foodRottingFlesh" tag="butcherHarvest" count="2,3"/>
+		<drop event="Harvest" name="foodRottingFlesh" tag="butcherHarvest" count="1,3"/>
 		<drop event="Harvest" name="resourceBone" tag="butcherHarvest" count="1,3"/>
 		<drop event="Harvest" name="resourcePotassiumNitratePowder" tag="butcherHarvest" count="2,3"/>
+		<drop event="Harvest" name="resourceCloth" tag="butcherHarvest" count="1,3"/>
 		<drop event="Harvest" name="resourceBone" tag="allToolsHarvest" count="1"/>
 		<drop event="Harvest" name="foodRottingFlesh" count="1" tag="WasteTreasuresCompleteHarvest"/>
 		<drop event="Harvest" name="resourceBone" count="1" tag="WasteTreasuresCompleteHarvest"/>
@@ -1095,9 +1202,10 @@
 	</append>
 	<append xpath="/entity_classes/entity_class[@name='zombieUtilityWorkerInfernal']">
 		<drop event="Harvest" name="foodRawMeat" count="0" tool_category="Butcher"/>
-		<drop event="Harvest" name="foodRottingFlesh" tag="butcherHarvest" count="2,3"/>
+		<drop event="Harvest" name="foodRottingFlesh" tag="butcherHarvest" count="1,3"/>
 		<drop event="Harvest" name="resourceBone" tag="butcherHarvest" count="1,3"/>
 		<drop event="Harvest" name="resourcePotassiumNitratePowder" tag="butcherHarvest" count="2,3"/>
+		<drop event="Harvest" name="resourceCloth" tag="butcherHarvest" count="1,3"/>
 		<drop event="Harvest" name="resourceBone" tag="allToolsHarvest" count="1"/>
 		<drop event="Harvest" name="foodRottingFlesh" count="1" tag="WasteTreasuresCompleteHarvest"/>
 		<drop event="Harvest" name="resourceBone" count="1" tag="WasteTreasuresCompleteHarvest"/>
@@ -1109,6 +1217,7 @@
 		<drop event="Harvest" name="foodRottingFlesh" tag="butcherHarvest" count="2,4"/>
 		<drop event="Harvest" name="resourceBone" tag="butcherHarvest" count="2,3"/>
 		<drop event="Harvest" name="resourcePotassiumNitratePowder" tag="butcherHarvest" count="2,3"/>
+		<drop event="Harvest" name="resourceCloth" tag="butcherHarvest" count="2,3"/>
 		<drop event="Harvest" name="resourceBone" tag="allToolsHarvest" count="1"/>
 		<drop event="Harvest" name="foodRottingFlesh" count="1" tag="WasteTreasuresCompleteHarvest"/>
 		<drop event="Harvest" name="resourceBone" count="1" tag="WasteTreasuresCompleteHarvest"/>
@@ -1119,6 +1228,7 @@
 		<drop event="Harvest" name="foodRottingFlesh" tag="butcherHarvest" count="2,4"/>
 		<drop event="Harvest" name="resourceBone" tag="butcherHarvest" count="2,3"/>
 		<drop event="Harvest" name="resourcePotassiumNitratePowder" tag="butcherHarvest" count="2,3"/>
+		<drop event="Harvest" name="resourceCloth" tag="butcherHarvest" count="2,3"/>
 		<drop event="Harvest" name="resourceBone" tag="allToolsHarvest" count="1"/>
 		<drop event="Harvest" name="foodRottingFlesh" count="1" tag="WasteTreasuresCompleteHarvest"/>
 		<drop event="Harvest" name="resourceBone" count="1" tag="WasteTreasuresCompleteHarvest"/>
@@ -1129,6 +1239,7 @@
 		<drop event="Harvest" name="foodRottingFlesh" tag="butcherHarvest" count="2,4"/>
 		<drop event="Harvest" name="resourceBone" tag="butcherHarvest" count="2,3"/>
 		<drop event="Harvest" name="resourcePotassiumNitratePowder" tag="butcherHarvest" count="2,3"/>
+		<drop event="Harvest" name="resourceCloth" tag="butcherHarvest" count="2,3"/>
 		<drop event="Harvest" name="resourceBone" tag="allToolsHarvest" count="1"/>
 		<drop event="Harvest" name="foodRottingFlesh" count="1" tag="WasteTreasuresCompleteHarvest"/>
 		<drop event="Harvest" name="resourceBone" count="1" tag="WasteTreasuresCompleteHarvest"/>
@@ -1140,6 +1251,7 @@
 		<drop event="Harvest" name="foodRottingFlesh" tag="butcherHarvest" count="2,4"/>
 		<drop event="Harvest" name="resourceBone" tag="butcherHarvest" count="2,3"/>
 		<drop event="Harvest" name="resourcePotassiumNitratePowder" tag="butcherHarvest" count="2,3"/>
+		<drop event="Harvest" name="resourceCloth" tag="butcherHarvest" count="2,3"/>
 		<drop event="Harvest" name="resourceBone" tag="allToolsHarvest" count="1"/>
 		<drop event="Harvest" name="foodRottingFlesh" count="1" tag="WasteTreasuresCompleteHarvest"/>
 		<drop event="Harvest" name="resourceBone" count="1" tag="WasteTreasuresCompleteHarvest"/>
@@ -1150,6 +1262,7 @@
 		<drop event="Harvest" name="foodRottingFlesh" tag="butcherHarvest" count="2,4"/>
 		<drop event="Harvest" name="resourceBone" tag="butcherHarvest" count="2,3"/>
 		<drop event="Harvest" name="resourcePotassiumNitratePowder" tag="butcherHarvest" count="2,3"/>
+		<drop event="Harvest" name="resourceCloth" tag="butcherHarvest" count="2,3"/>
 		<drop event="Harvest" name="resourceBone" tag="allToolsHarvest" count="1"/>
 		<drop event="Harvest" name="foodRottingFlesh" count="1" tag="WasteTreasuresCompleteHarvest"/>
 		<drop event="Harvest" name="resourceBone" count="1" tag="WasteTreasuresCompleteHarvest"/>
@@ -1160,6 +1273,7 @@
 		<drop event="Harvest" name="foodRottingFlesh" tag="butcherHarvest" count="2,4"/>
 		<drop event="Harvest" name="resourceBone" tag="butcherHarvest" count="2,3"/>
 		<drop event="Harvest" name="resourcePotassiumNitratePowder" tag="butcherHarvest" count="2,3"/>
+		<drop event="Harvest" name="resourceCloth" tag="butcherHarvest" count="2,3"/>
 		<drop event="Harvest" name="resourceBone" tag="allToolsHarvest" count="1"/>
 		<drop event="Harvest" name="foodRottingFlesh" count="1" tag="WasteTreasuresCompleteHarvest"/>
 		<drop event="Harvest" name="resourceBone" count="1" tag="WasteTreasuresCompleteHarvest"/>
@@ -1170,6 +1284,7 @@
 		<drop event="Harvest" name="foodRottingFlesh" tag="butcherHarvest" count="2,4"/>
 		<drop event="Harvest" name="resourceBone" tag="butcherHarvest" count="2,3"/>
 		<drop event="Harvest" name="resourcePotassiumNitratePowder" tag="butcherHarvest" count="2,3"/>
+		<drop event="Harvest" name="resourceCloth" tag="butcherHarvest" count="2,3"/>
 		<drop event="Harvest" name="resourceBone" tag="allToolsHarvest" count="1"/>
 		<drop event="Harvest" name="foodRottingFlesh" count="1" tag="WasteTreasuresCompleteHarvest"/>
 		<drop event="Harvest" name="resourceBone" count="1" tag="WasteTreasuresCompleteHarvest"/>
@@ -1181,6 +1296,7 @@
 		<drop event="Harvest" name="foodRottingFlesh" tag="butcherHarvest" count="2,4"/>
 		<drop event="Harvest" name="resourceBone" tag="butcherHarvest" count="2,3"/>
 		<drop event="Harvest" name="resourcePotassiumNitratePowder" tag="butcherHarvest" count="2,3"/>
+		<drop event="Harvest" name="resourceCloth" tag="butcherHarvest" count="2,3"/>
 		<drop event="Harvest" name="resourceBone" tag="allToolsHarvest" count="1"/>
 		<drop event="Harvest" name="foodRottingFlesh" count="1" tag="WasteTreasuresCompleteHarvest"/>
 		<drop event="Harvest" name="resourceBone" count="1" tag="WasteTreasuresCompleteHarvest"/>
@@ -1192,6 +1308,7 @@
 		<drop event="Harvest" name="resourceAnimalFat" tag="butcherHarvest" count="1,3"/>
 		<drop event="Harvest" name="resourceBone" tag="butcherHarvest" count="2,3"/>
 		<drop event="Harvest" name="resourcePotassiumNitratePowder" tag="butcherHarvest" count="2,3"/>
+		<drop event="Harvest" name="resourceCloth" tag="butcherHarvest" count="2,3"/>
 		<drop event="Harvest" name="resourceBone" tag="allToolsHarvest" count="1"/>
 		<drop event="Harvest" name="foodRottingFlesh" count="1" tag="WasteTreasuresCompleteHarvest"/>
 		<drop event="Harvest" name="resourceBone" count="1" tag="WasteTreasuresCompleteHarvest"/>
@@ -1203,6 +1320,7 @@
 		<drop event="Harvest" name="resourceAnimalFat" tag="butcherHarvest" count="1,3"/>
 		<drop event="Harvest" name="resourceBone" tag="butcherHarvest" count="2,3"/>
 		<drop event="Harvest" name="resourcePotassiumNitratePowder" tag="butcherHarvest" count="2,3"/>
+		<drop event="Harvest" name="resourceCloth" tag="butcherHarvest" count="2,3"/>
 		<drop event="Harvest" name="resourceBone" tag="allToolsHarvest" count="1"/>
 		<drop event="Harvest" name="foodRottingFlesh" count="1" tag="WasteTreasuresCompleteHarvest"/>
 		<drop event="Harvest" name="resourceBone" count="1" tag="WasteTreasuresCompleteHarvest"/>
@@ -1214,6 +1332,7 @@
 		<drop event="Harvest" name="resourceAnimalFat" tag="butcherHarvest" count="1,3"/>
 		<drop event="Harvest" name="resourceBone" tag="butcherHarvest" count="2,3"/>
 		<drop event="Harvest" name="resourcePotassiumNitratePowder" tag="butcherHarvest" count="2,3"/>
+		<drop event="Harvest" name="resourceCloth" tag="butcherHarvest" count="2,3"/>
 		<drop event="Harvest" name="resourceBone" tag="allToolsHarvest" count="1"/>
 		<drop event="Harvest" name="foodRottingFlesh" count="1" tag="WasteTreasuresCompleteHarvest"/>
 		<drop event="Harvest" name="resourceBone" count="1" tag="WasteTreasuresCompleteHarvest"/>
@@ -1226,6 +1345,7 @@
 		<drop event="Harvest" name="resourceAnimalFat" tag="butcherHarvest" count="1,3"/>
 		<drop event="Harvest" name="resourceBone" tag="butcherHarvest" count="2,3"/>
 		<drop event="Harvest" name="resourcePotassiumNitratePowder" tag="butcherHarvest" count="2,3"/>
+		<drop event="Harvest" name="resourceCloth" tag="butcherHarvest" count="2,3"/>
 		<drop event="Harvest" name="resourceBone" tag="allToolsHarvest" count="1"/>
 		<drop event="Harvest" name="foodRottingFlesh" count="1" tag="WasteTreasuresCompleteHarvest"/>
 		<drop event="Harvest" name="resourceBone" count="1" tag="WasteTreasuresCompleteHarvest"/>
@@ -1237,6 +1357,7 @@
 		<drop event="Harvest" name="resourceAnimalFat" tag="butcherHarvest" count="1,3"/>
 		<drop event="Harvest" name="resourceBone" tag="butcherHarvest" count="2,3"/>
 		<drop event="Harvest" name="resourcePotassiumNitratePowder" tag="butcherHarvest" count="2,3"/>
+		<drop event="Harvest" name="resourceCloth" tag="butcherHarvest" count="2,3"/>
 		<drop event="Harvest" name="resourceBone" tag="allToolsHarvest" count="1"/>
 		<drop event="Harvest" name="foodRottingFlesh" count="1" tag="WasteTreasuresCompleteHarvest"/>
 		<drop event="Harvest" name="resourceBone" count="1" tag="WasteTreasuresCompleteHarvest"/>
@@ -1248,6 +1369,7 @@
 		<drop event="Harvest" name="resourceAnimalFat" tag="butcherHarvest" count="1,3"/>
 		<drop event="Harvest" name="resourceBone" tag="butcherHarvest" count="2,3"/>
 		<drop event="Harvest" name="resourcePotassiumNitratePowder" tag="butcherHarvest" count="2,3"/>
+		<drop event="Harvest" name="resourceCloth" tag="butcherHarvest" count="2,3"/>
 		<drop event="Harvest" name="resourceBone" tag="allToolsHarvest" count="1"/>
 		<drop event="Harvest" name="foodRottingFlesh" count="1" tag="WasteTreasuresCompleteHarvest"/>
 		<drop event="Harvest" name="resourceBone" count="1" tag="WasteTreasuresCompleteHarvest"/>
@@ -1259,6 +1381,7 @@
 		<drop event="Harvest" name="resourceAnimalFat" tag="butcherHarvest" count="1,3"/>
 		<drop event="Harvest" name="resourceBone" tag="butcherHarvest" count="2,3"/>
 		<drop event="Harvest" name="resourcePotassiumNitratePowder" tag="butcherHarvest" count="2,3"/>
+		<drop event="Harvest" name="resourceCloth" tag="butcherHarvest" count="2,3"/>
 		<drop event="Harvest" name="resourceBone" tag="allToolsHarvest" count="1"/>
 		<drop event="Harvest" name="foodRottingFlesh" count="1" tag="WasteTreasuresCompleteHarvest"/>
 		<drop event="Harvest" name="resourceBone" count="1" tag="WasteTreasuresCompleteHarvest"/>
@@ -1271,6 +1394,7 @@
 		<drop event="Harvest" name="resourceAnimalFat" tag="butcherHarvest" count="1,3"/>
 		<drop event="Harvest" name="resourceBone" tag="butcherHarvest" count="2,3"/>
 		<drop event="Harvest" name="resourcePotassiumNitratePowder" tag="butcherHarvest" count="2,3"/>
+		<drop event="Harvest" name="resourceCloth" tag="butcherHarvest" count="2,3"/>
 		<drop event="Harvest" name="resourceBone" tag="allToolsHarvest" count="1"/>
 		<drop event="Harvest" name="foodRottingFlesh" count="1" tag="WasteTreasuresCompleteHarvest"/>
 		<drop event="Harvest" name="resourceBone" count="1" tag="WasteTreasuresCompleteHarvest"/>
@@ -1282,6 +1406,7 @@
 		<drop event="Harvest" name="resourceAnimalFat" tag="butcherHarvest" count="1,3"/>
 		<drop event="Harvest" name="resourceBone" tag="butcherHarvest" count="2,3"/>
 		<drop event="Harvest" name="resourcePotassiumNitratePowder" tag="butcherHarvest" count="2,3"/>
+		<drop event="Harvest" name="resourceCloth" tag="butcherHarvest" count="2,3"/>
 		<drop event="Harvest" name="resourceBone" tag="allToolsHarvest" count="1"/>
 		<drop event="Harvest" name="foodRottingFlesh" count="1" tag="WasteTreasuresCompleteHarvest"/>
 		<drop event="Harvest" name="resourceBone" count="1" tag="WasteTreasuresCompleteHarvest"/>
@@ -1293,6 +1418,7 @@
 		<drop event="Harvest" name="resourceAnimalFat" tag="butcherHarvest" count="1,3"/>
 		<drop event="Harvest" name="resourceBone" tag="butcherHarvest" count="2,3"/>
 		<drop event="Harvest" name="resourcePotassiumNitratePowder" tag="butcherHarvest" count="2,3"/>
+		<drop event="Harvest" name="resourceCloth" tag="butcherHarvest" count="2,3"/>
 		<drop event="Harvest" name="resourceBone" tag="allToolsHarvest" count="1"/>
 		<drop event="Harvest" name="foodRottingFlesh" count="1" tag="WasteTreasuresCompleteHarvest"/>
 		<drop event="Harvest" name="resourceBone" count="1" tag="WasteTreasuresCompleteHarvest"/>
@@ -1304,6 +1430,7 @@
 		<drop event="Harvest" name="resourceAnimalFat" tag="butcherHarvest" count="1,3"/>
 		<drop event="Harvest" name="resourceBone" tag="butcherHarvest" count="2,3"/>
 		<drop event="Harvest" name="resourcePotassiumNitratePowder" tag="butcherHarvest" count="2,3"/>
+		<drop event="Harvest" name="resourceCloth" tag="butcherHarvest" count="2,3"/>
 		<drop event="Harvest" name="resourceBone" tag="allToolsHarvest" count="1"/>
 		<drop event="Harvest" name="foodRottingFlesh" count="1" tag="WasteTreasuresCompleteHarvest"/>
 		<drop event="Harvest" name="resourceBone" count="1" tag="WasteTreasuresCompleteHarvest"/>
@@ -1316,6 +1443,7 @@
 		<drop event="Harvest" name="resourceAnimalFat" tag="butcherHarvest" count="1,3"/>
 		<drop event="Harvest" name="resourceBone" tag="butcherHarvest" count="2,3"/>
 		<drop event="Harvest" name="resourcePotassiumNitratePowder" tag="butcherHarvest" count="2,3"/>
+		<drop event="Harvest" name="resourceCloth" tag="butcherHarvest" count="2,3"/>
 		<drop event="Harvest" name="resourceBone" tag="allToolsHarvest" count="1"/>
 		<drop event="Harvest" name="foodRottingFlesh" count="1" tag="WasteTreasuresCompleteHarvest"/>
 		<drop event="Harvest" name="resourceBone" count="1" tag="WasteTreasuresCompleteHarvest"/>
@@ -1327,6 +1455,7 @@
 		<drop event="Harvest" name="resourceAnimalFat" tag="butcherHarvest" count="1,3"/>
 		<drop event="Harvest" name="resourceBone" tag="butcherHarvest" count="2,3"/>
 		<drop event="Harvest" name="resourcePotassiumNitratePowder" tag="butcherHarvest" count="2,3"/>
+		<drop event="Harvest" name="resourceCloth" tag="butcherHarvest" count="2,3"/>
 		<drop event="Harvest" name="resourceBone" tag="allToolsHarvest" count="1"/>
 		<drop event="Harvest" name="foodRottingFlesh" count="1" tag="WasteTreasuresCompleteHarvest"/>
 		<drop event="Harvest" name="resourceBone" count="1" tag="WasteTreasuresCompleteHarvest"/>
@@ -1338,6 +1467,7 @@
 		<drop event="Harvest" name="resourceAnimalFat" tag="butcherHarvest" count="1,3"/>
 		<drop event="Harvest" name="resourceBone" tag="butcherHarvest" count="2,3"/>
 		<drop event="Harvest" name="resourcePotassiumNitratePowder" tag="butcherHarvest" count="2,3"/>
+		<drop event="Harvest" name="resourceCloth" tag="butcherHarvest" count="2,3"/>
 		<drop event="Harvest" name="resourceBone" tag="allToolsHarvest" count="1"/>
 		<drop event="Harvest" name="foodRottingFlesh" count="1" tag="WasteTreasuresCompleteHarvest"/>
 		<drop event="Harvest" name="resourceBone" count="1" tag="WasteTreasuresCompleteHarvest"/>
@@ -1349,6 +1479,7 @@
 		<drop event="Harvest" name="resourceAnimalFat" tag="butcherHarvest" count="1,3"/>
 		<drop event="Harvest" name="resourceBone" tag="butcherHarvest" count="2,3"/>
 		<drop event="Harvest" name="resourcePotassiumNitratePowder" tag="butcherHarvest" count="2,3"/>
+		<drop event="Harvest" name="resourceCloth" tag="butcherHarvest" count="2,3"/>
 		<drop event="Harvest" name="resourceBone" tag="allToolsHarvest" count="1"/>
 		<drop event="Harvest" name="foodRottingFlesh" count="1" tag="WasteTreasuresCompleteHarvest"/>
 		<drop event="Harvest" name="resourceBone" count="1" tag="WasteTreasuresCompleteHarvest"/>
@@ -1361,6 +1492,7 @@
 		<drop event="Harvest" name="resourceAnimalFat" tag="butcherHarvest" count="1,3"/>
 		<drop event="Harvest" name="resourceBone" tag="butcherHarvest" count="2,3"/>
 		<drop event="Harvest" name="resourcePotassiumNitratePowder" tag="butcherHarvest" count="2,3"/>
+		<drop event="Harvest" name="resourceCloth" tag="butcherHarvest" count="2,3"/>
 		<drop event="Harvest" name="resourceBone" tag="allToolsHarvest" count="1"/>
 		<drop event="Harvest" name="foodRottingFlesh" count="1" tag="WasteTreasuresCompleteHarvest"/>
 		<drop event="Harvest" name="resourceBone" count="1" tag="WasteTreasuresCompleteHarvest"/>
@@ -1372,6 +1504,7 @@
 		<drop event="Harvest" name="foodRottingFlesh" tag="butcherHarvest" count="2,3"/>
 		<drop event="Harvest" name="resourceBone" tag="butcherHarvest" count="1,3"/>
 		<drop event="Harvest" name="resourcePotassiumNitratePowder" tag="butcherHarvest" count="2,3"/>
+		<drop event="Harvest" name="resourceCloth" tag="butcherHarvest" count="1,3"/>
 		<drop event="Harvest" name="resourceBone" tag="allToolsHarvest" count="1"/>
 		<drop event="Harvest" name="foodRottingFlesh" count="1" tag="WasteTreasuresCompleteHarvest"/>
 		<drop event="Harvest" name="resourceBone" count="1" tag="WasteTreasuresCompleteHarvest"/>
@@ -1382,6 +1515,7 @@
 		<drop event="Harvest" name="foodRottingFlesh" tag="butcherHarvest" count="2,3"/>
 		<drop event="Harvest" name="resourceBone" tag="butcherHarvest" count="1,3"/>
 		<drop event="Harvest" name="resourcePotassiumNitratePowder" tag="butcherHarvest" count="2,3"/>
+		<drop event="Harvest" name="resourceCloth" tag="butcherHarvest" count="1,3"/>
 		<drop event="Harvest" name="resourceBone" tag="allToolsHarvest" count="1"/>
 		<drop event="Harvest" name="foodRottingFlesh" count="1" tag="WasteTreasuresCompleteHarvest"/>
 		<drop event="Harvest" name="resourceBone" count="1" tag="WasteTreasuresCompleteHarvest"/>
@@ -1392,6 +1526,7 @@
 		<drop event="Harvest" name="foodRottingFlesh" tag="butcherHarvest" count="2,3"/>
 		<drop event="Harvest" name="resourceBone" tag="butcherHarvest" count="1,3"/>
 		<drop event="Harvest" name="resourcePotassiumNitratePowder" tag="butcherHarvest" count="2,3"/>
+		<drop event="Harvest" name="resourceCloth" tag="butcherHarvest" count="1,3"/>
 		<drop event="Harvest" name="resourceBone" tag="allToolsHarvest" count="1"/>
 		<drop event="Harvest" name="foodRottingFlesh" count="1" tag="WasteTreasuresCompleteHarvest"/>
 		<drop event="Harvest" name="resourceBone" count="1" tag="WasteTreasuresCompleteHarvest"/>
@@ -1402,6 +1537,7 @@
 		<drop event="Harvest" name="foodRottingFlesh" tag="butcherHarvest" count="2,3"/>
 		<drop event="Harvest" name="resourceBone" tag="butcherHarvest" count="1,3"/>
 		<drop event="Harvest" name="resourcePotassiumNitratePowder" tag="butcherHarvest" count="2,3"/>
+		<drop event="Harvest" name="resourceCloth" tag="butcherHarvest" count="1,3"/>
 		<drop event="Harvest" name="resourceBone" tag="allToolsHarvest" count="1"/>
 		<drop event="Harvest" name="foodRottingFlesh" count="1" tag="WasteTreasuresCompleteHarvest"/>
 		<drop event="Harvest" name="resourceBone" count="1" tag="WasteTreasuresCompleteHarvest"/>
@@ -1412,6 +1548,7 @@
 		<drop event="Harvest" name="foodRottingFlesh" tag="butcherHarvest" count="2,3"/>
 		<drop event="Harvest" name="resourceBone" tag="butcherHarvest" count="1,3"/>
 		<drop event="Harvest" name="resourcePotassiumNitratePowder" tag="butcherHarvest" count="2,3"/>
+		<drop event="Harvest" name="resourceCloth" tag="butcherHarvest" count="1,3"/>
 		<drop event="Harvest" name="resourceBone" tag="allToolsHarvest" count="1"/>
 		<drop event="Harvest" name="foodRottingFlesh" count="1" tag="WasteTreasuresCompleteHarvest"/>
 		<drop event="Harvest" name="resourceBone" count="1" tag="WasteTreasuresCompleteHarvest"/>
@@ -1422,6 +1559,7 @@
 		<drop event="Harvest" name="foodRottingFlesh" tag="butcherHarvest" count="2,3"/>
 		<drop event="Harvest" name="resourceBone" tag="butcherHarvest" count="1,3"/>
 		<drop event="Harvest" name="resourcePotassiumNitratePowder" tag="butcherHarvest" count="2,3"/>
+		<drop event="Harvest" name="resourceCloth" tag="butcherHarvest" count="1,3"/>
 		<drop event="Harvest" name="resourceBone" tag="allToolsHarvest" count="1"/>
 		<drop event="Harvest" name="foodRottingFlesh" count="1" tag="WasteTreasuresCompleteHarvest"/>
 		<drop event="Harvest" name="resourceBone" count="1" tag="WasteTreasuresCompleteHarvest"/>
@@ -1432,6 +1570,7 @@
 		<drop event="Harvest" name="foodRottingFlesh" tag="butcherHarvest" count="2,3"/>
 		<drop event="Harvest" name="resourceBone" tag="butcherHarvest" count="1,3"/>
 		<drop event="Harvest" name="resourcePotassiumNitratePowder" tag="butcherHarvest" count="2,3"/>
+		<drop event="Harvest" name="resourceCloth" tag="butcherHarvest" count="1,3"/>
 		<drop event="Harvest" name="resourceBone" tag="allToolsHarvest" count="1"/>
 		<drop event="Harvest" name="foodRottingFlesh" count="1" tag="WasteTreasuresCompleteHarvest"/>
 		<drop event="Harvest" name="resourceBone" count="1" tag="WasteTreasuresCompleteHarvest"/>
@@ -1442,6 +1581,7 @@
 		<drop event="Harvest" name="foodRottingFlesh" tag="butcherHarvest" count="2,3"/>
 		<drop event="Harvest" name="resourceBone" tag="butcherHarvest" count="1,3"/>
 		<drop event="Harvest" name="resourcePotassiumNitratePowder" tag="butcherHarvest" count="2,3"/>
+		<drop event="Harvest" name="resourceCloth" tag="butcherHarvest" count="1,3"/>
 		<drop event="Harvest" name="resourceBone" tag="allToolsHarvest" count="1"/>
 		<drop event="Harvest" name="foodRottingFlesh" count="1" tag="WasteTreasuresCompleteHarvest"/>
 		<drop event="Harvest" name="resourceBone" count="1" tag="WasteTreasuresCompleteHarvest"/>
@@ -1453,6 +1593,7 @@
 		<drop event="Harvest" name="foodRottingFlesh" tag="butcherHarvest" count="2,3"/>
 		<drop event="Harvest" name="resourceBone" tag="butcherHarvest" count="1,3"/>
 		<drop event="Harvest" name="resourcePotassiumNitratePowder" tag="butcherHarvest" count="2,3"/>
+		<drop event="Harvest" name="resourceCloth" tag="butcherHarvest" count="1,3"/>
 		<drop event="Harvest" name="resourceBone" tag="allToolsHarvest" count="1"/>
 		<drop event="Harvest" name="foodRottingFlesh" count="1" tag="WasteTreasuresCompleteHarvest"/>
 		<drop event="Harvest" name="resourceBone" count="1" tag="WasteTreasuresCompleteHarvest"/>
@@ -1463,6 +1604,7 @@
 		<drop event="Harvest" name="foodRottingFlesh" tag="butcherHarvest" count="2,3"/>
 		<drop event="Harvest" name="resourceBone" tag="butcherHarvest" count="1,3"/>
 		<drop event="Harvest" name="resourcePotassiumNitratePowder" tag="butcherHarvest" count="2,3"/>
+		<drop event="Harvest" name="resourceCloth" tag="butcherHarvest" count="1,3"/>
 		<drop event="Harvest" name="resourceBone" tag="allToolsHarvest" count="1"/>
 		<drop event="Harvest" name="foodRottingFlesh" count="1" tag="WasteTreasuresCompleteHarvest"/>
 		<drop event="Harvest" name="resourceBone" count="1" tag="WasteTreasuresCompleteHarvest"/>
@@ -1473,6 +1615,7 @@
 		<drop event="Harvest" name="foodRottingFlesh" tag="butcherHarvest" count="2,3"/>
 		<drop event="Harvest" name="resourceBone" tag="butcherHarvest" count="1,3"/>
 		<drop event="Harvest" name="resourcePotassiumNitratePowder" tag="butcherHarvest" count="2,3"/>
+		<drop event="Harvest" name="resourceCloth" tag="butcherHarvest" count="1,3"/>
 		<drop event="Harvest" name="resourceBone" tag="allToolsHarvest" count="1"/>
 		<drop event="Harvest" name="foodRottingFlesh" count="1" tag="WasteTreasuresCompleteHarvest"/>
 		<drop event="Harvest" name="resourceBone" count="1" tag="WasteTreasuresCompleteHarvest"/>
@@ -1483,6 +1626,7 @@
 		<drop event="Harvest" name="foodRottingFlesh" tag="butcherHarvest" count="2,3"/>
 		<drop event="Harvest" name="resourceBone" tag="butcherHarvest" count="1,3"/>
 		<drop event="Harvest" name="resourcePotassiumNitratePowder" tag="butcherHarvest" count="2,3"/>
+		<drop event="Harvest" name="resourceCloth" tag="butcherHarvest" count="1,3"/>
 		<drop event="Harvest" name="resourceBone" tag="allToolsHarvest" count="1"/>
 		<drop event="Harvest" name="foodRottingFlesh" count="1" tag="WasteTreasuresCompleteHarvest"/>
 		<drop event="Harvest" name="resourceBone" count="1" tag="WasteTreasuresCompleteHarvest"/>
@@ -1493,6 +1637,7 @@
 		<drop event="Harvest" name="foodRottingFlesh" tag="butcherHarvest" count="2,3"/>
 		<drop event="Harvest" name="resourceBone" tag="butcherHarvest" count="1,3"/>
 		<drop event="Harvest" name="resourcePotassiumNitratePowder" tag="butcherHarvest" count="2,3"/>
+		<drop event="Harvest" name="resourceCloth" tag="butcherHarvest" count="1,3"/>
 		<drop event="Harvest" name="resourceBone" tag="allToolsHarvest" count="1"/>
 		<drop event="Harvest" name="foodRottingFlesh" count="1" tag="WasteTreasuresCompleteHarvest"/>
 		<drop event="Harvest" name="resourceBone" count="1" tag="WasteTreasuresCompleteHarvest"/>
@@ -1504,6 +1649,7 @@
 		<drop event="Harvest" name="foodRottingFlesh" tag="butcherHarvest" count="2,3"/>
 		<drop event="Harvest" name="resourceBone" tag="butcherHarvest" count="1,3"/>
 		<drop event="Harvest" name="resourcePotassiumNitratePowder" tag="butcherHarvest" count="2,3"/>
+		<drop event="Harvest" name="resourceCloth" tag="butcherHarvest" count="1,3"/>
 		<drop event="Harvest" name="resourceBone" tag="allToolsHarvest" count="1"/>
 		<drop event="Harvest" name="foodRottingFlesh" count="1" tag="WasteTreasuresCompleteHarvest"/>
 		<drop event="Harvest" name="resourceBone" count="1" tag="WasteTreasuresCompleteHarvest"/>
@@ -1514,6 +1660,7 @@
 		<drop event="Harvest" name="foodRottingFlesh" tag="butcherHarvest" count="2,3"/>
 		<drop event="Harvest" name="resourceBone" tag="butcherHarvest" count="1,3"/>
 		<drop event="Harvest" name="resourcePotassiumNitratePowder" tag="butcherHarvest" count="2,3"/>
+		<drop event="Harvest" name="resourceCloth" tag="butcherHarvest" count="1,3"/>
 		<drop event="Harvest" name="resourceBone" tag="allToolsHarvest" count="1"/>
 		<drop event="Harvest" name="foodRottingFlesh" count="1" tag="WasteTreasuresCompleteHarvest"/>
 		<drop event="Harvest" name="resourceBone" count="1" tag="WasteTreasuresCompleteHarvest"/>
@@ -1524,6 +1671,7 @@
 		<drop event="Harvest" name="foodRottingFlesh" tag="butcherHarvest" count="2,3"/>
 		<drop event="Harvest" name="resourceBone" tag="butcherHarvest" count="1,3"/>
 		<drop event="Harvest" name="resourcePotassiumNitratePowder" tag="butcherHarvest" count="2,3"/>
+		<drop event="Harvest" name="resourceCloth" tag="butcherHarvest" count="1,3"/>
 		<drop event="Harvest" name="resourceBone" tag="allToolsHarvest" count="1"/>
 		<drop event="Harvest" name="foodRottingFlesh" count="1" tag="WasteTreasuresCompleteHarvest"/>
 		<drop event="Harvest" name="resourceBone" count="1" tag="WasteTreasuresCompleteHarvest"/>
@@ -1534,6 +1682,7 @@
 		<drop event="Harvest" name="foodRottingFlesh" tag="butcherHarvest" count="2,3"/>
 		<drop event="Harvest" name="resourceBone" tag="butcherHarvest" count="1,3"/>
 		<drop event="Harvest" name="resourcePotassiumNitratePowder" tag="butcherHarvest" count="2,3"/>
+		<drop event="Harvest" name="resourceCloth" tag="butcherHarvest" count="1,3"/>
 		<drop event="Harvest" name="resourceBone" tag="allToolsHarvest" count="1"/>
 		<drop event="Harvest" name="foodRottingFlesh" count="1" tag="WasteTreasuresCompleteHarvest"/>
 		<drop event="Harvest" name="resourceBone" count="1" tag="WasteTreasuresCompleteHarvest"/>
@@ -1545,6 +1694,7 @@
 		<drop event="Harvest" name="foodRottingFlesh" tag="butcherHarvest" count="2,3"/>
 		<drop event="Harvest" name="resourceBone" tag="butcherHarvest" count="1,3"/>
 		<drop event="Harvest" name="resourcePotassiumNitratePowder" tag="butcherHarvest" count="2,3"/>
+		<drop event="Harvest" name="resourceCloth" tag="butcherHarvest" count="1,3"/>
 		<drop event="Harvest" name="resourceBone" tag="allToolsHarvest" count="1"/>
 		<drop event="Harvest" name="foodRottingFlesh" count="1" tag="WasteTreasuresCompleteHarvest"/>
 		<drop event="Harvest" name="resourceBone" count="1" tag="WasteTreasuresCompleteHarvest"/>
@@ -1555,6 +1705,7 @@
 		<drop event="Harvest" name="foodRottingFlesh" tag="butcherHarvest" count="2,3"/>
 		<drop event="Harvest" name="resourceBone" tag="butcherHarvest" count="1,3"/>
 		<drop event="Harvest" name="resourcePotassiumNitratePowder" tag="butcherHarvest" count="2,3"/>
+		<drop event="Harvest" name="resourceCloth" tag="butcherHarvest" count="1,3"/>
 		<drop event="Harvest" name="resourceBone" tag="allToolsHarvest" count="1"/>
 		<drop event="Harvest" name="foodRottingFlesh" count="1" tag="WasteTreasuresCompleteHarvest"/>
 		<drop event="Harvest" name="resourceBone" count="1" tag="WasteTreasuresCompleteHarvest"/>
@@ -1565,6 +1716,7 @@
 		<drop event="Harvest" name="foodRottingFlesh" tag="butcherHarvest" count="2,3"/>
 		<drop event="Harvest" name="resourceBone" tag="butcherHarvest" count="1,3"/>
 		<drop event="Harvest" name="resourcePotassiumNitratePowder" tag="butcherHarvest" count="2,3"/>
+		<drop event="Harvest" name="resourceCloth" tag="butcherHarvest" count="1,3"/>
 		<drop event="Harvest" name="resourceBone" tag="allToolsHarvest" count="1"/>
 		<drop event="Harvest" name="foodRottingFlesh" count="1" tag="WasteTreasuresCompleteHarvest"/>
 		<drop event="Harvest" name="resourceBone" count="1" tag="WasteTreasuresCompleteHarvest"/>
@@ -1575,6 +1727,7 @@
 		<drop event="Harvest" name="foodRottingFlesh" tag="butcherHarvest" count="2,3"/>
 		<drop event="Harvest" name="resourceBone" tag="butcherHarvest" count="1,3"/>
 		<drop event="Harvest" name="resourcePotassiumNitratePowder" tag="butcherHarvest" count="2,3"/>
+		<drop event="Harvest" name="resourceCloth" tag="butcherHarvest" count="1,3"/>
 		<drop event="Harvest" name="resourceBone" tag="allToolsHarvest" count="1"/>
 		<drop event="Harvest" name="foodRottingFlesh" count="1" tag="WasteTreasuresCompleteHarvest"/>
 		<drop event="Harvest" name="resourceBone" count="1" tag="WasteTreasuresCompleteHarvest"/>
@@ -1585,6 +1738,7 @@
 		<drop event="Harvest" name="foodRottingFlesh" tag="butcherHarvest" count="2,3"/>
 		<drop event="Harvest" name="resourceBone" tag="butcherHarvest" count="1,3"/>
 		<drop event="Harvest" name="resourcePotassiumNitratePowder" tag="butcherHarvest" count="2,3"/>
+		<drop event="Harvest" name="resourceCloth" tag="butcherHarvest" count="1,3"/>
 		<drop event="Harvest" name="resourceBone" tag="allToolsHarvest" count="1"/>
 		<drop event="Harvest" name="foodRottingFlesh" count="1" tag="WasteTreasuresCompleteHarvest"/>
 		<drop event="Harvest" name="resourceBone" count="1" tag="WasteTreasuresCompleteHarvest"/>
@@ -1595,6 +1749,7 @@
 		<drop event="Harvest" name="foodRottingFlesh" tag="butcherHarvest" count="2,3"/>
 		<drop event="Harvest" name="resourceBone" tag="butcherHarvest" count="1,3"/>
 		<drop event="Harvest" name="resourcePotassiumNitratePowder" tag="butcherHarvest" count="2,3"/>
+		<drop event="Harvest" name="resourceCloth" tag="butcherHarvest" count="1,3"/>
 		<drop event="Harvest" name="resourceBone" tag="allToolsHarvest" count="1"/>
 		<drop event="Harvest" name="foodRottingFlesh" count="1" tag="WasteTreasuresCompleteHarvest"/>
 		<drop event="Harvest" name="resourceBone" count="1" tag="WasteTreasuresCompleteHarvest"/>
@@ -1605,6 +1760,7 @@
 		<drop event="Harvest" name="foodRottingFlesh" tag="butcherHarvest" count="2,3"/>
 		<drop event="Harvest" name="resourceBone" tag="butcherHarvest" count="1,3"/>
 		<drop event="Harvest" name="resourcePotassiumNitratePowder" tag="butcherHarvest" count="2,3"/>
+		<drop event="Harvest" name="resourceCloth" tag="butcherHarvest" count="1,3"/>
 		<drop event="Harvest" name="resourceBone" tag="allToolsHarvest" count="1"/>
 		<drop event="Harvest" name="foodRottingFlesh" count="1" tag="WasteTreasuresCompleteHarvest"/>
 		<drop event="Harvest" name="resourceBone" count="1" tag="WasteTreasuresCompleteHarvest"/>
@@ -1615,6 +1771,7 @@
 		<drop event="Harvest" name="foodRottingFlesh" tag="butcherHarvest" count="2,3"/>
 		<drop event="Harvest" name="resourceBone" tag="butcherHarvest" count="1,3"/>
 		<drop event="Harvest" name="resourcePotassiumNitratePowder" tag="butcherHarvest" count="2,3"/>
+		<drop event="Harvest" name="resourceCloth" tag="butcherHarvest" count="1,3"/>
 		<drop event="Harvest" name="resourceBone" tag="allToolsHarvest" count="1"/>
 		<drop event="Harvest" name="foodRottingFlesh" count="1" tag="WasteTreasuresCompleteHarvest"/>
 		<drop event="Harvest" name="resourceBone" count="1" tag="WasteTreasuresCompleteHarvest"/>
@@ -1626,6 +1783,7 @@
 		<drop event="Harvest" name="foodRottingFlesh" tag="butcherHarvest" count="1,3"/>
 		<drop event="Harvest" name="resourceBone" tag="butcherHarvest" count="1,3"/>
 		<drop event="Harvest" name="resourcePotassiumNitratePowder" tag="butcherHarvest" count="1,2"/>
+		<drop event="Harvest" name="resourceCloth" tag="butcherHarvest" count="1,3"/>
 		<drop event="Harvest" name="resourceBone" tag="allToolsHarvest" count="1"/>
 		<drop event="Harvest" name="foodRottingFlesh" count="1" tag="WasteTreasuresCompleteHarvest"/>
 		<drop event="Harvest" name="resourceBone" count="1" tag="WasteTreasuresCompleteHarvest"/>
@@ -1636,6 +1794,7 @@
 		<drop event="Harvest" name="foodRottingFlesh" tag="butcherHarvest" count="1,3"/>
 		<drop event="Harvest" name="resourceBone" tag="butcherHarvest" count="1,3"/>
 		<drop event="Harvest" name="resourcePotassiumNitratePowder" tag="butcherHarvest" count="1,2"/>
+		<drop event="Harvest" name="resourceCloth" tag="butcherHarvest" count="1,3"/>
 		<drop event="Harvest" name="resourceBone" tag="allToolsHarvest" count="1"/>
 		<drop event="Harvest" name="foodRottingFlesh" count="1" tag="WasteTreasuresCompleteHarvest"/>
 		<drop event="Harvest" name="resourceBone" count="1" tag="WasteTreasuresCompleteHarvest"/>
@@ -1646,6 +1805,7 @@
 		<drop event="Harvest" name="foodRottingFlesh" tag="butcherHarvest" count="1,3"/>
 		<drop event="Harvest" name="resourceBone" tag="butcherHarvest" count="1,3"/>
 		<drop event="Harvest" name="resourcePotassiumNitratePowder" tag="butcherHarvest" count="1,2"/>
+		<drop event="Harvest" name="resourceCloth" tag="butcherHarvest" count="1,3"/>
 		<drop event="Harvest" name="resourceBone" tag="allToolsHarvest" count="1"/>
 		<drop event="Harvest" name="foodRottingFlesh" count="1" tag="WasteTreasuresCompleteHarvest"/>
 		<drop event="Harvest" name="resourceBone" count="1" tag="WasteTreasuresCompleteHarvest"/>
@@ -1656,6 +1816,7 @@
 		<drop event="Harvest" name="foodRottingFlesh" tag="butcherHarvest" count="1,3"/>
 		<drop event="Harvest" name="resourceBone" tag="butcherHarvest" count="1,3"/>
 		<drop event="Harvest" name="resourcePotassiumNitratePowder" tag="butcherHarvest" count="1,2"/>
+		<drop event="Harvest" name="resourceCloth" tag="butcherHarvest" count="1,3"/>
 		<drop event="Harvest" name="resourceBone" tag="allToolsHarvest" count="1"/>
 		<drop event="Harvest" name="foodRottingFlesh" count="1" tag="WasteTreasuresCompleteHarvest"/>
 		<drop event="Harvest" name="resourceBone" count="1" tag="WasteTreasuresCompleteHarvest"/>
@@ -1666,6 +1827,7 @@
 		<drop event="Harvest" name="foodRottingFlesh" tag="butcherHarvest" count="1,3"/>
 		<drop event="Harvest" name="resourceBone" tag="butcherHarvest" count="1,3"/>
 		<drop event="Harvest" name="resourcePotassiumNitratePowder" tag="butcherHarvest" count="1,2"/>
+		<drop event="Harvest" name="resourceCloth" tag="butcherHarvest" count="1,3"/>
 		<drop event="Harvest" name="resourceBone" tag="allToolsHarvest" count="1"/>
 		<drop event="Harvest" name="foodRottingFlesh" count="1" tag="WasteTreasuresCompleteHarvest"/>
 		<drop event="Harvest" name="resourceBone" count="1" tag="WasteTreasuresCompleteHarvest"/>
@@ -1676,6 +1838,7 @@
 		<drop event="Harvest" name="foodRottingFlesh" tag="butcherHarvest" count="1,3"/>
 		<drop event="Harvest" name="resourceBone" tag="butcherHarvest" count="1,3"/>
 		<drop event="Harvest" name="resourcePotassiumNitratePowder" tag="butcherHarvest" count="1,2"/>
+		<drop event="Harvest" name="resourceCloth" tag="butcherHarvest" count="1,3"/>
 		<drop event="Harvest" name="resourceBone" tag="allToolsHarvest" count="1"/>
 		<drop event="Harvest" name="foodRottingFlesh" count="1" tag="WasteTreasuresCompleteHarvest"/>
 		<drop event="Harvest" name="resourceBone" count="1" tag="WasteTreasuresCompleteHarvest"/>
@@ -1686,6 +1849,7 @@
 		<drop event="Harvest" name="foodRottingFlesh" tag="butcherHarvest" count="1,3"/>
 		<drop event="Harvest" name="resourceBone" tag="butcherHarvest" count="1,3"/>
 		<drop event="Harvest" name="resourcePotassiumNitratePowder" tag="butcherHarvest" count="1,2"/>
+		<drop event="Harvest" name="resourceCloth" tag="butcherHarvest" count="1,3"/>
 		<drop event="Harvest" name="resourceBone" tag="allToolsHarvest" count="1"/>
 		<drop event="Harvest" name="foodRottingFlesh" count="1" tag="WasteTreasuresCompleteHarvest"/>
 		<drop event="Harvest" name="resourceBone" count="1" tag="WasteTreasuresCompleteHarvest"/>
@@ -1696,6 +1860,7 @@
 		<drop event="Harvest" name="foodRottingFlesh" tag="butcherHarvest" count="1,3"/>
 		<drop event="Harvest" name="resourceBone" tag="butcherHarvest" count="1,3"/>
 		<drop event="Harvest" name="resourcePotassiumNitratePowder" tag="butcherHarvest" count="1,2"/>
+		<drop event="Harvest" name="resourceCloth" tag="butcherHarvest" count="1,3"/>
 		<drop event="Harvest" name="resourceBone" tag="allToolsHarvest" count="1"/>
 		<drop event="Harvest" name="foodRottingFlesh" count="1" tag="WasteTreasuresCompleteHarvest"/>
 		<drop event="Harvest" name="resourceBone" count="1" tag="WasteTreasuresCompleteHarvest"/>
@@ -3428,7 +3593,8 @@
 		<drop event="Harvest" name="resourceBone" tag="butcherHarvest" count="1,3"/>
 		<drop event="Harvest" name="resourceBone" tag="allToolsHarvest" count="1"/>
 		<drop event="Harvest" name="resourcePotassiumNitratePowder" count="15,30" tag="butcherHarvest"/>
-		<drop event="Harvest" name="resourceCoal" tag="allToolsHarvest" count="15,30" prob="0.5" />
+		<drop event="Harvest" name="resourceCloth" tag="butcherHarvest" count="1,3"/>
+		<drop event="Harvest" name="resourceCoal" tag="allToolsHarvest" count="15,30" />
 		<drop event="Harvest" name="foodCharredMeat" count="1" tag="WasteTreasuresCompleteHarvest"/>
 		<drop event="Harvest" name="resourceBone" count="1" tag="WasteTreasuresCompleteHarvest"/>
 
@@ -3458,6 +3624,7 @@
 	<drop event="Harvest" name="foodRottingFlesh" tag="butcherHarvest" count="2,3"/>
 	<drop event="Harvest" name="resourceBone" tag="butcherHarvest" count="1,3"/>
 	<drop event="Harvest" name="resourcePotassiumNitratePowder" tag="butcherHarvest" count="1,2"/>
+	<drop event="Harvest" name="resourceCloth" tag="butcherHarvest" count="1,3"/>
 	<drop event="Harvest" name="resourceBone" tag="allToolsHarvest" count="1"/>
 	<drop event="Harvest" name="foodRottingFlesh" count="1" tag="WasteTreasuresCompleteHarvest"/>
 	<drop event="Harvest" name="resourceBone" count="1" tag="WasteTreasuresCompleteHarvest"/>
@@ -3485,6 +3652,7 @@
 	<drop event="Harvest" name="foodRottingFlesh" tag="butcherHarvest" count="2,3"/>
 	<drop event="Harvest" name="resourceBone" tag="butcherHarvest" count="1,3"/>
 	<drop event="Harvest" name="resourcePotassiumNitratePowder" tag="butcherHarvest" count="1,2"/>
+	<drop event="Harvest" name="resourceCloth" tag="butcherHarvest" count="1,3"/>
 	<drop event="Harvest" name="resourceBone" tag="allToolsHarvest" count="1"/>
 	<drop event="Harvest" name="foodRottingFlesh" count="1" tag="WasteTreasuresCompleteHarvest"/>
 	<drop event="Harvest" name="resourceBone" count="1" tag="WasteTreasuresCompleteHarvest"/>
@@ -3512,6 +3680,7 @@
 	<drop event="Harvest" name="foodRottingFlesh" tag="butcherHarvest" count="2,3"/>
 	<drop event="Harvest" name="resourceBone" tag="butcherHarvest" count="1,3"/>
 	<drop event="Harvest" name="resourcePotassiumNitratePowder" tag="butcherHarvest" count="1,2"/>
+	<drop event="Harvest" name="resourceCloth" tag="butcherHarvest" count="1,3"/>
 	<drop event="Harvest" name="resourceBone" tag="allToolsHarvest" count="1"/>
 	<drop event="Harvest" name="foodRottingFlesh" count="1" tag="WasteTreasuresCompleteHarvest"/>
 	<drop event="Harvest" name="resourceBone" count="1" tag="WasteTreasuresCompleteHarvest"/>
@@ -3553,6 +3722,7 @@
 	<drop event="Harvest" name="foodRottingFlesh" tag="butcherHarvest" count="2,3"/>
 	<drop event="Harvest" name="resourceBone" tag="butcherHarvest" count="1,3"/>
 	<drop event="Harvest" name="resourcePotassiumNitratePowder" tag="butcherHarvest" count="1,2"/>
+	<drop event="Harvest" name="resourceCloth" tag="butcherHarvest" count="1,3"/>
 	<drop event="Harvest" name="resourceBone" tag="allToolsHarvest" count="1"/>
 	<drop event="Harvest" name="foodRottingFlesh" count="1" tag="WasteTreasuresCompleteHarvest"/>
 	<drop event="Harvest" name="resourceBone" count="1" tag="WasteTreasuresCompleteHarvest"/>
@@ -3593,6 +3763,7 @@
 	<drop event="Harvest" name="foodRottingFlesh" tag="butcherHarvest" count="2,3"/>
 	<drop event="Harvest" name="resourceBone" tag="butcherHarvest" count="1,3"/>
 	<drop event="Harvest" name="resourcePotassiumNitratePowder" tag="butcherHarvest" count="1,2"/>
+	<drop event="Harvest" name="resourceCloth" tag="butcherHarvest" count="1,3"/>
 	<drop event="Harvest" name="resourceBone" tag="allToolsHarvest" count="1"/>
 	<drop event="Harvest" name="foodRottingFlesh" count="1" tag="WasteTreasuresCompleteHarvest"/>
 	<drop event="Harvest" name="resourceBone" count="1" tag="WasteTreasuresCompleteHarvest"/>
@@ -3621,6 +3792,7 @@
 	<drop event="Harvest" name="foodRottingFlesh" tag="butcherHarvest" count="2,3"/>
 	<drop event="Harvest" name="resourceBone" tag="butcherHarvest" count="1,3"/>
 	<drop event="Harvest" name="resourcePotassiumNitratePowder" tag="butcherHarvest" count="1,2"/>
+	<drop event="Harvest" name="resourceCloth" tag="butcherHarvest" count="1,3"/>
 	<drop event="Harvest" name="resourceBone" tag="allToolsHarvest" count="1"/>
 	<drop event="Harvest" name="foodRottingFlesh" count="1" tag="WasteTreasuresCompleteHarvest"/>
 	<drop event="Harvest" name="resourceBone" count="1" tag="WasteTreasuresCompleteHarvest"/>
@@ -3649,6 +3821,7 @@
 	<drop event="Harvest" name="foodRottingFlesh" tag="butcherHarvest" count="2,3"/>
 	<drop event="Harvest" name="resourceBone" tag="butcherHarvest" count="1,3"/>
 	<drop event="Harvest" name="resourcePotassiumNitratePowder" tag="butcherHarvest" count="1,2"/>
+	<drop event="Harvest" name="resourceCloth" tag="butcherHarvest" count="1,3"/>
 	<drop event="Harvest" name="resourceBone" tag="allToolsHarvest" count="1"/>
 	<drop event="Harvest" name="foodRottingFlesh" count="1" tag="WasteTreasuresCompleteHarvest"/>
 	<drop event="Harvest" name="resourceBone" count="1" tag="WasteTreasuresCompleteHarvest"/>
@@ -3677,6 +3850,7 @@
 	<drop event="Harvest" name="foodRottingFlesh" tag="butcherHarvest" count="2,3"/>
 	<drop event="Harvest" name="resourceBone" tag="butcherHarvest" count="1,3"/>
 	<drop event="Harvest" name="resourcePotassiumNitratePowder" tag="butcherHarvest" count="1,2"/>
+	<drop event="Harvest" name="resourceCloth" tag="butcherHarvest" count="1,3"/>
 	<drop event="Harvest" name="resourceBone" tag="allToolsHarvest" count="1"/>
 	<drop event="Harvest" name="foodRottingFlesh" count="1" tag="WasteTreasuresCompleteHarvest"/>
 	<drop event="Harvest" name="resourceBone" count="1" tag="WasteTreasuresCompleteHarvest"/>
@@ -3705,6 +3879,7 @@
 	<drop event="Harvest" name="foodRottingFlesh" tag="butcherHarvest" count="2,3"/>
 	<drop event="Harvest" name="resourceBone" tag="butcherHarvest" count="1,3"/>
 	<drop event="Harvest" name="resourcePotassiumNitratePowder" tag="butcherHarvest" count="1,2"/>
+	<drop event="Harvest" name="resourceCloth" tag="butcherHarvest" count="1,3"/>
 	<drop event="Harvest" name="resourceBone" tag="allToolsHarvest" count="1"/>
 	<drop event="Harvest" name="foodRottingFlesh" count="1" tag="WasteTreasuresCompleteHarvest"/>
 	<drop event="Harvest" name="resourceBone" count="1" tag="WasteTreasuresCompleteHarvest"/>
@@ -3733,6 +3908,7 @@
 	<drop event="Harvest" name="foodRottingFlesh" tag="butcherHarvest" count="2,3"/>
 	<drop event="Harvest" name="resourceBone" tag="butcherHarvest" count="1,3"/>
 	<drop event="Harvest" name="resourcePotassiumNitratePowder" tag="butcherHarvest" count="1,2"/>
+	<drop event="Harvest" name="resourceCloth" tag="butcherHarvest" count="1,3"/>
 	<drop event="Harvest" name="resourceBone" tag="allToolsHarvest" count="1"/>
 	<drop event="Harvest" name="foodRottingFlesh" count="1" tag="WasteTreasuresCompleteHarvest"/>
 	<drop event="Harvest" name="resourceBone" count="1" tag="WasteTreasuresCompleteHarvest"/>
@@ -3774,6 +3950,7 @@
 	<drop event="Harvest" name="foodRottingFlesh" tag="butcherHarvest" count="2,3"/>
 	<drop event="Harvest" name="resourceBone" tag="butcherHarvest" count="1,3"/>
 	<drop event="Harvest" name="resourcePotassiumNitratePowder" tag="butcherHarvest" count="1,2"/>
+	<drop event="Harvest" name="resourceCloth" tag="butcherHarvest" count="1,3"/>
 	<drop event="Harvest" name="resourceBone" tag="allToolsHarvest" count="1"/>
 	<drop event="Harvest" name="foodRottingFlesh" count="1" tag="WasteTreasuresCompleteHarvest"/>
 	<drop event="Harvest" name="resourceBone" count="1" tag="WasteTreasuresCompleteHarvest"/>
@@ -3815,6 +3992,7 @@
 	<drop event="Harvest" name="foodRottingFlesh" tag="butcherHarvest" count="2,3"/>
 	<drop event="Harvest" name="resourceBone" tag="butcherHarvest" count="1,3"/>
 	<drop event="Harvest" name="resourcePotassiumNitratePowder" tag="butcherHarvest" count="1,2"/>
+	<drop event="Harvest" name="resourceCloth" tag="butcherHarvest" count="1,3"/>
 	<drop event="Harvest" name="resourceBone" tag="allToolsHarvest" count="1"/>
 	<drop event="Harvest" name="foodRottingFlesh" count="1" tag="WasteTreasuresCompleteHarvest"/>
 	<drop event="Harvest" name="resourceBone" count="1" tag="WasteTreasuresCompleteHarvest"/>
@@ -3860,6 +4038,7 @@
 	<drop event="Harvest" name="foodRottingFlesh" tag="butcherHarvest" count="2,3"/>
 	<drop event="Harvest" name="resourceBone" tag="butcherHarvest" count="1,3"/>
 	<drop event="Harvest" name="resourcePotassiumNitratePowder" tag="butcherHarvest" count="1,2"/>
+	<drop event="Harvest" name="resourceCloth" tag="butcherHarvest" count="1,3"/>
 	<drop event="Harvest" name="resourceBone" tag="allToolsHarvest" count="1"/>
 	<drop event="Harvest" name="foodRottingFlesh" count="1" tag="WasteTreasuresCompleteHarvest"/>
 	<drop event="Harvest" name="resourceBone" count="1" tag="WasteTreasuresCompleteHarvest"/>
@@ -3903,6 +4082,7 @@
 	<drop event="Harvest" name="foodRottingFlesh" tag="butcherHarvest" count="2,3"/>
 	<drop event="Harvest" name="resourceBone" tag="butcherHarvest" count="1,3"/>
 	<drop event="Harvest" name="resourcePotassiumNitratePowder" tag="butcherHarvest" count="1,2"/>
+	<drop event="Harvest" name="resourceCloth" tag="butcherHarvest" count="1,3"/>
 	<drop event="Harvest" name="resourceBone" tag="allToolsHarvest" count="1"/>
 	<drop event="Harvest" name="foodRottingFlesh" count="1" tag="WasteTreasuresCompleteHarvest"/>
 	<drop event="Harvest" name="resourceBone" count="1" tag="WasteTreasuresCompleteHarvest"/>
@@ -3946,6 +4126,7 @@
 	<drop event="Harvest" name="foodRottingFlesh" tag="butcherHarvest" count="2,3"/>
 	<drop event="Harvest" name="resourceBone" tag="butcherHarvest" count="1,3"/>
 	<drop event="Harvest" name="resourcePotassiumNitratePowder" tag="butcherHarvest" count="1,2"/>
+	<drop event="Harvest" name="resourceCloth" tag="butcherHarvest" count="1,3"/>
 	<drop event="Harvest" name="resourceBone" tag="allToolsHarvest" count="1"/>
 	<drop event="Harvest" name="foodRottingFlesh" count="1" tag="WasteTreasuresCompleteHarvest"/>
 	<drop event="Harvest" name="resourceBone" count="1" tag="WasteTreasuresCompleteHarvest"/>
@@ -3990,6 +4171,7 @@
 	<drop event="Harvest" name="foodRottingFlesh" tag="butcherHarvest" count="2,3"/>
 	<drop event="Harvest" name="resourceBone" tag="butcherHarvest" count="1,3"/>
 	<drop event="Harvest" name="resourcePotassiumNitratePowder" tag="butcherHarvest" count="1,2"/>
+	<drop event="Harvest" name="resourceCloth" tag="butcherHarvest" count="1,3"/>
 	<drop event="Harvest" name="resourceBone" tag="allToolsHarvest" count="1"/>
 	<drop event="Harvest" name="foodRottingFlesh" count="1" tag="WasteTreasuresCompleteHarvest"/>
 	<drop event="Harvest" name="resourceBone" count="1" tag="WasteTreasuresCompleteHarvest"/>
@@ -4033,6 +4215,7 @@
 	<drop event="Harvest" name="foodRottingFlesh" tag="butcherHarvest" count="2,3"/>
 	<drop event="Harvest" name="resourceBone" tag="butcherHarvest" count="1,3"/>
 	<drop event="Harvest" name="resourcePotassiumNitratePowder" tag="butcherHarvest" count="1,2"/>
+	<drop event="Harvest" name="resourceCloth" tag="butcherHarvest" count="1,3"/>
 	<drop event="Harvest" name="resourceBone" tag="allToolsHarvest" count="1"/>
 	<drop event="Harvest" name="foodRottingFlesh" count="1" tag="WasteTreasuresCompleteHarvest"/>
 	<drop event="Harvest" name="resourceBone" count="1" tag="WasteTreasuresCompleteHarvest"/>
@@ -4064,6 +4247,7 @@
 	<drop event="Harvest" name="foodRottingFlesh" tag="butcherHarvest" count="2,3"/>
 	<drop event="Harvest" name="resourceBone" tag="butcherHarvest" count="1,3"/>
 	<drop event="Harvest" name="resourcePotassiumNitratePowder" tag="butcherHarvest" count="1,2"/>
+	<drop event="Harvest" name="resourceCloth" tag="butcherHarvest" count="1,3"/>
 	<drop event="Harvest" name="resourceBone" tag="allToolsHarvest" count="1"/>
 	<drop event="Harvest" name="foodRottingFlesh" count="1" tag="WasteTreasuresCompleteHarvest"/>
 	<drop event="Harvest" name="resourceBone" count="1" tag="WasteTreasuresCompleteHarvest"/>
@@ -4095,6 +4279,7 @@
 	<drop event="Harvest" name="foodRottingFlesh" tag="butcherHarvest" count="2,3"/>
 	<drop event="Harvest" name="resourceBone" tag="butcherHarvest" count="1,3"/>
 	<drop event="Harvest" name="resourcePotassiumNitratePowder" tag="butcherHarvest" count="1,2"/>
+	<drop event="Harvest" name="resourceCloth" tag="butcherHarvest" count="1,3"/>
 	<drop event="Harvest" name="resourceBone" tag="allToolsHarvest" count="1"/>
 	<drop event="Harvest" name="foodRottingFlesh" count="1" tag="WasteTreasuresCompleteHarvest"/>
 	<drop event="Harvest" name="resourceBone" count="1" tag="WasteTreasuresCompleteHarvest"/>
@@ -4126,6 +4311,7 @@
 	<drop event="Harvest" name="foodRottingFlesh" tag="butcherHarvest" count="2,3"/>
 	<drop event="Harvest" name="resourceBone" tag="butcherHarvest" count="1,3"/>
 	<drop event="Harvest" name="resourcePotassiumNitratePowder" tag="butcherHarvest" count="1,2"/>
+	<drop event="Harvest" name="resourceCloth" tag="butcherHarvest" count="1,3"/>
 	<drop event="Harvest" name="resourceBone" tag="allToolsHarvest" count="1"/>
 	<drop event="Harvest" name="foodRottingFlesh" count="1" tag="WasteTreasuresCompleteHarvest"/>
 	<drop event="Harvest" name="resourceBone" count="1" tag="WasteTreasuresCompleteHarvest"/>
@@ -4157,6 +4343,7 @@
 	<drop event="Harvest" name="foodRottingFlesh" tag="butcherHarvest" count="2,3"/>
 	<drop event="Harvest" name="resourceBone" tag="butcherHarvest" count="1,3"/>
 	<drop event="Harvest" name="resourcePotassiumNitratePowder" tag="butcherHarvest" count="1,2"/>
+	<drop event="Harvest" name="resourceCloth" tag="butcherHarvest" count="1,3"/>
 	<drop event="Harvest" name="resourceBone" tag="allToolsHarvest" count="1"/>
 	<drop event="Harvest" name="foodRottingFlesh" count="1" tag="WasteTreasuresCompleteHarvest"/>
 	<drop event="Harvest" name="resourceBone" count="1" tag="WasteTreasuresCompleteHarvest"/>
@@ -4188,6 +4375,7 @@
 	<drop event="Harvest" name="foodRottingFlesh" tag="butcherHarvest" count="2,3"/>
 	<drop event="Harvest" name="resourceBone" tag="butcherHarvest" count="1,3"/>
 	<drop event="Harvest" name="resourcePotassiumNitratePowder" tag="butcherHarvest" count="1,2"/>
+	<drop event="Harvest" name="resourceCloth" tag="butcherHarvest" count="1,3"/>
 	<drop event="Harvest" name="resourceBone" tag="allToolsHarvest" count="1"/>
 	<drop event="Harvest" name="foodRottingFlesh" count="1" tag="WasteTreasuresCompleteHarvest"/>
 	<drop event="Harvest" name="resourceBone" count="1" tag="WasteTreasuresCompleteHarvest"/>
@@ -4232,6 +4420,7 @@
 	<drop event="Harvest" name="foodRottingFlesh" tag="butcherHarvest" count="2,3"/>
 	<drop event="Harvest" name="resourceBone" tag="butcherHarvest" count="1,3"/>
 	<drop event="Harvest" name="resourcePotassiumNitratePowder" tag="butcherHarvest" count="1,2"/>
+	<drop event="Harvest" name="resourceCloth" tag="butcherHarvest" count="1,3"/>
 	<drop event="Harvest" name="resourceBone" tag="allToolsHarvest" count="1"/>
 	<drop event="Harvest" name="foodRottingFlesh" count="1" tag="WasteTreasuresCompleteHarvest"/>
 	<drop event="Harvest" name="resourceBone" count="1" tag="WasteTreasuresCompleteHarvest"/>
@@ -4276,6 +4465,7 @@
 	<drop event="Harvest" name="foodRottingFlesh" tag="butcherHarvest" count="2,3"/>
 	<drop event="Harvest" name="resourceBone" tag="butcherHarvest" count="1,3"/>
 	<drop event="Harvest" name="resourcePotassiumNitratePowder" tag="butcherHarvest" count="1,2"/>
+	<drop event="Harvest" name="resourceCloth" tag="butcherHarvest" count="1,3"/>
 	<drop event="Harvest" name="resourceBone" tag="allToolsHarvest" count="1"/>
 	<drop event="Harvest" name="foodRottingFlesh" count="1" tag="WasteTreasuresCompleteHarvest"/>
 	<drop event="Harvest" name="resourceBone" count="1" tag="WasteTreasuresCompleteHarvest"/>
@@ -4331,6 +4521,7 @@
 	<drop event="Harvest" name="foodRottingFlesh" tag="butcherHarvest" count="2,3"/>
 	<drop event="Harvest" name="resourceBone" tag="butcherHarvest" count="1,3"/>
 	<drop event="Harvest" name="resourcePotassiumNitratePowder" tag="butcherHarvest" count="1,2"/>
+	<drop event="Harvest" name="resourceCloth" tag="butcherHarvest" count="1,3"/>
 	<drop event="Harvest" name="resourceBone" tag="allToolsHarvest" count="1"/>
 	<drop event="Harvest" name="foodRottingFlesh" count="1" tag="WasteTreasuresCompleteHarvest"/>
 	<drop event="Harvest" name="resourceBone" count="1" tag="WasteTreasuresCompleteHarvest"/>
@@ -5216,10 +5407,13 @@
 	
 		<drop event="Harvest" name="foodRawMeat" count="0" tool_category="Butcher"/>
 		<drop event="Harvest" name="foodRottingFlesh" tag="butcherHarvest" count="5,10"/>
+		<drop event="Harvest" name="resourceLeather" tag="butcherHarvest" count="5"/>
+		<drop event="Harvest" name="resourceAnimalFat" tag="butcherHarvest" count="2"/>
 		<drop event="Harvest" name="resourceBone" tag="butcherHarvest" count="2,5"/>
 		<drop event="Harvest" name="resourcePotassiumNitratePowder" tag="butcherHarvest" count="2,5"/>
 		<drop event="Harvest" name="resourceBone" tag="allToolsHarvest" count="1"/>
 		<drop event="Harvest" name="foodRottingFlesh" count="1" tag="WasteTreasuresCompleteHarvest"/>
+		<drop event="Harvest" name="resourceLeather" count="1" tag="WasteTreasuresCompleteHarvest"/>
 		<drop event="Harvest" name="resourceBone" count="1" tag="WasteTreasuresCompleteHarvest"/>
 		<drop event="Harvest" name="resourcePotassiumNitratePowder" count="1,2" tag="WasteTreasuresCompleteHarvest"/>
 
@@ -5245,10 +5439,13 @@
 	
 		<drop event="Harvest" name="foodRawMeat" count="0" tool_category="Butcher"/>
 		<drop event="Harvest" name="foodRottingFlesh" tag="butcherHarvest" count="5,10"/>
+		<drop event="Harvest" name="resourceLeather" tag="butcherHarvest" count="5"/>
+		<drop event="Harvest" name="resourceAnimalFat" tag="butcherHarvest" count="2"/>
 		<drop event="Harvest" name="resourceBone" tag="butcherHarvest" count="2,5"/>
 		<drop event="Harvest" name="resourcePotassiumNitratePowder" tag="butcherHarvest" count="2,5"/>
 		<drop event="Harvest" name="resourceBone" tag="allToolsHarvest" count="1"/>
 		<drop event="Harvest" name="foodRottingFlesh" count="1" tag="WasteTreasuresCompleteHarvest"/>
+		<drop event="Harvest" name="resourceLeather" count="1" tag="WasteTreasuresCompleteHarvest"/>
 		<drop event="Harvest" name="resourceBone" count="1" tag="WasteTreasuresCompleteHarvest"/>
 		<drop event="Harvest" name="resourcePotassiumNitratePowder" count="1,2" tag="WasteTreasuresCompleteHarvest"/>
 
@@ -5275,10 +5472,13 @@
 	
 		<drop event="Harvest" name="foodRawMeat" count="0" tool_category="Butcher"/>
 		<drop event="Harvest" name="foodRottingFlesh" tag="butcherHarvest" count="5,10"/>
+		<drop event="Harvest" name="resourceLeather" tag="butcherHarvest" count="5"/>
+		<drop event="Harvest" name="resourceAnimalFat" tag="butcherHarvest" count="2"/>
 		<drop event="Harvest" name="resourceBone" tag="butcherHarvest" count="2,5"/>
 		<drop event="Harvest" name="resourcePotassiumNitratePowder" tag="butcherHarvest" count="2,5"/>
 		<drop event="Harvest" name="resourceBone" tag="allToolsHarvest" count="1"/>
 		<drop event="Harvest" name="foodRottingFlesh" count="1" tag="WasteTreasuresCompleteHarvest"/>
+		<drop event="Harvest" name="resourceLeather" count="1" tag="WasteTreasuresCompleteHarvest"/>
 		<drop event="Harvest" name="resourceBone" count="1" tag="WasteTreasuresCompleteHarvest"/>
 		<drop event="Harvest" name="resourcePotassiumNitratePowder" count="1,2" tag="WasteTreasuresCompleteHarvest"/>
 
@@ -5305,10 +5505,13 @@
 	
 		<drop event="Harvest" name="foodRawMeat" count="0" tool_category="Butcher"/>
 		<drop event="Harvest" name="foodRottingFlesh" tag="butcherHarvest" count="5,10"/>
+		<drop event="Harvest" name="resourceLeather" tag="butcherHarvest" count="5"/>
+		<drop event="Harvest" name="resourceAnimalFat" tag="butcherHarvest" count="2"/>
 		<drop event="Harvest" name="resourceBone" tag="butcherHarvest" count="2,5"/>
 		<drop event="Harvest" name="resourcePotassiumNitratePowder" tag="butcherHarvest" count="2,5"/>
 		<drop event="Harvest" name="resourceBone" tag="allToolsHarvest" count="1"/>
 		<drop event="Harvest" name="foodRottingFlesh" count="1" tag="WasteTreasuresCompleteHarvest"/>
+		<drop event="Harvest" name="resourceLeather" count="1" tag="WasteTreasuresCompleteHarvest"/>
 		<drop event="Harvest" name="resourceBone" count="1" tag="WasteTreasuresCompleteHarvest"/>
 		<drop event="Harvest" name="resourcePotassiumNitratePowder" count="1,2" tag="WasteTreasuresCompleteHarvest"/>
 

@@ -49,7 +49,7 @@
 		<property name="waterDrag_y_velScale_velMaxScale" value="1.5, .9, 1"/>
 		<property name="waterLift_y_depth_force" value="1, .5, .1"/>
 
-		<property name="hornSound" value="gyrocopter_horn"/>
+		<property name="hornSound" value="preppo_gyrocopter_horn"/>
 		
 		<property name="recipeName" value="vehicleGyrocopterPlaceable" />
 		
@@ -235,6 +235,8 @@
 
 		<property class="storage">
 			<property name="class" value="Storage"/>
+			<property name="mod" value="storage"/>
+			<property name="modT" value="M/Storage"/>
 		</property>
 
 		</set>
@@ -1824,8 +1826,7 @@
 </vehicle>
 <!--END OF APOC BATTLECRANE-->
 
-	<vehicle name="vehicleSpiderRider"> <!-- arramus -->
-	
+	<vehicle name="vehicleSpiderRider"> <!-- arramus -->	
 		<property name="cameraDistance" value="3, 4.5"/>
 		<property name="cameraTurnRate" value=".2, .35"/>
 		<property name="upAngleMax" value="70"/>
@@ -1837,7 +1838,6 @@
 		<property name="tiltDampening" value=".22"/>
 		<property name="tiltDampenThreshold" value="8"/>
 		<property name="tiltUpForce" value="5"/>
-
 		<property name="motorTorque_turbo" value="400, 200, 560, 200"/>
 		<property name="velocityMax_turbo" value="9, 4, 11.2, 4"/>
 		<property name="brakeTorque" value="4000"/>
@@ -1845,9 +1845,7 @@
 		<property name="unstickForce" value="1"/>
 		<property name="waterDrag_y_velScale_velMaxScale" value="1.0, 0.5, .3"/>
 		<property name="wheelPtlScale" value=".6"/>
-
-		<property name="hornSound" value="demolitionzalert"/>
-		
+		<property name="hornSound" value="demolitionzalert"/>		
 		<property name="recipeName" value="vehicleSpiderRiderPlaceable" />
 
 		<property class="chassis">
@@ -1936,9 +1934,9 @@
 
 		<property class="storage">
 			<property name="class" value="Storage"/>
-			<property name="mesh" value="M/Storage"/>
+			<property name="mod" value="storage"/>
+			<property name="modT" value="M/Storage"/>
 		</property>
-		
 	</vehicle>
 	
 		<!-- Oakraven Hot Air Balloons -->
