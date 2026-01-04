@@ -20,6 +20,23 @@
 	<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="$buffYuccaCactusAloeJuiceCoolerDuration" operation="set" value="0"/>
 	</append>
 	
+<!-- Brainsaw -->
+		
+	<append xpath="/buffs">	
+        <buff name="BrainsawBloodSplatRoadies" hidden="true">
+            <stack_type value="replace"/>
+            <duration value="3"/>
+            <effect_group>
+                <triggered_effect trigger="onSelfKilledOther" action="ModifyScreenEffect" intensity="2" fade="1" effect_name="Dead"/>
+                <triggered_effect trigger="onSelfBuffRemove" action="ModifyScreenEffect" intensity="0" fade="1" effect_name="Dead"/>
+                <triggered_effect trigger="onSelfDied" action="ModifyScreenEffect" intensity="0" fade="1" effect_name="Dead"/>
+                <triggered_effect trigger="onSelfKilledOther" action="ModifyScreenEffect" intensity="0.1" fade="1" effect_name="Vibrant"/>
+                <triggered_effect trigger="onSelfBuffRemove" action="ModifyScreenEffect" intensity="0" fade="1" effect_name="Vibrant"/>
+                <triggered_effect trigger="onSelfDied" action="ModifyScreenEffect" intensity="0" fade="1" effect_name="Vibrant"/>
+            </effect_group>
+        </buff>
+	</append>
+
 	<!-- Yucca Cactus Aloe Juice Storm Breaker -->
 	
 	<append xpath="/buffs">
@@ -84,7 +101,7 @@
 			<passive_effect name="BuffBlink" operation="base_set" value="2" duration="0,3" tags="FishTrapEmptyWater"/>
 		</effect_group>
 		</buff>		
-	</append>	
+	</append>
 
 	<append xpath="/buffs">
 	
