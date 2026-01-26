@@ -220,6 +220,8 @@ cntFishTrapWaterCollector,blocks,block,,,Fish Trap Water Collector,,,,,,,,,,,,,
 cntFishTrapWaterCollectorDesc,blocks,Block,,,"Collects Fish Trap Water at an accelerated rate to fill your Fish Trap farm pool.\n\nRepair with Scrap Polymers.",,,,,,,,,,,,,
 resourceWaterFilterDesc,items,item,,,"A component used in the crafting of a Dew Collector or Fish Trap Water Collector.",,,,,,,,,,,,,
 xuiDewCollector,UI,XUI,,,Water Collector,,,,,,,,,,,,,
+buffFishTrapEmptyWaterDesc,buffs,Buff,,,"Add Fish Trap Bait with your secondary action while fully under water to bait the trap.",,,,,,,,,,,,,
+buffFishTrapEmptyWaterName,buffs,Buff,,,Fish Trap,,,,,,,,,,,,,
 
 CaughtChick,items,Item,,,Caught Chick,,Gefangenes Küken,,,,,,,,,,,
 CaughtChickDesc,items,Item,,,"Use 2 Caught Chicks, with right mouse click, on an Empty Chicken Coop to populate and activate the next stage.",,"Benutze 2 gefangene Küken mit der rechten Maustaste auf einem leeren Hühnerstall, um ihn zu bevölkern und die nächste Stufe zu aktivieren.",,,,,,,,,,,
