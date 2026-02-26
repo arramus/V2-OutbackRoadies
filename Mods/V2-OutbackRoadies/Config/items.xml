@@ -310,6 +310,43 @@
 	<set xpath="/items/item[@name='resourceLockPick']/property[@name='Stacknumber']/@value">250</set><!-- 50 default -->
 	<set xpath="/items/item[@name='resourceLockPickBundle']/property[@name='Stacknumber']/@value">25</set><!-- 5 default -->
 	
+	<!-- Changing base from animalInsectSwarm to a mini rancher -->
+	<set xpath="/items/item[@name='meleeHandZombieRancher']/property[@class='Action1']/property[@name='Entity']/@value">zombieMiniRancher</set>
+
+	<!-- Bringing in mini ranchers in context with parent -->	
+	<append xpath="/items/item[@name='meleeHandZombieRancherFeral']">
+	<property class="Action1"> <!-- UseAction -->
+		<property name="Entity" value="zombieMiniRancherFeral"/>
+	</property>
+	</append>
+	<append xpath="/items/item[@name='meleeHandZombieRancherCharged']">		
+	<property class="Action1"> <!-- UseAction -->
+		<property name="Entity" value="zombieMiniRancherCharged"/>
+	</property>
+	</append>
+	<append xpath="/items/item[@name='meleeHandZombieRancherInfernal']">		
+	<property class="Action1"> <!-- UseAction -->
+		<property name="Entity" value="zombieMiniRancherInfernal"/>
+	</property>
+	</append>
+
+	<!-- Bringing in rad rancher melee since it was governed by feral and has its own Entity type -->
+	<append xpath="/items">
+	
+	<item name="meleeHandZombieRancherRadiated">
+		<property name="Extends" value="meleeHandZombieRancher"/>
+		<property name="CreativeMode" value="None"/>
+		<property class="Action0">
+			<property name="DamageEntity" value="40"/>
+			<property name="DamageBlock" value="200"/>
+		</property>
+		<property class="Action1"> <!-- UseAction -->
+			<property name="Entity" value="zombieMiniRancherRadiated"/>
+		</property>
+	</item>
+
+	</append>
+	
 	<!-- Roadies Ammo Press Hookups for UI Tabs -->
 	<append xpath="/items/item[@name='ammo9mmBulletBall']/property[@name='Group']/@value">,RegularAmmo</append>
 	<append xpath="/items/item[@name='ammoBundle9mmBulletBall']">		
@@ -2642,7 +2679,7 @@
 		<passive_effect name="DamageModifier" operation="perc_add" value="-.5" tags="earth"/>
 		<passive_effect name="DamageModifier" operation="perc_add" value="-.5" tags="stone"/>
 		<passive_effect name="DamageModifier" operation="perc_add" value="-.5" tags="metal"/>
-		<passive_effect name="HarvestCount" operation="base_add" value="-.75" tags="allHarvest"/>
+		<!-- passive_effect name="HarvestCount" operation="base_add" value="-.75" tags="allHarvest"/ -->
 		<passive_effect name="HarvestCount" operation="base_add" value="-.75" tags="allToolsHarvest"/>
 		<passive_effect name="HarvestCount" operation="base_add" value="-.75" tags="oreWoodHarvest"/>
 	</effect_group>
@@ -2727,7 +2764,7 @@
 		<passive_effect name="DamageModifier" operation="perc_add" value="-.5" tags="earth"/>
 		<passive_effect name="DamageModifier" operation="perc_add" value="-.5" tags="stone"/>
 		<passive_effect name="DamageModifier" operation="perc_add" value="-.5" tags="metal"/>
-		<passive_effect name="HarvestCount" operation="base_add" value="-.75" tags="allHarvest"/>
+		<!-- passive_effect name="HarvestCount" operation="base_add" value="-.75" tags="allHarvest"/ -->
 		<passive_effect name="HarvestCount" operation="base_add" value="-.75" tags="allToolsHarvest"/>
 		<passive_effect name="HarvestCount" operation="base_add" value="-.75" tags="oreWoodHarvest"/>
 	</effect_group>
@@ -2889,7 +2926,7 @@
 		<passive_effect name="DamageModifier" operation="perc_add" value="-.5" tags="earth"/>
 		<passive_effect name="DamageModifier" operation="perc_add" value="-.5" tags="stone"/>
 		<passive_effect name="DamageModifier" operation="perc_add" value="-.5" tags="metal"/>
-		<passive_effect name="HarvestCount" operation="base_add" value="-.75" tags="allHarvest"/>
+		<!-- passive_effect name="HarvestCount" operation="base_add" value="-.75" tags="allHarvest"/ -->
 		<passive_effect name="HarvestCount" operation="base_add" value="-.75" tags="allToolsHarvest"/>
 		<passive_effect name="HarvestCount" operation="base_add" value="-.75" tags="oreWoodHarvest"/>
 	</effect_group>
@@ -2978,7 +3015,7 @@
 		<passive_effect name="DamageModifier" operation="perc_add" value="-.5" tags="earth"/>
 		<passive_effect name="DamageModifier" operation="perc_add" value="-.5" tags="stone"/>
 		<passive_effect name="DamageModifier" operation="perc_add" value="-.5" tags="metal"/>
-		<passive_effect name="HarvestCount" operation="base_add" value="-.75" tags="allHarvest"/>
+		<!-- passive_effect name="HarvestCount" operation="base_add" value="-.75" tags="allHarvest"/ -->
 		<passive_effect name="HarvestCount" operation="base_add" value="-.75" tags="allToolsHarvest"/>
 		<passive_effect name="HarvestCount" operation="base_add" value="-.75" tags="oreWoodHarvest"/>
 	</effect_group>

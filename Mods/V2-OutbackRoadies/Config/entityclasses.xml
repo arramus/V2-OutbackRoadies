@@ -11,7 +11,10 @@
 
 	<!-- Hostile Animal Climbing -->
 	<set xpath="/entity_classes/entity_class[@name='animalTemplateHostile']/property[@name='CanClimbLadders']/@value">true</set> <!-- Offset Ladder Horde Night and the new Dire Wolf -->
-
+	<!-- Giving Rad Rancher a melee hand item to spawn the mini variant -->
+	<append xpath="/entity_classes/entity_class[@name='zombieRancherRadiated']">
+		<property name="HandItem" value="meleeHandZombieRancherRadiated"/>
+	</append>
 	<!-- Zombie Harvesting -->
 	<set xpath="/entity_classes/entity_class[@name='zombieTemplateMale']/property[@name='DeadBodyHitPoints']/@value">150</set> <!-- Bear is 600 and reduced from 1000 -->
 	<append xpath="/entity_classes/entity_class[@name='zombieFemaleTutorial']">
@@ -5520,6 +5523,168 @@
 		<triggered_effect trigger="onOtherDamagedSelf" action="ModifyCVar" target="self" cvar="RadiatedRegenAmount" operation="set" value="2"/>
 		<triggered_effect trigger="onOtherDamagedSelf" action="AddBuff" target="self" buff="buffRadiatedRegen"/>
     </effect_group>        
+</entity_class>
+
+		<!-- Experience and Health at half of strong parent variants -->
+		<!-- *** ZOMBIE_MINI_RANCHER-->
+<entity_class name="zombieMiniRancher" extends="zombieRancher">
+	<property name="UserSpawnType" value="Menu"/>
+	<property name="Tags" value="entity,zombie,walker,desert"/>
+	<property name="SizeScale" value="0.6"/>
+	<property name="Mass" value="80"/>
+	<property name="ExperienceGain" value="300"/><!-- 600 XP Rancher -->
+	<property name="LootDropProb" value=".05"/>
+	<property name="LootDropEntityClass" value="EntityLootContainerRegular,1,EntityLootContainerPlague,1"/>
+
+	<property name="AITask" value="
+	BreakBlock|
+	DestroyArea|
+	Territorial|
+	ApproachDistraction|
+	ApproachAndAttackTarget class=EntityPlayer,0,EntityBandit,0,EntityEnemyAnimal,0,EntityAnimal|
+	ApproachSpot|
+	Look|
+	Wander|
+	"/>
+	<property name="AITarget" value="
+	SetAsTargetIfHurt class=EntityPlayer,EntityBandit,EntityEnemyAnimal|
+	BlockingTargetTask|
+	SetNearestCorpseAsTarget flags=edible|
+	SetNearestEntityAsTarget class=EntityPlayer,0,0,EntityBandit,0,-10|
+	"/>
+
+	<!-- Gameplay zombieRancher -->
+	<property name="MoveSpeed" value="1.1"/>
+	<property name="MoveSpeedAggro" value=".6, 1.35"/> <!-- Normal -->
+	<property name="HandItem" value="meleeHandZombieShort"/>
+	<property name="SightRange" value="27"/>
+	
+		<drop event="Harvest" name="foodRawMeat" count="0" tool_category="Butcher"/>
+		<drop event="Harvest" name="foodRottingFlesh" tag="butcherHarvest" count="1,3"/>
+		<drop event="Harvest" name="resourceBone" tag="butcherHarvest" count="1,3"/>
+		<drop event="Harvest" name="resourcePotassiumNitratePowder" tag="butcherHarvest" count="2,3"/>
+		<drop event="Harvest" name="resourceCloth" tag="butcherHarvest" count="2,3"/>
+		<drop event="Harvest" name="resourceBone" tag="allToolsHarvest" count="1"/>
+		<drop event="Harvest" name="foodRottingFlesh" count="1" tag="WasteTreasuresCompleteHarvest"/>
+		<drop event="Harvest" name="resourceBone" count="1" tag="WasteTreasuresCompleteHarvest"/>
+		<drop event="Harvest" name="resourcePotassiumNitratePowder" count="1,2" tag="WasteTreasuresCompleteHarvest"/>	
+	
+	<effect_group>
+		<passive_effect name="HealthMax" operation="base_set" value="225"/>
+	</effect_group>
+</entity_class>
+
+	<!-- *** ZOMBIE_MINI_RANCHER_FERAL-->
+<entity_class name="zombieMiniRancherFeral" extends="zombieMiniRancher">
+	<property name="UserSpawnType" value="Menu"/>
+	<property name="Tags" value="entity,zombie,walker,desert,feral"/>
+	<property name="Mesh" value="@:Entities/Zombies/Rancher/ZRancherFeral.prefab"/>
+
+	<!-- Gameplay zombieRancherFeral -->
+	<property name="DismemberMultiplierHead" value=".7"/><property name="DismemberMultiplierArms" value=".7"/><property name="DismemberMultiplierLegs" value=".7"/><!-- Feral -->
+	<property name="PainResistPerHit" value=".7"/><!-- Feral -->
+	<property name="MoveSpeedAggro" value="0.6, 1.45"/> <!-- Normal Feral -->
+	<property name="JumpMaxDistance" value="4.6, 5"/>
+	<property name="HandItem" value="meleeHandZombieShortFeral"/>
+	<property name="ExperienceGain" value="375"/><!-- 750 XP Normal Feral -->
+	<property name="LootDropProb" value=".05"/> <!-- Feral -->
+	<property name="LootDropEntityClass" value="EntityLootContainerRegular,1,EntityLootContainerPlague,1"/>
+
+		<drop event="Harvest" name="foodRawMeat" count="0" tool_category="Butcher"/>
+		<drop event="Harvest" name="foodRottingFlesh" tag="butcherHarvest" count="1,3"/>
+		<drop event="Harvest" name="resourceBone" tag="butcherHarvest" count="1,3"/>
+		<drop event="Harvest" name="resourcePotassiumNitratePowder" tag="butcherHarvest" count="2,3"/>
+		<drop event="Harvest" name="resourceCloth" tag="butcherHarvest" count="2,3"/>
+		<drop event="Harvest" name="resourceBone" tag="allToolsHarvest" count="1"/>
+		<drop event="Harvest" name="foodRottingFlesh" count="1" tag="WasteTreasuresCompleteHarvest"/>
+		<drop event="Harvest" name="resourceBone" count="1" tag="WasteTreasuresCompleteHarvest"/>
+		<drop event="Harvest" name="resourcePotassiumNitratePowder" count="1,2" tag="WasteTreasuresCompleteHarvest"/>
+	
+	<effect_group name="Base Effects">
+		<passive_effect name="HealthMax" operation="base_set" value="475"/>
+	</effect_group>
+</entity_class>
+
+	<!-- *** ZOMBIE_MINI_RANCHER_RADIATED-->
+<entity_class name="zombieMiniRancherRadiated" extends="zombieMiniRancherFeral">
+	<property name="UserSpawnType" value="Menu"/>
+	<property name="Tags" value="entity,zombie,walker,desert,feral,radiated"/>
+	<property name="Mesh" value="@:Entities/Zombies/Rancher/ZRancherRadiated.prefab"/>
+	<property name="MatColor" value="radiated"/>
+	<!--<property name="ParticleOnSpawn" value="@:ParticleEffects/RadiatedParticlesOnMesh.prefab" param1="SetShapeToMesh0"/>-->
+	
+	<!-- Gameplay zombieRancherRadiated -->
+	<property name="DismemberMultiplierHead" value=".4"/><property name="DismemberMultiplierArms" value=".4"/><property name="DismemberMultiplierLegs" value=".4"/><!-- Radiated -->
+	<property name="PainResistPerHit" value=".9"/><!-- Radiated -->
+	<property name="ExperienceGain" value="600"/><!-- 1200 XP Normal Radiated -->
+	<property name="LootDropEntityClass" value="EntityLootContainerStrong,1,EntityLootContainerPlague,1"/>
+	
+		<drop event="Harvest" name="foodRawMeat" count="0" tool_category="Butcher"/>
+		<drop event="Harvest" name="foodRottingFlesh" tag="butcherHarvest" count="1,3"/>
+		<drop event="Harvest" name="resourceBone" tag="butcherHarvest" count="1,3"/>
+		<drop event="Harvest" name="resourcePotassiumNitratePowder" tag="butcherHarvest" count="2,3"/>
+		<drop event="Harvest" name="resourceCloth" tag="butcherHarvest" count="2,3"/>
+		<drop event="Harvest" name="resourceBone" tag="allToolsHarvest" count="1"/>
+		<drop event="Harvest" name="foodRottingFlesh" count="1" tag="WasteTreasuresCompleteHarvest"/>
+		<drop event="Harvest" name="resourceBone" count="1" tag="WasteTreasuresCompleteHarvest"/>
+		<drop event="Harvest" name="resourcePotassiumNitratePowder" count="1,2" tag="WasteTreasuresCompleteHarvest"/>
+
+	<effect_group name="Base Effects">
+		<passive_effect name="HealthMax" operation="base_set" value="850"/>
+		<triggered_effect trigger="onOtherDamagedSelf" action="ModifyCVar" target="self" cvar="RadiatedRegenAmount" operation="set" value="4"/>
+		<triggered_effect trigger="onOtherDamagedSelf" action="AddBuff" target="self" buff="buffRadiatedRegen"/>
+	</effect_group>
+</entity_class>
+
+		<!-- *** ZOMBIE_MINI_RANCHER_CHARGED -->
+<entity_class name="zombieMiniRancherCharged" extends="zombieMiniRancherRadiated">
+	<property name="MatColor" value="charged"/>
+	<property name="Tags" value="entity,zombie,walker,desert,feral,charged"/>
+	<property name="ExperienceGain" value="700"/><!-- 1400 XP Normal Charged -->
+	<property name="HandItem" value="meleeHandZombieCharged"/>
+	<property name="MoveSpeedPattern" value="^chargedMoveSpeedPattern"/>
+	<property name="LootDropProb" value=".1"/> <!-- Charged -->
+	<property name="LootDropEntityClass" value="EntityLootContainerStrong,1,EntityLootContainerPlague,1"/>
+	
+		<drop event="Harvest" name="foodRawMeat" count="0" tool_category="Butcher"/>
+		<drop event="Harvest" name="foodRottingFlesh" tag="butcherHarvest" count="1,3"/>
+		<drop event="Harvest" name="resourceBone" tag="butcherHarvest" count="1,3"/>
+		<drop event="Harvest" name="resourcePotassiumNitratePowder" tag="butcherHarvest" count="2,3"/>
+		<drop event="Harvest" name="resourceCloth" tag="butcherHarvest" count="2,3"/>
+		<drop event="Harvest" name="resourceBone" tag="allToolsHarvest" count="1"/>
+		<drop event="Harvest" name="foodRottingFlesh" count="1" tag="WasteTreasuresCompleteHarvest"/>
+		<drop event="Harvest" name="resourceBone" count="1" tag="WasteTreasuresCompleteHarvest"/>
+		<drop event="Harvest" name="resourcePotassiumNitratePowder" count="1,2" tag="WasteTreasuresCompleteHarvest"/>
+
+	<effect_group name="Base Effects">
+		<passive_effect name="HealthMax" operation="base_set" value="950"/>
+	</effect_group>
+</entity_class>
+
+		<!-- *** ZOMBIE_MINI_RANCHER_INFERNAL -->
+<entity_class name="zombieMiniRancherInfernal" extends="zombieMiniRancherRadiated">
+	<property name="MatColor" value="infernal"/>
+	<property name="Tags" value="entity,zombie,walker,desert,feral,infernal"/>
+	<property name="ExperienceGain" value="800"/><!-- 1600 XP Normal Infernal -->
+	<property name="HandItem" value="meleeHandZombieInfernal"/>
+	<property name="MoveSpeedPattern" value="^infernalMoveSpeedPattern"/>
+	<property name="LootDropProb" value=".1"/> <!-- Infernal -->
+	<property name="LootDropEntityClass" value="EntityLootContainerStrong,1,EntityLootContainerPlague,1"/>
+	
+		<drop event="Harvest" name="foodRawMeat" count="0" tool_category="Butcher"/>
+		<drop event="Harvest" name="foodRottingFlesh" tag="butcherHarvest" count="1,3"/>
+		<drop event="Harvest" name="resourceBone" tag="butcherHarvest" count="1,3"/>
+		<drop event="Harvest" name="resourcePotassiumNitratePowder" tag="butcherHarvest" count="2,3"/>
+		<drop event="Harvest" name="resourceCloth" tag="butcherHarvest" count="2,3"/>
+		<drop event="Harvest" name="resourceBone" tag="allToolsHarvest" count="1"/>
+		<drop event="Harvest" name="foodRottingFlesh" count="1" tag="WasteTreasuresCompleteHarvest"/>
+		<drop event="Harvest" name="resourceBone" count="1" tag="WasteTreasuresCompleteHarvest"/>
+		<drop event="Harvest" name="resourcePotassiumNitratePowder" count="1,2" tag="WasteTreasuresCompleteHarvest"/>
+
+	<effect_group name="Base Effects">
+		<passive_effect name="HealthMax" operation="base_set" value="1250"/>
+		<passive_effect name="BuffResistance" operation="base_set" value=".75" tags="buffInjuryKnockdown01,buffInjuryKnockdown02"/>
+	</effect_group>
 </entity_class>
 		
 <!-- Fake Entities for Entity Elimination Quest for Localization of 'Quest' as first pick -->
