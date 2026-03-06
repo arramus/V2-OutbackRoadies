@@ -1,14 +1,14 @@
 <configs>
 
-	<set xpath="/vehicles/vehicle[@name='vehicleBicycle']/property[@name='hopForce']/@value">5, .025</set> <!-- Bicycle 4, .05 -->
+	<set xpath="/vehicles/vehicle[@name='vehicleBicycle']/property[@name='hopForce']/@value">5.5, .025</set> <!-- Bicycle 4, .05 -->
 	<set xpath="/vehicles/vehicle[@name='vehicleBicycle']/property[@name='velocityMax_turbo']/@value">7.5, 5, 10, 5</set> <!-- Bicycle Default 6, 4, 8.5, 4 -->
 	<set xpath="/vehicles/vehicle[@name='vehicleBicycle']/property[@name='waterDrag_y_velScale_velMaxScale']/@value">1.0, 0.5, .3</set> <!-- 1.7, .9, .2 -->
-	<set xpath="/vehicles/vehicle[@name='vehicleMinibike']/property[@name='hopForce']/@value">5, .025</set> <!-- Minibike 1.5, .2 -->
+	<set xpath="/vehicles/vehicle[@name='vehicleMinibike']/property[@name='hopForce']/@value">5.5, .025</set> <!-- Minibike 1.5, .2 -->
 	<set xpath="/vehicles/vehicle[@name='vehicleMinibike']/property[@name='velocityMax_turbo']/@value">9, 5, 11.2, 5</set> <!-- Minibike 7, 4, 9.2, 4 -->
 	<set xpath="/vehicles/vehicle[@name='vehicleMinibike']/property[@name='waterDrag_y_velScale_velMaxScale']/@value">1.0, 0.5, .3</set> <!-- 1.5, .9, .15 -->
-	<set xpath="/vehicles/vehicle[@name='vehicleMotorcycle']/property[@name='steerCenteringRate']/@value">210</set> <!-- Motorcycle 90 -->
+	<set xpath="/vehicles/vehicle[@name='vehicleMotorcycle']/property[@name='steerCenteringRate']/@value">270</set> <!-- Motorcycle 90 -->
 	<set xpath="/vehicles/vehicle[@name='vehicleMotorcycle']/property[@name='tiltAngleMax']/@value">5</set> <!-- Motorcycle 20 -->
-	<set xpath="/vehicles/vehicle[@name='vehicleMotorcycle']/property[@name='hopForce']/@value">9.25, .01</set> <!-- Motorcycle 1, .8 -->
+	<set xpath="/vehicles/vehicle[@name='vehicleMotorcycle']/property[@name='hopForce']/@value">10.25, .01</set> <!-- Motorcycle 1, .8 -->
 	<set xpath="/vehicles/vehicle[@name='vehicleMotorcycle']/property[@name='velocityMax_turbo']/@value">13.3, 7, 19, 8</set> <!-- Motorcycle 9.8, 6, 14, 8 -->
 	<set xpath="/vehicles/vehicle[@name='vehicleMotorcycle']/property[@name='waterDrag_y_velScale_velMaxScale']/@value">1.0, 0.5, .3</set> <!-- 1.7, .9, .1 -->
 	<set xpath="/vehicles/vehicle[@name='vehicleTruck4x4']/property[@name='velocityMax_turbo']/@value">14, 7, 19, 8</set> <!-- 4x4 Truck 10, 8, 14, 10 -->
@@ -23,7 +23,7 @@
 	</append>
 	
 	<append xpath="/vehicles/vehicle[@name='vehicleTruck4x4']">
-		<property name="hopForce" value="4, .025"/>
+		<property name="hopForce" value="5.5, .025"/>
 	</append>
 	
 	<set xpath="/vehicles/vehicle[@name='vehicleGyrocopter']"> <!-- arramus with much much Credit to Bdubayah for MD 500 Helicopter settings from Vehicles AIO -->
@@ -249,7 +249,7 @@
 		<property name="cameraTurnRate" value=".2, .35"/>
 		<property name="upAngleMax" value="70"/>
 		<property name="upForce" value="1"/>
-		<property name="hopForce" value="5, .025"/>
+		<property name="hopForce" value="5.5, .025"/>
 		<property name="steerAngleMax" value="32"/>
 		<property name="steerRate" value="130"/>
 		<property name="steerCenteringRate" value="90"/>
@@ -423,7 +423,7 @@
 		<property name="cameraTurnRate" value=".2, .35"/>
 		<property name="upAngleMax" value="70"/>
 		<property name="upForce" value="1"/>
-		<property name="hopForce" value="5, .025"/>
+		<property name="hopForce" value="5.5, .025"/>
 		<property name="steerAngleMax" value="32"/>
 		<property name="steerRate" value="130"/>
 		<property name="steerCenteringRate" value="90"/>
@@ -588,7 +588,7 @@
 		<property name="cameraTurnRate" value=".2, .35"/>
 		<property name="upAngleMax" value="70"/>
 		<property name="upForce" value="1"/>
-		<property name="hopForce" value="5, .025"/>
+		<property name="hopForce" value="5.5, .025"/>
 		<property name="steerAngleMax" value="32"/>
 		<property name="steerRate" value="130"/>
 		<property name="steerCenteringRate" value="90"/>
@@ -754,7 +754,7 @@
 		<property name="cameraTurnRate" value=".2, .35"/>
 		<property name="upAngleMax" value="70"/>
 		<property name="upForce" value="1"/>
-		<property name="hopForce" value="5, .025"/>
+		<property name="hopForce" value="5.5, .025"/>
 		<property name="steerAngleMax" value="32"/>
 		<property name="steerRate" value="130"/>
 		<property name="steerCenteringRate" value="90"/>
@@ -944,7 +944,7 @@
 		<property name="cameraTurnRate" value=".2, .35"/>
 		<property name="upAngleMax" value="70"/>
 		<property name="upForce" value="1"/>
-		<property name="hopForce" value="5, .025"/>
+		<property name="hopForce" value="5.5, .025"/>
 		<property name="steerAngleMax" value="32"/>
 		<property name="steerRate" value="130"/>
 		<property name="steerCenteringRate" value="90"/>
@@ -1110,7 +1110,7 @@
 		<property name="cameraTurnRate" value=".2, .35"/>
 		<property name="upAngleMax" value="70"/>
 		<property name="upForce" value="1"/>
-		<property name="hopForce" value="5, .025"/>
+		<property name="hopForce" value="5.5, .025"/>
 		<property name="steerAngleMax" value="32"/>
 		<property name="steerRate" value="130"/>
 		<property name="steerCenteringRate" value="90"/>
@@ -1276,7 +1276,7 @@
 		<property name="cameraTurnRate" value=".2, .35"/>
 		<property name="upAngleMax" value="70"/>
 		<property name="upForce" value="1"/>
-		<property name="hopForce" value="5, .025"/>
+		<property name="hopForce" value="5.5, .025"/>
 		<property name="steerAngleMax" value="32"/>
 		<property name="steerRate" value="130"/>
 		<property name="steerCenteringRate" value="90"/>
@@ -1466,7 +1466,7 @@
 		<property name="cameraTurnRate" value=".2, .35"/>
 		<property name="upAngleMax" value="70"/>
 		<property name="upForce" value="1"/>
-		<property name="hopForce" value="5, .025"/>
+		<property name="hopForce" value="5.5, .025"/>
 		<property name="steerAngleMax" value="32"/>
 		<property name="steerRate" value="130"/>
 		<property name="steerCenteringRate" value="90"/>
@@ -1631,7 +1631,7 @@
 		<property name="cameraTurnRate" value=".2, .35"/>
 		<property name="upAngleMax" value="70"/>
 		<property name="upForce" value="1"/>
-		<property name="hopForce" value="5, .025"/>
+		<property name="hopForce" value="5.5, .025"/>
 		<property name="steerAngleMax" value="32"/>
 		<property name="steerRate" value="130"/>
 		<property name="steerCenteringRate" value="90"/>
@@ -1841,7 +1841,7 @@
 		<property name="motorTorque_turbo" value="400, 200, 560, 200"/>
 		<property name="velocityMax_turbo" value="9, 4, 11.2, 4"/>
 		<property name="brakeTorque" value="4000"/>
-		<property name="hopForce" value="5.5, .02"/>
+		<property name="hopForce" value="6.5, .02"/>
 		<property name="unstickForce" value="1"/>
 		<property name="waterDrag_y_velScale_velMaxScale" value="1.0, 0.5, .3"/>
 		<property name="wheelPtlScale" value=".6"/>
