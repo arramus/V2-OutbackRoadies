@@ -785,11 +785,11 @@
 </recipe>
 
 <recipe name="ammoJunkTurretRegular" count="1" craft_area="ammopress">
-	<ingredient name="resourceScrapLead" count="3"/>
+	<ingredient name="resourceScrapLead" count="2"/>
 </recipe>
 
 <recipe name="ammoBundleJunkTurretRegular" count="1" craft_time="180" craft_area="ammopress" tags="learnable,workbenchCrafting">
-	<ingredient name="resourceScrapLead" count="2400"/>
+	<ingredient name="resourceScrapLead" count="1800"/>
 </recipe>
 
 <recipe name="ammoJunkTurretShell" count="1" craft_area="ammopress" tags="learnable,workbenchCrafting">
@@ -803,13 +803,13 @@
 </recipe>
 
 <recipe name="ammoJunkTurretAP" count="1" craft_area="ammopress" tags="learnable,workbenchCrafting">
-	<ingredient name="resourceScrapLead" count="3"/>
-	<ingredient name="resourceScrapIron" count="3"/>
+	<ingredient name="resourceScrapLead" count="2"/>
+	<ingredient name="resourceScrapIron" count="2"/>
 </recipe>
 
 <recipe name="ammoBundleJunkTurretAP" count="1" craft_time="180" craft_area="ammopress" tags="learnable,workbenchCrafting">
-	<ingredient name="resourceScrapLead" count="2400"/>
-	<ingredient name="resourceScrapIron" count="2400"/>
+	<ingredient name="resourceScrapLead" count="1800"/>
+	<ingredient name="resourceScrapIron" count="1800"/>
 </recipe>
 
 <recipe name="playerWoodBurningRoadiesStove" count="1" craft_area="workbench" craft_time="180" tags="workbenchCrafting">
