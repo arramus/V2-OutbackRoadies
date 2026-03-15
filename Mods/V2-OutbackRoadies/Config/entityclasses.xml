@@ -1922,7 +1922,7 @@
 
 <!--TASMANIAN DEVIL-->
 <entity_class name="animalTassydevil" extends="animalTemplateHostileWalking">
-    <property name="Tags" value="entity,animal,hostile,boar,perkAT02,perkAT03"/>
+    <property name="Tags" value="entity,animal,hostile,boar,perkAT02,perkAT03,perkAT04,perkAT05"/>
 	<property name="UserSpawnType" value="Menu"/>
     <property name="IsEnemyEntity" value="true"/>
     <property name="AvatarController" value="AvatarAnimalController"/>
@@ -1970,7 +1970,7 @@
 </entity_class>
 
 <entity_class name="animalBigTassydevil" extends="animalTemplateHostileWalking">
-    <property name="Tags" value="entity,animal,hostile,boar,perkAT02,perkAT03"/>
+    <property name="Tags" value="entity,animal,hostile,boar,perkAT02,perkAT03,perkAT04,perkAT05"/>
 	<property name="UserSpawnType" value="Menu"/>
     <property name="IsEnemyEntity" value="true"/>
     <property name="AvatarController" value="AvatarAnimalController"/>
@@ -2024,7 +2024,7 @@
 
 <!--PLATYPUS-->
 <entity_class name="animalPlatypus" extends="animalTemplateHostileWalking">
-    <property name="Tags" value="entity,animal,hostile,boar,perkAT02,perkAT03"/>
+    <property name="Tags" value="entity,animal,hostile,boar,perkAT02,perkAT03,perkAT04,perkAT05"/>
 	<property name="UserSpawnType" value="Menu"/>
     <property name="IsEnemyEntity" value="true"/>
     <property name="AvatarController" value="AvatarAnimalController"/>
@@ -2071,7 +2071,7 @@
 
 <!--KOALA-->
 <entity_class name="animalKoala" extends="animalTemplateHostileWalking">
-    <property name="Tags" value="entity,animal,hostile,boar,perkAT02,perkAT03"/>
+    <property name="Tags" value="entity,animal,hostile,boar,perkAT02,perkAT03,perkAT04,perkAT05"/>
 	<property name="UserSpawnType" value="Menu"/>
     <property name="IsEnemyEntity" value="true"/>
     <property name="AvatarController" value="AvatarAnimalController"/>
@@ -2117,7 +2117,7 @@
 </entity_class>
 
 <entity_class name="animalBigKoala" extends="animalTemplateHostileWalking">
-    <property name="Tags" value="entity,animal,hostile,boar,perkAT02,perkAT03"/>
+    <property name="Tags" value="entity,animal,hostile,boar,perkAT02,perkAT03,perkAT04,perkAT05"/>
 	<property name="UserSpawnType" value="Menu"/>
     <property name="IsEnemyEntity" value="true"/>
     <property name="AvatarController" value="AvatarAnimalController"/>
@@ -2170,7 +2170,7 @@
 
 <!--FRILL NECK LIZARD-->
 <entity_class name="animalFrillneck" extends="animalTemplateHostileWalking">
-    <property name="Tags" value="entity,animal,hostile,boar,perkAT02,perkAT03"/>
+    <property name="Tags" value="entity,animal,hostile,boar,perkAT02,perkAT03,perkAT04,perkAT05"/>
 	<property name="UserSpawnType" value="Menu"/>
     <property name="IsEnemyEntity" value="true"/>
     <property name="AvatarController" value="AvatarAnimalController"/>
@@ -2217,7 +2217,7 @@
 
 <!--KANGAROO-->
 <entity_class name="animalKangaroo" extends="animalTemplateHostileWalking">
-    <property name="Tags" value="entity,animal,hostile,boar,perkAT02,perkAT03"/>
+    <property name="Tags" value="entity,animal,hostile,boar,perkAT02,perkAT03,perkAT04,perkAT05"/>
 	<property name="UserSpawnType" value="Menu"/>
     <property name="IsEnemyEntity" value="true"/>
     <property name="AvatarController" value="AvatarAnimalController"/>
@@ -3578,7 +3578,7 @@
 	
 <!-- Customised Zombies -->
 		<entity_class name="zombieBurntRadiatedMini" extends="zombieBurntRadiated">
-			<property name="Tags" value="entity,zombie,walker,feral,radiated"/>
+			<property name="Tags" value="entity,zombie,walker,burnt,feral,radiated"/>
 			<property name="Mesh" value="@:Entities/Zombies/Burnt/ZBurntRadiated.prefab"/>
 			<!--<property name="ParticleOnSpawn" value="ParticleEffects/RadiatedParticlesOnMesh" param1="SetShapeToMesh0"/>-->
 
@@ -3615,7 +3615,7 @@
 	
     <entity_class name="zombieOakNurse" extends="zombieBossTemplate">
 	<property name="UserSpawnType" value="Menu"/>
-	<property name="Tags" value="entity,male,zombie,walker,feral,radiated,template"/>
+	<property name="Tags" value="entity,male,zombie,walker,allbiome,feral,radiated,template"/>
 	<property name="Mesh" value="#@modfolder:Resources/HeadHunter.unity3d?oaknurse1"/>
 	<property name="MoveSpeedAggro" value="0.6, 1.45"/>
 	<property name="DismemberMultiplierHead" value=".4"/><property name="DismemberMultiplierArms" value=".4"/><property name="DismemberMultiplierLegs" value=".4"/><!-- Radiated -->
@@ -3643,7 +3643,7 @@
 	
     <entity_class name="zombieOakFireNurse" extends="zombieBossTemplate">
 	<property name="UserSpawnType" value="Menu"/>
-	<property name="Tags" value="entity,male,zombie,walker,feral,radiated,template"/>
+	<property name="Tags" value="entity,male,zombie,walker,allbiome,feral,radiated,template"/>
 	<property name="Mesh" value="#@modfolder:Resources/HeadHunter.unity3d?oaknursefire"/>
 	<property name="MoveSpeedAggro" value="0.6, 1.45"/>
 	<property name="DismemberMultiplierHead" value=".4"/><property name="DismemberMultiplierArms" value=".4"/><property name="DismemberMultiplierLegs" value=".4"/><!-- Radiated -->
@@ -3671,7 +3671,7 @@
 	
     <entity_class name="zombieOakRadNurse" extends="zombieBossTemplate">
 	<property name="UserSpawnType" value="Menu"/>
-	<property name="Tags" value="entity,male,zombie,walker,feral,radiated,template"/>
+	<property name="Tags" value="entity,male,zombie,walker,allbiome,feral,radiated,template"/>
 	<property name="Mesh" value="#@modfolder:Resources/HeadHunter.unity3d?oaknurseRad"/>
 	<property name="MoveSpeedAggro" value="0.6, 1.45"/>
 	<property name="DismemberMultiplierHead" value=".4"/><property name="DismemberMultiplierArms" value=".4"/><property name="DismemberMultiplierLegs" value=".4"/><!-- Radiated -->
@@ -3700,7 +3700,7 @@
 	
  <entity_class name="zombieOakChargedNurse" extends="zombieBossTemplate">
 	<property name="UserSpawnType" value="Menu"/>
-	<property name="Tags" value="entity,male,zombie,walker,feral,radiated,template,charged"/>
+	<property name="Tags" value="entity,male,zombie,walker,allbiome,feral,radiated,template,charged"/>
 	<property name="Class" value="EntityZombieCop"/>
 	<property name="Mesh" value="#@modfolder:Resources/HeadHunter.unity3d?oaknurseBlue"/>
 	<property name="MoveSpeedAggro" value="0.6, 1.45"/>
@@ -3741,7 +3741,7 @@
 
 	<entity_class name="zombieOakInfernalNurse" extends="zombieBossTemplate">
 	<property name="UserSpawnType" value="Menu"/>
-	<property name="Tags" value="entity,male,zombie,walker,feral,radiated,template,infernal"/>
+	<property name="Tags" value="entity,male,zombie,walker,allbiome,feral,radiated,template,infernal"/>
 	<property name="Class" value="EntityZombieCop"/>
 	<property name="Mesh" value="#@modfolder:Resources/HeadHunter.unity3d?oaknurseorg"/>
 	<property name="MoveSpeedAggro" value="0.6, 1.45"/>
@@ -3782,7 +3782,7 @@
 	
     <entity_class name="zombieOakHeadHunter1" extends="zombieBossTemplate">
 	<property name="UserSpawnType" value="Menu"/>
-	<property name="Tags" value="entity,male,zombie,walker,feral,radiated,template"/>
+	<property name="Tags" value="entity,male,zombie,walker,allbiome,feral,radiated,template"/>
     <property name="Mesh" value="#@modfolder:Resources/HeadHunter.unity3d?headhunter"/>
 	<property name="MoveSpeedAggro" value="0.6, 1.45"/>
     <property name="WalkType" value="2"/>
@@ -3811,7 +3811,7 @@
 	
     <entity_class name="zombieOakHeadHunter2" extends="zombieBossTemplate">
 	<property name="UserSpawnType" value="Menu"/>
-	<property name="Tags" value="entity,male,zombie,walker,feral,radiated,template"/>
+	<property name="Tags" value="entity,male,zombie,walker,allbiome,feral,radiated,template"/>
     <property name="Mesh" value="#@modfolder:Resources/HeadHunter.unity3d?headhunter2"/>
 	<property name="MoveSpeedAggro" value="0.6, 1.45"/>
     <property name="WalkType" value="2"/>
@@ -3840,7 +3840,7 @@
 	
     <entity_class name="zombieOakHeadHunter3" extends="zombieBossTemplate">
 	<property name="UserSpawnType" value="Menu"/>
-	<property name="Tags" value="entity,male,zombie,walker,feral,radiated,template"/>
+	<property name="Tags" value="entity,male,zombie,walker,allbiome,feral,radiated,template"/>
     <property name="Mesh" value="#@modfolder:Resources/HeadHunter.unity3d?headhunter3"/>
 	<property name="MoveSpeedAggro" value="0.6, 1.45"/>
     <property name="WalkType" value="2"/>
@@ -3869,7 +3869,7 @@
 	
     <entity_class name="zombieOakHeadHunter4" extends="zombieBossTemplate">
 	<property name="UserSpawnType" value="Menu"/>
-	<property name="Tags" value="entity,male,zombie,walker,feral,radiated,template"/>
+	<property name="Tags" value="entity,male,zombie,walker,allbiome,feral,radiated,template"/>
     <property name="Mesh" value="#@modfolder:Resources/HeadHunter.unity3d?headhunter4"/>
 	<property name="MoveSpeedAggro" value="0.6, 1.45"/>
     <property name="WalkType" value="2"/>
@@ -3898,7 +3898,7 @@
 	
     <entity_class name="zombieOakHeadHunter5" extends="zombieBossTemplate">
 	<property name="UserSpawnType" value="Menu"/>
-	<property name="Tags" value="entity,male,zombie,walker,feral,radiated,template"/>
+	<property name="Tags" value="entity,male,zombie,walker,allbiome,feral,radiated,template"/>
     <property name="Mesh" value="#@modfolder:Resources/HeadHunter.unity3d?headhunter5"/>
 	<property name="MoveSpeedAggro" value="0.6, 1.45"/>
     <property name="WalkType" value="2"/>
@@ -3927,7 +3927,7 @@
 	
 	<entity_class name="zombieOakHeadHunterCharged" extends="zombieBossTemplate">
     <property name="UserSpawnType" value="Menu"/>
-    <property name="Tags" value="entity,zombie,walker,feral,radiated,charged"/>
+    <property name="Tags" value="entity,zombie,walker,allbiome,feral,radiated,charged"/>
     <property name="Mesh" value="#@modfolder:Resources/HeadHunter.unity3d?HeadHunterBlue"/>
 	<property name="Class" value="EntityZombieCop"/>
 	<property name="MoveSpeedAggro" value="0.6, 1.45"/>
@@ -3969,7 +3969,7 @@
 
 	<entity_class name="zombieOakHeadHunterInfernal" extends="zombieBossTemplate">
     <property name="UserSpawnType" value="Menu"/>
-    <property name="Tags" value="entity,zombie,walker,feral,radiated,infernal"/>
+    <property name="Tags" value="entity,zombie,walker,allbiome,feral,radiated,infernal"/>
     <property name="Mesh" value="#@modfolder:Resources/HeadHunter.unity3d?HeadHunterOrenge"/>
 	<property name="Class" value="EntityZombieCop"/>
 	<property name="MoveSpeedAggro" value="0.6, 1.45"/>
@@ -4013,7 +4013,7 @@
 	
     <entity_class name="zombieOakBossNurse" extends="zombieBossTemplate">
 	<property name="UserSpawnType" value="Menu"/>
-	<property name="Tags" value="entity,male,zombie,walker,feral,radiated,template"/>
+	<property name="Tags" value="entity,male,zombie,walker,allbiome,feral,radiated,template"/>
 	<property name="Class" value="EntityZombieCop"/>
 	<property name="Mesh" value="#@modfolder:Resources/HeadHunter.unity3d?oaknurse1"/>
 	<property name="MoveSpeedAggro" value="0.6, 1.55"/>
@@ -4057,7 +4057,7 @@
 	
     <entity_class name="zombieOakBossFireNurse" extends="zombieBossTemplate">
 	<property name="UserSpawnType" value="Menu"/>
-	<property name="Tags" value="entity,male,zombie,walker,feral,radiated,template"/>
+	<property name="Tags" value="entity,male,zombie,walker,allbiome,feral,radiated,template"/>
 	<property name="Class" value="EntityZombieCop"/>
 	<property name="Mesh" value="#@modfolder:Resources/HeadHunter.unity3d?oaknursefire"/>
 	<property name="MoveSpeedAggro" value="0.6, 1.55"/>
@@ -4101,7 +4101,7 @@
 	
     <entity_class name="zombieOakBossRadNurse" extends="zombieBossTemplate">
 	<property name="UserSpawnType" value="Menu"/>
-	<property name="Tags" value="entity,male,zombie,walker,feral,radiated,template"/>
+	<property name="Tags" value="entity,male,zombie,walker,allbiome,feral,radiated,template"/>
 	<property name="Class" value="EntityZombieCop"/>
 	<property name="Mesh" value="#@modfolder:Resources/HeadHunter.unity3d?oaknurseRad"/>
 	<property name="MoveSpeedAggro" value="0.6, 1.55"/>
@@ -4146,7 +4146,7 @@
 	
  <entity_class name="zombieOakBossChargedNurse" extends="zombieBossTemplate">
 	<property name="UserSpawnType" value="Menu"/>
-	<property name="Tags" value="entity,male,zombie,walker,feral,radiated,template,charged"/>
+	<property name="Tags" value="entity,male,zombie,walker,allbiome,feral,radiated,template,charged"/>
 	<property name="Class" value="EntityZombieCop"/>
 	<property name="Mesh" value="#@modfolder:Resources/HeadHunter.unity3d?oaknurseBlue"/>
 	<property name="MoveSpeedAggro" value="0.6, 1.45"/>
@@ -4190,7 +4190,7 @@
 
 	<entity_class name="zombieOakBossInfernalNurse" extends="zombieBossTemplate">
 	<property name="UserSpawnType" value="Menu"/>
-	<property name="Tags" value="entity,male,zombie,walker,feral,radiated,template,infernal"/>
+	<property name="Tags" value="entity,male,zombie,walker,allbiome,feral,radiated,template,infernal"/>
 	<property name="Class" value="EntityZombieCop"/>
 	<property name="Mesh" value="#@modfolder:Resources/HeadHunter.unity3d?oaknurseorg"/>
 	<property name="MoveSpeedAggro" value="0.6, 1.45"/>
@@ -4234,7 +4234,7 @@
 	
     <entity_class name="zombieOakBossHeadHunter1" extends="zombieBossTemplate">
 	<property name="UserSpawnType" value="Menu"/>
-	<property name="Tags" value="entity,male,zombie,walker,feral,radiated,template"/>
+	<property name="Tags" value="entity,male,zombie,walker,allbiome,feral,radiated,template"/>
     <property name="Mesh" value="#@modfolder:Resources/HeadHunter.unity3d?headhunter"/>
 	<property name="MoveSpeedAggro" value="0.6, 1.55"/>
     <property name="WalkType" value="2"/>
@@ -4266,7 +4266,7 @@
 	
     <entity_class name="zombieOakBossHeadHunter2" extends="zombieBossTemplate">
 	<property name="UserSpawnType" value="Menu"/>
-	<property name="Tags" value="entity,male,zombie,walker,feral,radiated,template"/>
+	<property name="Tags" value="entity,male,zombie,walker,allbiome,feral,radiated,template"/>
     <property name="Mesh" value="#@modfolder:Resources/HeadHunter.unity3d?headhunter2"/>
 	<property name="MoveSpeedAggro" value="0.6, 1.55"/>
     <property name="WalkType" value="2"/>
@@ -4298,7 +4298,7 @@
 	
     <entity_class name="zombieOakBossHeadHunter3" extends="zombieBossTemplate">
 	<property name="UserSpawnType" value="Menu"/>
-	<property name="Tags" value="entity,male,zombie,walker,feral,radiated,template"/>
+	<property name="Tags" value="entity,male,zombie,walker,allbiome,feral,radiated,template"/>
     <property name="Mesh" value="#@modfolder:Resources/HeadHunter.unity3d?headhunter3"/>
 	<property name="MoveSpeedAggro" value="0.6, 1.55"/>
     <property name="WalkType" value="2"/>
@@ -4330,7 +4330,7 @@
 	
     <entity_class name="zombieOakBossHeadHunter4" extends="zombieBossTemplate">
 	<property name="UserSpawnType" value="Menu"/>
-	<property name="Tags" value="entity,male,zombie,walker,feral,radiated,template"/>
+	<property name="Tags" value="entity,male,zombie,walker,allbiome,feral,radiated,template"/>
     <property name="Mesh" value="#@modfolder:Resources/HeadHunter.unity3d?headhunter4"/>
 	<property name="MoveSpeedAggro" value="0.6, 1.55"/>
     <property name="WalkType" value="2"/>
@@ -4362,7 +4362,7 @@
 	
     <entity_class name="zombieOakBossHeadHunter5" extends="zombieBossTemplate">
 	<property name="UserSpawnType" value="Menu"/>
-	<property name="Tags" value="entity,male,zombie,walker,feral,radiated,template"/>
+	<property name="Tags" value="entity,male,zombie,walker,allbiome,feral,radiated,template"/>
     <property name="Mesh" value="#@modfolder:Resources/HeadHunter.unity3d?headhunter5"/>
 	<property name="MoveSpeedAggro" value="0.6, 1.55"/>
     <property name="WalkType" value="2"/>
@@ -4394,7 +4394,7 @@
 	
 	<entity_class name="zombieOakBossHeadHunterCharged" extends="zombieBossTemplate">
     <property name="UserSpawnType" value="Menu"/>
-    <property name="Tags" value="entity,zombie,walker,feral,radiated,charged"/>
+    <property name="Tags" value="entity,zombie,walker,allbiome,feral,radiated,charged"/>
     <property name="Mesh" value="#@modfolder:Resources/HeadHunter.unity3d?HeadHunterBlue"/>
 	<property name="Class" value="EntityZombieCop"/>
 	<property name="MoveSpeedAggro" value="0.6, 1.45"/>
@@ -4439,7 +4439,7 @@
 
 	<entity_class name="zombieOakBossHeadHunterInfernal" extends="zombieBossTemplate">
     <property name="UserSpawnType" value="Menu"/>
-    <property name="Tags" value="entity,zombie,walker,feral,radiated,infernal"/>
+    <property name="Tags" value="entity,zombie,walker,allbiome,feral,radiated,infernal"/>
     <property name="Mesh" value="#@modfolder:Resources/HeadHunter.unity3d?HeadHunterOrenge"/>
 	<property name="Class" value="EntityZombieCop"/>
 	<property name="MoveSpeedAggro" value="0.6, 1.45"/>
@@ -4484,7 +4484,7 @@
 	
 <entity_class name="zombieOakSirenHead" extends="zombieTemplateMale">
 	<property name="UserSpawnType" value="Menu"/>
-	<property name="Tags" value="entity,male,zombie,walker,feral,radiated,template"/>
+	<property name="Tags" value="entity,male,zombie,walker,allbiome,feral,radiated,template"/>
 	<property name="Mesh" value="#@modfolder:Resources/SirenHead.unity3d?SirenHead.prefab"/>
 	<property name="MoveSpeedAggro" value="0.6, 1.55"/>
 	<property name="ModelType" value="Standard"/>
@@ -5362,7 +5362,7 @@
 <entity_class name="zombieOakBigFoot" extends="zombieFatCop">
 	<property name="UserSpawnType" value="Menu"/>
 	<property name="Censor" value="1,2"/>
-	<property name="Tags" value="entity,zombie,walker,feral"/>
+	<property name="Tags" value="entity,zombie,walker,allbiome,feral"/>
 	<property name="Mesh" value="#@modfolder:Resources/bigfoot.unity3d?bigfoot.prefab"/>
 	<property name="SoundStepType" value="barehvystep"/>
 	<property name="SizeScale" value="1"/>
@@ -5429,7 +5429,7 @@
 
 <entity_class name="zombieOakBigFootSnow" extends="zombieOakBigFoot">
     <property name="UserSpawnType" value="Menu"/>
-    <property name="Tags" value="entity,zombie,walker,feral,radiated"/>
+    <property name="Tags" value="entity,zombie,walker,allbiome,feral,radiated"/>
     <property name="Mesh" value="#@modfolder:Resources/bigfoot.unity3d?bigfootsnow"/>
     <property name="SoundRandom" value="zombielumberjack_roam"/>
     <property name="SoundAlert" value="zombielumberjack_alert"/>
@@ -5461,7 +5461,7 @@
 
 <entity_class name="zombieOakBigFootCharged" extends="zombieOakBigFoot">
     <property name="UserSpawnType" value="Menu"/>
-    <property name="Tags" value="entity,zombie,walker,charged"/>
+    <property name="Tags" value="entity,zombie,walker,allbiome,charged"/>
     <property name="Mesh" value="#@modfolder:Resources/bigfoot.unity3d?bigfootblue"/>
     <property name="SoundRandom" value="zombielumberjack_roam"/>
     <property name="SoundAlert" value="zombielumberjack_alert"/>
@@ -5494,7 +5494,7 @@
 
 <entity_class name="zombieOakBigFootInfernal" extends="zombieOakBigFoot">
     <property name="UserSpawnType" value="Menu"/>
-    <property name="Tags" value="entity,zombie,walker,infernal"/>
+    <property name="Tags" value="entity,zombie,walker,allbiome,infernal"/>
     <property name="Mesh" value="#@modfolder:Resources/bigfoot.unity3d?bigfootorenge"/>
     <property name="SoundRandom" value="zombielumberjack_roam"/>
     <property name="SoundAlert" value="zombielumberjack_alert"/>
