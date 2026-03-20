@@ -1839,9 +1839,9 @@
 		<property name="tiltDampenThreshold" value="8"/>
 		<property name="tiltUpForce" value="5"/>
 		<property name="motorTorque_turbo" value="400, 200, 560, 200"/>
-		<property name="velocityMax_turbo" value="10.5, 5, 12.7, 5"/>
+		<property name="velocityMax_turbo" value="13.3, 7, 19, 8"/>
 		<property name="brakeTorque" value="4000"/>
-		<property name="hopForce" value="6.5, .02"/>
+		<property name="hopForce" value="7.5, .02"/>
 		<property name="unstickForce" value="1"/>
 		<property name="waterDrag_y_velScale_velMaxScale" value="1.0, 0.5, .3"/>
 		<property name="wheelPtlScale" value=".6"/>
