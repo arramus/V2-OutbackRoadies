@@ -114,7 +114,10 @@
 	<append xpath="/items/item[@name='meleeToolAxeT3Chainsaw']/effect_group[@name='meleeToolAxeT3Chainsaw']">
 				<passive_effect name="HarvestCount" operation="base_set" value="1" tags="butcherHarvest"/>
 				<triggered_effect trigger="onSelfPrimaryActionUpdate" action="AddPart" part="Sparks" prefab="@:ParticleEffects/p_electric_shock_small.prefab" parentTransform="Handle" localPos="0.01,-0.02,-0.12" localRot="90,0,0"/>
-				<triggered_effect trigger="onSelfKilledOther" action="AddBuff" buff="BrainsawBloodSplatRoadies"/>	
+				<triggered_effect trigger="onSelfKilledOther" action="AddBuff" buff="BrainsawBloodSplatRoadies"/>
+				<triggered_effect trigger="onSelfAttackedOther" action="AddBuff" target="other" buff="buffShocked">
+					<requirement name="RandomRoll" seed_type="Random" min_max="0,100" operation="LTE" value="5"/>
+				</triggered_effect>
 	</append>
 	<set xpath="/items/item[@name='meleeWpnBladeT3Machete']/effect_group/passive_effect[@name='AttacksPerMinute'][@operation='base_set']/@value">70</set><!-- 55 Default -->
 	<set xpath="/items/item[@name='gunRifleT1HuntingRifle']/effect_group/passive_effect[@name='MagazineSize']/@value">3</set><!-- 3 Shots per mag -->
