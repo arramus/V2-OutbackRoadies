@@ -2282,7 +2282,7 @@
 	<property name="TimeStayAfterDeath" value="300"/>
 	<property name="SizeScale" value="1.3"/>
 	
-	<property name="SoundRandomTime" value="10.0"/>
+	<property name="SoundRandomTime" value="20"/>
 	<property name="SoundRandom" value="" />
 	<property name="SoundAlert" value=""/>
 	<property name="SoundHurt" value=""/>
@@ -2321,7 +2321,7 @@
 	<property name="TimeStayAfterDeath" value="300"/>
 	<property name="SizeScale" value=".7"/>
 	
-	<property name="SoundRandomTime" value="10.0"/>
+	<property name="SoundRandomTime" value="20"/>
 	<property name="SoundRandom" value="" />
 	<property name="SoundAlert" value=""/>
 	<property name="SoundHurt" value=""/>

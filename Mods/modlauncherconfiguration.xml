@@ -1,10 +1,10 @@
 <Servers>
-  <ServerGroup Name="Outback Roadies (V2)">
-    <Server Name="Outback Roadies (V2)" Logo="https://i.imgur.com/wg3RBYv.jpeg">
+  <ServerGroup Name="Outback Roadies">
+    <Server Name="Outback Roadies" Logo="https://i.imgur.com/wg3RBYv.jpeg">
       <Description>Outback Roadies is a post-poco mod with an Australian theme.
 	  
 Features Include:
-- Updated to V2 Stable
+- Updated to current V2 Stable
 - Custom Entities and Vehicles from the EndZ creators May Red and Thee Legion 
 - Unique Hand Crafted 10K Australia Outback Roadies World by FluffyPanda (Stored on Nexus)
 - Integration for the NPC Mod and includes Spider Add On Pack, Helper FriendZ and Animals
@@ -14,7 +14,7 @@ Features Include:
 - Additional Game Menu option value features such as 96 Entity Horde Night
 - and a few other bits...
 	  </Description>
-        <Version>2.0</Version>
+        <Version>Latest</Version>
 		<RSS/>
         <Excludes></Excludes>
         <ReleaseNotes></ReleaseNotes>
