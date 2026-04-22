@@ -8,8 +8,8 @@
 	<!-- City expansion to Pine Forest, Burnt Forest, and Wasteland -->
 	<append xpath="/rwgmixer/township[@name='city']/property[@name='biomes']/@value">,forest,burntforest,wasteland</append>
 	<!-- Wasteland City expansion to Desert and Snow -->
-	<append xpath="/rwgmixer/township[@name='wasteland_city']/property[@name='biomes']/@value">,desert,snow</append>
+	<append xpath="/rwgmixer/township[@name='wasteland_city']/property[@name='biomes']/@value">,forest,burntforest,desert,snow</append>
 	<!-- Big City expansion to Desert and Snow -->
-	<append xpath="/rwgmixer/township[@name='citybig']/property[@name='biomes']/@value">,desert,snow</append>
+	<append xpath="/rwgmixer/township[@name='citybig']/property[@name='biomes']/@value">,forest,burntforest,desert,snow</append>
 
 </configs>

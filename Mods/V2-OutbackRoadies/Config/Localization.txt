@@ -85,6 +85,11 @@ trader_rekt,POI,POIName,,x,Trader Servo Rekt,,,,,,,,,,,,,
 outbackroadies_TheCompound,POI,POIName,,x,The Compound,,,,,,,,,,,,,
 outbackroadies_ThePlayerCompound,POI,POIName,,x,Road Warrior Compound,,,,,,,,,,,,,
 
+bar_01,POI,POIName,,x,Cactus Dan's Pub,,,,,,,,,,,,,
+hotel_ostrich,POI,POIName,,x,Emu Hotel,,,,,,,,,,,,,
+store_clothing_02,POI,POIName,,x,Patrol Nation,,,,,,,,,,,,,
+store_electronics_01,POI,POIName,,x,SpecBytes-Shack,,,,,,,,,,,,,
+
 apparelCoatLeatherDuster,items,Clothes,,,Roadies Duster,,,,,,,,,,,,,
 
 modMeleeStunBatonRepulsor,item_modifiers,Mod,,,Stun Repulsor Mod,,,,,,,,,,,,,,
