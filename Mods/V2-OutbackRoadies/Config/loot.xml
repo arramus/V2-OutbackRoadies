@@ -18,21 +18,21 @@
 	
 	<!-- *** Perception_Based_Lootgroups -->
 	<insertAfter xpath="/lootcontainers/lootgroup[@name='groupWeaponsT0_DeadEye']">
-	<lootgroup name="groupWeaponsT0_PreppoDeadEye" count="all" loot_quality_template="QLRoadiesTemplateT0">
+	<lootgroup name="groupWeaponsT0_RoadiesDeadEye" count="all" loot_quality_template="QLRoadiesTemplateT0">
 		<item name="gunRifleT1HuntingRifle"/>
 	</lootgroup>
 	</insertAfter>
 	
 	<!-- *** Strength_Based_Lootgroups -->
 	<insertAfter xpath="/lootcontainers/lootgroup[@name='groupWeaponsT0_Boomstick']">
-	<lootgroup name="groupWeaponsT0_PreppoBoomstick" count="all" loot_quality_template="QLRoadiesTemplateT0">
+	<lootgroup name="groupWeaponsT0_RoadiesBoomstick" count="all" loot_quality_template="QLRoadiesTemplateT0">
 		<item name="gunShotgunT1DoubleBarrel"/>
 	</lootgroup>	
 	</insertAfter>
 	
 	<!-- *** Fortitude_Based_Lootgroups -->
 	<insertAfter xpath="/lootcontainers/lootgroup[@name='groupWeaponsT0_Machinegunner']">
-	<lootgroup name="groupWeaponsT0_PreppoMachinegunner" count="all" loot_quality_template="QLRoadiesTemplateT0">
+	<lootgroup name="groupWeaponsT0_RoadiesMachinegunner" count="all" loot_quality_template="QLRoadiesTemplateT0">
 		<item name="gunMGT1AK47"/>
 	</lootgroup>
 	</insertAfter>
